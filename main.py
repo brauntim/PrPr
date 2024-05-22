@@ -1,135 +1,86 @@
-########################################################################
-#
-#   Script to scrape a website with PDF documents
-#   from https://www.policija.si/apps/nfl_response_web/seznam.php
-#
-########################################################################
-
 import requests
 from bs4 import BeautifulSoup
 import json
-from rdkit import Chem
-from rdkit.Chem import MolToSmiles
-from datetime import datetime
-import pytz
 
-BASE_URL = 'https://www.policija.si/apps/nfl_response_web/seznam.php'
-SUBSTANCE_BASE_URL = 'https://www.policija.si/apps/nfl_response_web/'
+#    Diese Klasse handhabt das Abrufen, Parsen und Speichern von Substanzdaten von einer gegebenen URL.
+class SubstanceExtractor:
 
-def fetch_substances():
-    response = requests.get(BASE_URL)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
-    table = soup.find('table', {'id': 'seznam'})
-    if not table:
-        raise ValueError("Table with id 'seznam' not found")
-    rows = table.find_all('tr')[1:]  # Skip the header row
-    substances = []
-    for row in rows:
-        cols = row.find_all('td')
-        if len(cols) >= 2:
-            substance_name = cols[0].text.strip()
-            categories = [cat.strip() for cat in cols[1].text.split(',')]
-            substance_link = cols[0].find('a')
-            if substance_link and 'href' in substance_link.attrs:
-                substance_url = SUBSTANCE_BASE_URL + substance_link['href']
-                substances.append({
-                    'name': substance_name,
-                    'categories': categories,
-                    'url': substance_url
-                })
-            else:
-                substances.append({
-                    'name': substance_name,
-                    'categories': categories,
-                    'url': None
-                })
-        else:
-            print(f"Skipping row due to insufficient columns: {row}")
-    return substances
+#   Initialisiert eine neue Instanz der SubstanceExtractor-Klasse.
+    def __init__(self, url):
+        self.url = url
+        self.substances = []
 
-def fetch_substance_details(substance):
-    if not substance['url']:
-        return {}
-    response = requests.get(substance['url'])
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
-    details = {}
-    for row in soup.find_all('tr'):
-        cells = row.find_all('td')
-        if len(cells) == 2:
-            key = cells[0].text.strip()
-            value = cells[1].text.strip()
-            details[key] = value
-    return details
+#   GET-Anfrage an die Website und gibt HTML-Inhalt zurück
+    def fetch_data(self):
+        response = requests.get(self.url)
+        response.raise_for_status()
+        return response.text
 
-def canonicalize_smiles(smiles):
-    mol = Chem.MolFromSmiles(smiles)
-    if mol:
-        return MolToSmiles(mol)
-    return None
+#   Parst den HTML-Inhalt und extrahiert die Substanzdaten
+    def parse_html(self, html):
+        soup = BeautifulSoup(html, 'html.parser')
+        for row in soup.select('table tr'):
+            columns = row.find_all('td')
+            if len(columns) < 17:  # Sicherstellen, dass die Zeile genügend Spalten hat
+                continue
 
-def fetch_inchi_from_inchikey(inchikey):
-    url = f"https://cactus.nci.nih.gov/chemical/structure/{inchikey}/stdinchi"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.text.strip()
-    return None
+            # Extrahieren der Daten aus den entsprechenden Spalten
+            category = columns[0].text.strip()
+            name = columns[1].text.strip()
+            smiles = columns[2].text.strip()
+            iupac_name = columns[3].text.strip()
+            formular = columns[5].text.strip()
+            molecular_mass = columns[6].text.strip()
+            inchi_key = columns[12].text.strip()
+            date_of_entry = columns[14].text.strip()
+            report_updated = columns[15].text.strip()
+            details = columns[16].text.strip() if len(columns) > 16 else ""
 
-def fetch_iupac_name(cas_number):
-    url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/{cas_number}/property/IUPACName/JSON"
-    response = requests.get(url)
-    if response.status_code == 200:
-        result = response.json()
-        if 'PropertyTable' in result and 'Properties' in result['PropertyTable']:
-            properties = result['PropertyTable']['Properties']
-            if properties and 'IUPACName' in properties[0]:
-                return properties[0]['IUPACName']
-    return None
+            # Bestimmen des Datums der letzten Änderung
+            last_changed_at = report_updated if report_updated else date_of_entry
 
-def transform_to_json(substances):
-    data = []
-    for substance in substances:
-        details = fetch_substance_details(substance)
-        canonical_smiles = canonicalize_smiles(details.get('SMILES', ''))
-        inchi = fetch_inchi_from_inchikey(details.get('StdInChIKey', ''))
-        iupac_name = fetch_iupac_name(details.get('CAS-Nummer', ''))
-        
-        berlin_tz = pytz.timezone('Europe/Berlin')
-        last_changed_at = details.get('report updated', None)
-        if not last_changed_at:
-            last_changed_at = details.get('entry of report', None)
-        if last_changed_at:
-            last_changed_at = datetime.strptime(last_changed_at, '%d.%m.%Y').astimezone(berlin_tz).isoformat()
-        else:
-            last_changed_at = datetime.now(berlin_tz).isoformat()
+            # Überprüfen, ob die Substanz gelöscht wurde
+            deleted = '<strike>' in name
 
-        entry = {
-            "smiles": canonical_smiles,
-            "names": [substance['name']] + details.get('Synonyme', '').split(','),
-            "iupac_name": iupac_name,
-            "formular": details.get('Molekulare Summenformel', ''),
-            "inchi": inchi,
-            "inchi_key": details.get('StdInChIKey', ''),
-            "molecular_mass": float(details.get('Mw (g/mol) per base form NPS1', 0.0)),
-            "cas_num": details.get('CAS-Nummer', ''),
-            "category": substance['categories'],
-            "source_name": "Policija",
-            "source_url": BASE_URL,
-            "valid": None,
-            "deleted": False,
-            "last_changed_at": last_changed_at,
-            "version": 1.0,
-            "details": details
-        }
-        data.append(entry)
-    return data
+            # Erstellen eines Dictionaries mit den extrahierten Daten
+            substance_data = {
+                "smiles": smiles,
+                "names": name,
+                "iupac_name": iupac_name,
+                "formular": formular,
+                "molecular_mass": molecular_mass,
+                "Inchi": "",  # Wird aus InchiKey generiert
+                "InchiKey": inchi_key,
+                "cas_num": "",  # Wird aus anderen Informationen abgeleitet
+                "category": category,
+                "source_name": "Policija",
+                "source_url": self.url,
+                "valid": None,  # Nicht genügend Informationen, um dies zu bestimmen
+                "deleted": deleted,
+                "last_changed_at": last_changed_at,
+                "version": "1.0",
+                "details": details
+            }
 
-def main():
-    substances = fetch_substances()
-    data = transform_to_json(substances)
-    with open('substances.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+            # Hinzufügen der Substanzdaten zur Liste
+            self.substances.append(substance_data)
 
+
+#   Speichert die extrahierten Substanzdaten in einer JSON-Datei.
+    def save_to_json(self, filename):
+        with open(filename, 'w') as json_file:
+            json.dump(self.substances, json_file, indent=4)
+
+#   Führt den gesamten Extraktionsprozess aus.
+    def run(self):
+        html = self.fetch_data()
+        self.parse_html(html)
+        self.save_to_json('substances.json')
+
+
+# MAIN-Programm
 if __name__ == "__main__":
-    main()
+    url = "https://www.policija.si/apps/nfl_response_web/seznam.php"
+    extractor = SubstanceExtractor(url)
+    extractor.run()
+    print("Datenextraktion abgeschlossen. Die Ergebnisse sind in substances.json gespeichert.")
