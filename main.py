@@ -32,13 +32,16 @@ class SubstanceExtractor:
             formular = columns[5].text.strip()
             molecular_mass = columns[6].text.strip()
             inchi_key = columns[12].text.strip()
-            date_of_entry = columns[14].text.strip()
-            report_updated = columns[15].text.strip()
-            details = columns[16].text.strip() if len(columns) > 16 else ""
+            date_of_entry = columns[15].text.strip()
+            report_updated = columns[16].text.strip()
+            # details =
 
             # Bestimmen des Datums der letzten Änderung
-            last_changed_at = report_updated if report_updated else date_of_entry
-
+            if report_updated:
+                last_changed_at = report_updated
+            else:
+                last_changed_at = date_of_entry
+                
             # Überprüfen, ob die Substanz gelöscht wurde
             deleted = '<strike>' in name
 
@@ -59,7 +62,7 @@ class SubstanceExtractor:
                 "deleted": deleted,
                 "last_changed_at": last_changed_at,
                 "version": "1.0",
-                "details": details
+                "details": "", # Details unseres Teams
             }
 
             # Hinzufügen der Substanzdaten zur Liste
@@ -77,10 +80,10 @@ class SubstanceExtractor:
         self.parse_html(html)
         self.save_to_json('substances.json')
 
-
-# MAIN-Programm
+    
 if __name__ == "__main__":
     url = "https://www.policija.si/apps/nfl_response_web/seznam.php"
     extractor = SubstanceExtractor(url)
     extractor.run()
     print("Datenextraktion abgeschlossen. Die Ergebnisse sind in substances.json gespeichert.")
+    
