@@ -13,8 +13,6 @@ Windows Tutorial:
      
      2.3. pip install rdkit
      
-     2.4. pip install pytz
-     
   
   3. have fun!
 
