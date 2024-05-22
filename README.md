@@ -5,7 +5,7 @@ before executing the python file:
 
 Windows Tutorial:
   1. go to your terminal (= cmd)
-  2. install following:
+  2. type following commands into your terminal:
      
      2.1. pip install requests
      
@@ -14,8 +14,9 @@ Windows Tutorial:
      2.3. pip install rdkit
      
      2.4. pip install pytz
+     
   
-  4. have fun!
+  3. have fun!
 
 
 Linux Tutorial:
