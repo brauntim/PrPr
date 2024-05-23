@@ -10,15 +10,18 @@ Windows Tutorial:
   1. go to your terminal (= cmd)
   2. type following commands into your terminal:
      
-     2.1. pip install requests
-     
-     2.2. pip install bs4   (BeautifulSoup4)
-     
-     2.3. pip install rdkit
+     2.1. Requests
 
-            (conda install -c conda-forge rdkit)
+           pip install requests
      
-  
+     2.2.  (BeautifulSoup4)
+     
+           pip install bs4
+     
+     2.3. RDKIT
+
+           pip install rdkit
+         (conda install -c conda-forge rdkit)
   3. have fun!
 
 
