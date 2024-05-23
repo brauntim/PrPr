@@ -15,6 +15,8 @@ Windows Tutorial:
      2.2. pip install bs4   (BeautifulSoup4)
      
      2.3. pip install rdkit
+
+            (conda install -c conda-forge rdkit)
      
   
   3. have fun!
