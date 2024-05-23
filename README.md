@@ -21,8 +21,9 @@ Windows Tutorial:
      2.3. RDKIT
 
            pip install rdkit
+     
          (conda install -c conda-forge rdkit)
-  3. have fun!
+  4. have fun!
 
 
 Linux Tutorial:
