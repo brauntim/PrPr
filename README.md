@@ -1,6 +1,9 @@
 web scraper for following page: 
 https://www.policija.si/apps/nfl_response_web/seznam.php
 
+converting iupac_name to smiles / inchi with this API:
+      https://opsin.ch.cam.ac.uk/
+
 before executing the python file:
 
 Windows Tutorial:
