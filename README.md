@@ -14,7 +14,7 @@ Windows Tutorial:
 
            pip install requests
      
-     2.2.  (BeautifulSoup4)
+     2.2.  BeautifulSoup4
      
            pip install bs4
      
