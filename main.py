@@ -12,7 +12,7 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s", datefmt="%d-%m- %Y %H:%M:%S")
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s", datefmt="%d-%m-%Y %H:%M:%S")
 
 file_logger = logging.FileHandler('scraper.log')
 file_logger.setLevel(logging.DEBUG)
@@ -30,17 +30,20 @@ class SubstanceExtractor:
         self.url = url
         self.substances = []
 
+    # Fetch Daten von der Website
     def fetch_data(self):
         logger.info("Scraping started")
         response = requests.get(self.url)
         response.raise_for_status()
         return response.text
 
+    # Konvertierung in kanonische SMILES
     def convert_to_canonical_smiles(self, smiles):
         molecule = Chem.MolFromSmiles(smiles)
         canonical_smiles = Chem.MolToSmiles(molecule, canonical=True)
         return canonical_smiles
 
+    # Fetch Daten von der OPSIN API, sodass die SMILES und InChI-Strings für die Substanz extrahiert werden können
     def fetch_opsin_data(self, iupac_name):
         opsin_url = f"https://opsin.ch.cam.ac.uk/opsin/{iupac_name}.json"
         response = requests.get(opsin_url)
@@ -53,6 +56,7 @@ class SubstanceExtractor:
         else:
             return "", ""
 
+#   Parse HTML-Code und extrahiere Substanzdaten
     def parse_row(self, row):
         columns = row.find_all('td')
         if len(columns) < 17:
@@ -77,14 +81,15 @@ class SubstanceExtractor:
             smiles, std_inchi = "", ""
 
         substance_data = {
+            "version": "1.0",
             "smiles": smiles,
             "names": [name],
             "iupac_names": [iupac_name],
             "formula": formula,
-            "molecular_mass": float(molecular_mass) if molecular_mass else None,
             "inchi": std_inchi,
             "inchi_key": std_inchi_key,
-            "cas_num": "",
+            "molecular_mass": float(molecular_mass) if molecular_mass else None,
+            "cas_num": None,
             "categories": [category],
             "source": {
                 "name": "Policija",
@@ -93,11 +98,11 @@ class SubstanceExtractor:
             "validated": None,
             "deleted": deleted,
             "last_modified": last_changed_at,
-            "version": "1.0",
             "details": {}
         }
         return substance_data
 
+    # Parse HTML-Code und extrahiere Substanzdaten
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
@@ -110,7 +115,7 @@ class SubstanceExtractor:
                 print(f"Error parsing row: {index}")
                 logger.error(f"Fehler beim  Scrapen: {index}")
 
-
+    # Ersetze Unicode-Zeichen
     def replace_unicode_characters(self, data):
         replacements = {
             "\u2010": "-",
@@ -129,6 +134,7 @@ class SubstanceExtractor:
         else:
             return data
 
+    # Validiere Daten
     def validate_data(self):
         for substance in self.substances:
             smiles = substance.get("smiles", "")
@@ -149,6 +155,7 @@ class SubstanceExtractor:
             else:
                 substance["validated"] = None
 
+    # Speichere Daten in JSON-Datei
     def save_to_json(self, filename):
         updated_substances = self.replace_unicode_characters(self.substances)
         with open(filename, 'w', encoding='utf-8') as json_file:
@@ -166,7 +173,7 @@ def start_scraping():
     url = "https://www.policija.si/apps/nfl_response_web/seznam.php"
     extractor = SubstanceExtractor(url)
     extractor.run()
-    print("Datenextraktion abgeschlossen. Die Ergebnisse sind in schema.json gespeichert.")
+    print("Datenextraktion abgeschlossen. Die Ergebnisse sind in Tim_Jonas_Policija.json gespeichert.")
 
 if __name__ == "__main__":
     start_scraping()
