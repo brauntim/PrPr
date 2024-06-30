@@ -2360,3 +2360,108 @@
 28-05- 2024 17:47:13 - __main__ - INFO - Element 20 scraped.
 28-05- 2024 17:47:13 - __main__ - INFO - Saving substances to substances.json
 28-05- 2024 17:47:13 - __main__ - INFO - Scraping finished
+30-06- 2024 16:08:42 - __main__ - INFO - Scraping started
+30-06- 2024 16:08:44 - __main__ - INFO - Element 1 scraped.
+30-06- 2024 16:08:44 - __main__ - INFO - Element 2 scraped.
+30-06- 2024 16:08:44 - __main__ - INFO - Element 3 scraped.
+30-06- 2024 16:08:44 - __main__ - INFO - Element 4 scraped.
+30-06- 2024 16:08:44 - __main__ - INFO - Element 5 scraped.
+30-06- 2024 16:08:45 - __main__ - INFO - Element 6 scraped.
+30-06- 2024 16:08:45 - __main__ - INFO - Element 7 scraped.
+30-06- 2024 16:08:45 - __main__ - INFO - Element 8 scraped.
+30-06- 2024 16:08:45 - __main__ - INFO - Element 9 scraped.
+30-06- 2024 16:08:45 - __main__ - INFO - Element 10 scraped.
+30-06- 2024 16:08:45 - __main__ - INFO - Element 11 scraped.
+30-06- 2024 16:08:45 - __main__ - INFO - Element 12 scraped.
+30-06- 2024 16:08:46 - __main__ - INFO - Element 13 scraped.
+30-06- 2024 16:08:46 - __main__ - INFO - Element 14 scraped.
+30-06- 2024 16:08:46 - __main__ - INFO - Element 15 scraped.
+30-06- 2024 16:08:46 - __main__ - INFO - Element 16 scraped.
+30-06- 2024 16:08:46 - __main__ - INFO - Element 17 scraped.
+30-06- 2024 16:08:46 - __main__ - INFO - Element 18 scraped.
+30-06- 2024 16:08:46 - __main__ - INFO - Element 19 scraped.
+30-06- 2024 16:08:47 - __main__ - INFO - Element 20 scraped.
+30-06- 2024 16:08:47 - __main__ - INFO - Saving substances to substances.json
+30-06- 2024 16:08:47 - __main__ - INFO - Scraping finished
+30-06- 2024 16:09:11 - __main__ - INFO - Scraping started
+30-06- 2024 16:09:13 - __main__ - INFO - Element 1 scraped.
+30-06- 2024 16:09:13 - __main__ - INFO - Element 2 scraped.
+30-06- 2024 16:09:13 - __main__ - INFO - Element 3 scraped.
+30-06- 2024 16:09:13 - __main__ - INFO - Element 4 scraped.
+30-06- 2024 16:09:13 - __main__ - INFO - Element 5 scraped.
+30-06- 2024 16:09:13 - __main__ - INFO - Element 6 scraped.
+30-06- 2024 16:09:14 - __main__ - INFO - Element 7 scraped.
+30-06- 2024 16:09:14 - __main__ - INFO - Element 8 scraped.
+30-06- 2024 16:09:14 - __main__ - INFO - Element 9 scraped.
+30-06- 2024 16:09:14 - __main__ - INFO - Element 10 scraped.
+30-06- 2024 16:09:14 - __main__ - INFO - Element 11 scraped.
+30-06- 2024 16:09:14 - __main__ - INFO - Element 12 scraped.
+30-06- 2024 16:09:14 - __main__ - INFO - Element 13 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Element 14 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Element 15 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Element 16 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Element 17 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Element 18 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Element 19 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Element 20 scraped.
+30-06- 2024 16:09:15 - __main__ - INFO - Saving substances to substances.json
+30-06- 2024 16:09:15 - __main__ - INFO - Scraping finished
+30-06- 2024 16:13:09 - __main__ - INFO - Scraping started
+30-06- 2024 16:13:11 - __main__ - INFO - Element 1 scraped.
+30-06- 2024 16:13:11 - __main__ - INFO - Element 2 scraped.
+30-06- 2024 16:13:11 - __main__ - INFO - Element 3 scraped.
+30-06- 2024 16:13:11 - __main__ - INFO - Element 4 scraped.
+30-06- 2024 16:13:11 - __main__ - INFO - Element 5 scraped.
+30-06- 2024 16:13:11 - __main__ - INFO - Element 6 scraped.
+30-06- 2024 16:13:11 - __main__ - INFO - Element 7 scraped.
+30-06- 2024 16:13:12 - __main__ - INFO - Element 8 scraped.
+30-06- 2024 16:13:12 - __main__ - INFO - Element 9 scraped.
+30-06- 2024 16:13:12 - __main__ - INFO - Element 10 scraped.
+30-06- 2024 16:13:12 - __main__ - INFO - Element 11 scraped.
+30-06- 2024 16:13:12 - __main__ - INFO - Element 12 scraped.
+30-06- 2024 16:13:12 - __main__ - INFO - Element 13 scraped.
+30-06- 2024 16:13:12 - __main__ - INFO - Element 14 scraped.
+30-06- 2024 16:13:13 - __main__ - INFO - Element 15 scraped.
+30-06- 2024 16:13:13 - __main__ - INFO - Element 16 scraped.
+30-06- 2024 16:13:13 - __main__ - INFO - Element 17 scraped.
+30-06- 2024 16:13:13 - __main__ - INFO - Element 18 scraped.
+30-06- 2024 16:13:13 - __main__ - INFO - Element 19 scraped.
+30-06- 2024 16:13:13 - __main__ - INFO - Element 20 scraped.
+30-06- 2024 16:13:13 - __main__ - INFO - Saving substances to substances.json
+30-06- 2024 16:13:13 - __main__ - INFO - Scraping finished
+30-06- 2024 16:19:32 - __main__ - INFO - Scraping started
+30-06- 2024 16:19:33 - __main__ - INFO - Element 1 scraped.
+30-06- 2024 16:19:33 - __main__ - INFO - Element 2 scraped.
+30-06- 2024 16:19:34 - __main__ - INFO - Element 3 scraped.
+30-06- 2024 16:19:34 - __main__ - INFO - Element 4 scraped.
+30-06- 2024 16:19:34 - __main__ - INFO - Element 5 scraped.
+30-06- 2024 16:19:34 - __main__ - INFO - Element 6 scraped.
+30-06- 2024 16:19:34 - __main__ - INFO - Element 7 scraped.
+30-06- 2024 16:19:34 - __main__ - INFO - Element 8 scraped.
+30-06- 2024 16:19:34 - __main__ - INFO - Element 9 scraped.
+30-06- 2024 16:19:35 - __main__ - INFO - Element 10 scraped.
+30-06- 2024 16:19:35 - __main__ - INFO - Element 11 scraped.
+30-06- 2024 16:19:35 - __main__ - INFO - Element 12 scraped.
+30-06- 2024 16:19:35 - __main__ - INFO - Element 13 scraped.
+30-06- 2024 16:19:35 - __main__ - INFO - Element 14 scraped.
+30-06- 2024 16:19:35 - __main__ - INFO - Element 15 scraped.
+30-06- 2024 16:19:35 - __main__ - INFO - Element 16 scraped.
+30-06- 2024 16:19:36 - __main__ - INFO - Element 17 scraped.
+30-06- 2024 16:19:36 - __main__ - INFO - Element 18 scraped.
+30-06- 2024 16:19:36 - __main__ - INFO - Element 19 scraped.
+30-06- 2024 16:19:36 - __main__ - INFO - Element 20 scraped.
+30-06- 2024 16:19:36 - __main__ - INFO - Saving substances to substances.json
+30-06- 2024 16:19:36 - __main__ - INFO - Scraping finished
+30-06- 2024 16:21:17 - __main__ - INFO - Scraping started
+30-06- 2024 16:21:19 - __main__ - INFO - Element 1 scraped.
+30-06- 2024 16:21:19 - __main__ - INFO - Element 2 scraped.
+30-06- 2024 16:21:19 - __main__ - INFO - Element 3 scraped.
+30-06- 2024 16:21:19 - __main__ - INFO - Element 4 scraped.
+30-06- 2024 16:21:20 - __main__ - INFO - Element 5 scraped.
+30-06- 2024 16:21:20 - __main__ - INFO - Element 6 scraped.
+30-06- 2024 16:21:20 - __main__ - INFO - Element 7 scraped.
+30-06- 2024 16:21:20 - __main__ - INFO - Element 8 scraped.
+30-06- 2024 16:21:20 - __main__ - INFO - Element 9 scraped.
+30-06- 2024 16:21:20 - __main__ - INFO - Element 10 scraped.
+30-06- 2024 16:21:20 - __main__ - INFO - Saving substances to substances.json
+30-06- 2024 16:21:20 - __main__ - INFO - Scraping finished

@@ -21,75 +21,96 @@ def load_substances():
     print("\n(1) Neu Laden \n(2) Neu hizugefügte Substanzen laden \n"
           "(3) Neu hizugefügte substanzen laden, Änderungen anpassen \n")
 
-    input_load_option = input("Eingabe: ")
+    input_load_option = int(input("Eingabe: "))
 
-    if input_load_option == "1":
-        main.start_scraping()
+    if input_load_option == 1:
+        main.start_scraping("substances.json")
+        print("Substanzen neu geladen.")
 
-    elif input_load_option == "2":
+    elif input_load_option == 2:
 
-        save_substances(data)
+        current_substances = json.load(open("substances.json"))
+        print("Current: ", current_substances)
 
-        main.start_scraping()
-        current_substances = json.load(open("current_substances.json"))
-
-        with open("substancesV4.json") as new_file:
-            new_substances = json.load(new_file)
+        new_substances = load_new_substances()
+        print("New: ", new_substances)
 
         added, _ = compare_data(current_substances, new_substances)
 
-        current_substances.update(added)
-        save_substances(current_substances)
-        print(current_substances)
-
+        current_substances.extend(added)
+        save_status(current_substances)
+        #print(f"Neue Substanzen: {formatted_print(added)}")
+        print("Neue Substanzen: ")
+        formatted_print(added)
         logger.debug("inputLoading")
 
-    elif input_load_option == "3":
-        print("3")
+    elif input_load_option == 3:
+
+        current_substances = json.load(open("substances.json"))
+        #print("Current: ", current_substances)
+
+        new_substances = load_new_substances()
+        #print("New: ", new_substances)
+
+        added, modified = compare_data(current_substances, new_substances)
 
 
-def save_substances(data):
-    with open("current_substances.json", "w") as save_file:
-        json.dump(data, save_file, indent=4)
+
+        for item in added:
+            current_substances.append(item)
+        for item in modified:
+            for i, old_item in enumerate(current_substances):
+                if old_item['smiles'] == item['smiles']:
+                    current_substances[i] = item
+
+        save_status(current_substances)
+
+        print("Neue Substanzen: ")
+        formatted_print(added)
+        print(f"Geänderte Substanzen: ")
+        formatted_print(modified)
+
 
 
 def compare_data(current, new):
-    added = {}
-    modified = {}
+    added = []
+    modified = []
 
-    current_smiles = {details['smiles']: details for details in current.values()}
-    new_smiles = {details['smiles']: details for details in new.values()}
+    current_smiles = {details['smiles']: details for details in current}
+    new_smiles = {details['smiles']: details for details in new}
 
     for smiles, new_details in new_smiles.items():
         if smiles not in current_smiles:
-            added[smiles] = new_details
-
-        elif current_smiles[smiles] != new_details:
-            modified[smiles] = new_details
+            added.append(new_details)
 
         else:
-            old_details = current[id]
-        if (
-                old_details["smiles1"] != new_details["smiles"] or
-                old_details["names"] != new_details["names"] or
-                old_details["iupac_names"] != new_details["iupac_names"] or
-                old_details["formular"] != new_details["formular"] or
-                old_details["molecular_mass"] != new_details["molecular_mass"] or
-                old_details["Inchi"] != new_details["Inchi"] or
-                old_details["InchiKey"] != new_details["InchiKey"] or
-                old_details["cas_num"] != new_details["cas_num"] or
-                old_details["category"] != new_details["category"] or
-                old_details["source_name"] != new_details["source_name"] or
-                old_details["source_url"] != new_details["source_url"] or
-                old_details["valid"] != new_details["valid"] or
-                old_details["deleted"] != new_details["deleted"] or
-                old_details["last_changed_at"] != new_details["last_changed_at"] or
-                old_details["version"] != new_details["version"]
-        ):
-            modified[id] = new_details
+            old_details = current_smiles[smiles]
+
+            if old_details != new_details:
+                modified.append(new_details)
 
     return added, modified
 
+
+def load_new_substances():
+    main.start_scraping("new_substances.json")
+    with open("new_substances.json") as new_file:
+        new_substances = json.load(new_file)
+
+    if new_substances:
+        return new_substances
+    else:
+        print(f"Fehler beim Abrufen der Webseite: Status Code {new_substances.status_code}")
+        return None
+
+def save_status(substances):
+
+    with open("substances.json", 'w') as f:
+        json.dump(substances, f, indent=4)
+
+def formatted_print(substance_data):
+    formatted = json.dumps(substance_data, indent=4)
+    print(formatted)
 
 def filter_smiles():
     input_smiles = input("Smiles eingeben: ")
@@ -122,8 +143,8 @@ def filter_formular():
 
 
 def filter_mass():
-    input_mass_min = input("minimale Masse eingeben: ")
-    input_mass_max = input("maximale Masse eingeben: ")
+    input_mass_min = float(input("minimale Masse eingeben: "))
+    input_mass_max = float(input("maximale Masse eingeben: "))
 
     logger.debug("nach Masse filtern")
 
@@ -140,8 +161,7 @@ def search_start():
             "(1) Inkrementelles Laden \n(2) Nach Smiles filtern \n(3) Nach Summenformel filtern \n(4) Nach Masse filtern \n"
             "(5) Beenden\n")
 
-        operation = input("Eingabe: ")
-        operation = int(operation)
+        operation = int(input("Eingabe: "))
 
         if operation == 1:
             load_substances()
@@ -175,8 +195,13 @@ def search_start():
 
 
 if __name__ == "__main__":
-    with open("current_substances.json") as file:
-        data = json.load(file)
+    try:
+        with open("substances.json") as file:
+            data = json.load(file)
+    except FileNotFoundError:
+        main.start_scraping("substances.json")
+        with open("substances.json") as file:
+            data = json.load(file)
 
     print("Willkommen zu dieser Suchmaschine für Designerdrogen")
     print("______________________________________________________")

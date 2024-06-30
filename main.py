@@ -122,7 +122,7 @@ class SubstanceExtractor:
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
             logger.info("Element " + str(index) + " scraped.")
-            if index >= 20:
+            if index >= 10:
                 break
             try:
                 substance_data = self.parse_row(row)
@@ -183,20 +183,19 @@ class SubstanceExtractor:
         logger.info("Scraping finished")
 
     # Führt den gesamten Extraktionsprozess aus.
-    def run(self):
+    def run(self, filename):
         html = self.fetch_data()
         self.parse_html(html)
         self.validate_data(self.substances)
-        self.save_to_json('substances.json')
+        self.save_to_json(filename)
 
 
-
-def start_scraping():
+def start_scraping(filename):
     url = "https://www.policija.si/apps/nfl_response_web/seznam.php"
     extractor = SubstanceExtractor(url)
-    extractor.run()
-    print("Datenextraktion abgeschlossen. Die Ergebnisse sind in substancesV4.json gespeichert.")
+    extractor.run(filename)
+    print(f"Datenextraktion abgeschlossen. Die Ergebnisse sind in {filename} gespeichert.")
 
 
 if __name__ == "__main__":
-    start_scraping()
+    start_scraping("substances.json")
