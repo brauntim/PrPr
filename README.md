@@ -8,7 +8,6 @@ This repository contains a Python script designed to scrape data from the [Polic
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -63,6 +62,4 @@ This will start the data extraction process and save the results to `Tim_Jonas_P
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
