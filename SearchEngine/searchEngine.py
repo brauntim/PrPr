@@ -24,12 +24,12 @@ def load_substances():
     input_load_option = int(input("Eingabe: "))
 
     if input_load_option == 1:
-        main.start_scraping("substances.json")
+        main.start_scraping(filename)
         print("Substanzen neu geladen.")
 
     elif input_load_option == 2:
 
-        current_substances = json.load(open("substances.json"))
+        current_substances = json.load(open(filename))
         print("Current: ", current_substances)
 
         new_substances = load_new_substances()
@@ -46,7 +46,7 @@ def load_substances():
 
     elif input_load_option == 3:
 
-        current_substances = json.load(open("substances.json"))
+        current_substances = json.load(open(filename))
         #print("Current: ", current_substances)
 
         new_substances = load_new_substances()
@@ -119,7 +119,7 @@ def filter_smiles():
     for substance in data:
         if substance["smiles"] == input_smiles:
             print("\nEintrag mit dieser Smiles gefunden:")
-            print(substance)
+            formatted_print(substance)
             contains = True
     print("\n")
 
@@ -134,7 +134,7 @@ def filter_formular():
     for substance in data:
         if substance["formular"] == input_formular:
             print("\nEintrag mit dieser Summenformel gefunden")
-            print(substance)
+            formatted_print(substance)
             contains = True
     print("\n")
 
@@ -151,7 +151,7 @@ def filter_mass():
     for substance in data:
         if input_mass_max >= substance["molecular_mass"] >= input_mass_min:
             print("Eintrag mit dieser Masse:")
-            print(substance)
+            formatted_print(substance)
             print("\n")
 
 
@@ -185,9 +185,6 @@ def search_start():
 
         elif operation == 5:
 
-            with open("test.json", "w") as testfile:
-                json.dump(data, testfile, indent=4)
-
             return operation
         else:
             operation = input("Bitte eingabe wiederholen: ")
@@ -195,12 +192,13 @@ def search_start():
 
 
 if __name__ == "__main__":
+    filename = "Tim_Jonas_Policija.json"
     try:
-        with open("substances.json") as file:
+        with open(filename) as file:
             data = json.load(file)
     except FileNotFoundError:
-        main.start_scraping("substances.json")
-        with open("substances.json") as file:
+        main.start_scraping(filename)
+        with open(filename) as file:
             data = json.load(file)
 
     print("Willkommen zu dieser Suchmaschine für Designerdrogen")
