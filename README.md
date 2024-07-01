@@ -46,7 +46,6 @@ This will start the data extraction process and save the results to `Tim_Jonas_P
 ## Project Structure
 
 - **main.py**: The main script to run the web scraper.
-- **forging.py"": The script to forge two JSON files
 - **scraper.log**: Log file to track the scraping process and any errors encountered.
 - **JSONS/**: Directory containing JSON files.
 - **SearchEngine/**: Directory for search engine related files.
