@@ -107,7 +107,7 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
-            if index > 10:
+            if index > 50:
                 break
             logger.info("Element " + str(index) + " scraped.")
             try:
