@@ -46,6 +46,18 @@ python main.py
 ```
 This will start the data extraction process and save the results to `Tim_Jonas_Policija.json`.
 
+To merge data from JSON files without duplicates, execute the following command:
+```sh
+python jsons/forging.py
+```
+This will compare data from the generated JSON files and create a merged file without duplicates.
+
+To use the search engine functionalities within the project, execute the following command:
+```sh
+python searchengine.py
+```
+This script provides search engine related functionalities for the project.
+
 ## Project Structure
 
 - **main.py**: The main script to run the web scraper.
@@ -75,4 +87,3 @@ This will start the data extraction process and save the results to `Tim_Jonas_P
 ## Authors
 
 Created by Tim Braun and Jonas Holzapfel.
-
