@@ -72,7 +72,7 @@ This will start the data extraction process and save the results to `Tim_Jonas_P
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
-6. ## Authors
+## Authors
 
 Created by Tim Braun and Jonas Holzapfel.
 
