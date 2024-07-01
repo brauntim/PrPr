@@ -1,258 +1,3094 @@
-01-07-2024 08:34:56 - main - INFO - Scraping started
-01-07-2024 08:34:58 - main - INFO - Element 1 scraped.
-01-07-2024 08:34:58 - main - INFO - Element 2 scraped.
-01-07-2024 08:34:58 - main - INFO - Element 3 scraped.
-01-07-2024 08:34:58 - main - INFO - Element 4 scraped.
-01-07-2024 08:34:58 - main - INFO - Element 5 scraped.
-01-07-2024 08:34:58 - main - INFO - Element 6 scraped.
-01-07-2024 08:34:58 - main - INFO - Element 7 scraped.
-01-07-2024 08:34:58 - main - INFO - Element 8 scraped.
-01-07-2024 08:34:59 - main - INFO - Element 9 scraped.
-01-07-2024 08:34:59 - main - INFO - Element 10 scraped.
-01-07-2024 08:36:51 - main - INFO - Scraping started
-01-07-2024 08:36:53 - main - INFO - Element 1 scraped.
-01-07-2024 08:36:53 - main - INFO - Element 2 scraped.
-01-07-2024 08:36:53 - main - INFO - Element 3 scraped.
-01-07-2024 08:36:53 - main - INFO - Element 4 scraped.
-01-07-2024 08:36:53 - main - INFO - Element 5 scraped.
-01-07-2024 08:36:53 - main - INFO - Element 6 scraped.
-01-07-2024 08:36:54 - main - INFO - Element 7 scraped.
-01-07-2024 08:36:54 - main - INFO - Element 8 scraped.
-01-07-2024 08:36:54 - main - INFO - Element 9 scraped.
-01-07-2024 08:36:54 - main - INFO - Element 10 scraped.
-01-07-2024 08:36:54 - main - INFO - Saving substances to Tim_Jonas_Policija.json
-01-07-2024 08:36:54 - main - INFO - Scraping finished
-01-07-2024 08:36:59 - main - INFO - Scraping started
-01-07-2024 08:37:00 - main - INFO - Element 1 scraped.
-01-07-2024 08:37:00 - main - INFO - Element 2 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 3 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 4 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 5 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 6 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 7 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 8 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 9 scraped.
-01-07-2024 08:37:01 - main - INFO - Element 10 scraped.
-01-07-2024 08:37:01 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:37:01 - main - INFO - Scraping finished
-01-07-2024 08:38:45 - main - INFO - Scraping started
-01-07-2024 08:38:47 - main - INFO - Element 1 scraped.
-01-07-2024 08:38:47 - main - INFO - Element 2 scraped.
-01-07-2024 08:38:47 - main - INFO - Element 3 scraped.
-01-07-2024 08:38:47 - main - INFO - Element 4 scraped.
-01-07-2024 08:38:47 - main - INFO - Element 5 scraped.
-01-07-2024 08:38:47 - main - INFO - Element 6 scraped.
-01-07-2024 08:38:47 - main - INFO - Element 7 scraped.
-01-07-2024 08:38:48 - main - INFO - Element 8 scraped.
-01-07-2024 08:38:48 - main - INFO - Element 9 scraped.
-01-07-2024 08:38:48 - main - INFO - Element 10 scraped.
-01-07-2024 08:38:48 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:38:48 - main - INFO - Scraping finished
-01-07-2024 08:39:25 - main - INFO - Scraping started
-01-07-2024 08:39:27 - main - INFO - Element 1 scraped.
-01-07-2024 08:39:27 - main - INFO - Element 2 scraped.
-01-07-2024 08:39:27 - main - INFO - Element 3 scraped.
-01-07-2024 08:39:27 - main - INFO - Element 4 scraped.
-01-07-2024 08:39:27 - main - INFO - Element 5 scraped.
-01-07-2024 08:39:27 - main - INFO - Element 6 scraped.
-01-07-2024 08:39:27 - main - INFO - Element 7 scraped.
-01-07-2024 08:39:28 - main - INFO - Element 8 scraped.
-01-07-2024 08:39:28 - main - INFO - Element 9 scraped.
-01-07-2024 08:39:28 - main - INFO - Element 10 scraped.
-01-07-2024 08:39:28 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:39:28 - main - INFO - Scraping finished
-01-07-2024 08:41:08 - main - INFO - Scraping started
-01-07-2024 08:41:11 - main - INFO - Element 1 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 2 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 3 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 4 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 5 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 6 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 7 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 8 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 9 scraped.
-01-07-2024 08:41:11 - main - INFO - Element 10 scraped.
-01-07-2024 08:41:12 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:41:12 - main - INFO - Scraping finished
-01-07-2024 08:43:08 - main - INFO - Scraping started
-01-07-2024 08:43:10 - main - INFO - Element 1 scraped.
-01-07-2024 08:43:10 - main - INFO - Element 2 scraped.
-01-07-2024 08:43:10 - main - INFO - Element 3 scraped.
-01-07-2024 08:43:10 - main - INFO - Element 4 scraped.
-01-07-2024 08:43:10 - main - INFO - Element 5 scraped.
-01-07-2024 08:43:10 - main - INFO - Element 6 scraped.
-01-07-2024 08:43:10 - main - INFO - Element 7 scraped.
-01-07-2024 08:43:11 - main - INFO - Element 8 scraped.
-01-07-2024 08:43:11 - main - INFO - Element 9 scraped.
-01-07-2024 08:43:11 - main - INFO - Element 10 scraped.
-01-07-2024 08:43:11 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:43:11 - main - INFO - Scraping finished
-01-07-2024 08:43:36 - main - INFO - Scraping started
-01-07-2024 08:43:38 - main - INFO - Element 1 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 2 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 3 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 4 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 5 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 6 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 7 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 8 scraped.
-01-07-2024 08:43:38 - main - INFO - Element 9 scraped.
-01-07-2024 08:43:39 - main - INFO - Element 10 scraped.
-01-07-2024 08:43:39 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:43:39 - main - INFO - Scraping finished
-01-07-2024 08:45:02 - main - INFO - Scraping started
-01-07-2024 08:45:04 - main - INFO - Element 1 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 2 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 3 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 4 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 5 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 6 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 7 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 8 scraped.
-01-07-2024 08:45:04 - main - INFO - Element 9 scraped.
-01-07-2024 08:45:05 - main - INFO - Element 10 scraped.
-01-07-2024 08:45:05 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:45:05 - main - INFO - Scraping finished
-01-07-2024 08:51:13 - main - INFO - Scraping started
-01-07-2024 08:51:15 - main - INFO - Element 1 scraped.
-01-07-2024 08:51:15 - main - INFO - Element 2 scraped.
-01-07-2024 08:51:15 - main - INFO - Element 3 scraped.
-01-07-2024 08:51:15 - main - INFO - Element 4 scraped.
-01-07-2024 08:51:15 - main - INFO - Element 5 scraped.
-01-07-2024 08:51:16 - main - INFO - Element 6 scraped.
-01-07-2024 08:51:16 - main - INFO - Element 7 scraped.
-01-07-2024 08:51:16 - main - INFO - Element 8 scraped.
-01-07-2024 08:51:16 - main - INFO - Element 9 scraped.
-01-07-2024 08:51:16 - main - INFO - Element 10 scraped.
-01-07-2024 08:51:16 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:51:16 - main - INFO - Scraping finished
-01-07-2024 08:51:34 - main - INFO - Scraping started
-01-07-2024 08:51:35 - main - INFO - Element 1 scraped.
-01-07-2024 08:51:35 - main - INFO - Element 2 scraped.
-01-07-2024 08:51:35 - main - INFO - Element 3 scraped.
-01-07-2024 08:51:36 - main - INFO - Element 4 scraped.
-01-07-2024 08:51:36 - main - INFO - Element 5 scraped.
-01-07-2024 08:51:36 - main - INFO - Element 6 scraped.
-01-07-2024 08:51:36 - main - INFO - Element 7 scraped.
-01-07-2024 08:51:36 - main - INFO - Element 8 scraped.
-01-07-2024 08:51:36 - main - INFO - Element 9 scraped.
-01-07-2024 08:51:36 - main - INFO - Element 10 scraped.
-01-07-2024 08:51:36 - main - INFO - Saving substances to new_substances.json
-01-07-2024 08:51:36 - main - INFO - Scraping finished
-01-07-2024 08:52:46 - main - INFO - Scraping started
-01-07-2024 08:52:47 - main - INFO - Element 1 scraped.
-01-07-2024 08:52:47 - main - INFO - Element 2 scraped.
-01-07-2024 08:52:47 - main - INFO - Element 3 scraped.
-01-07-2024 08:52:47 - main - INFO - Element 4 scraped.
-01-07-2024 08:52:48 - main - INFO - Element 5 scraped.
-01-07-2024 08:52:48 - main - INFO - Element 6 scraped.
-01-07-2024 08:52:48 - main - INFO - Element 7 scraped.
-01-07-2024 08:52:48 - main - INFO - Element 8 scraped.
-01-07-2024 08:52:48 - main - INFO - Element 9 scraped.
-01-07-2024 08:52:48 - main - INFO - Element 10 scraped.
-01-07-2024 08:52:48 - main - INFO - Saving substances to Tim_Jonas_Policija.json
-01-07-2024 08:52:48 - main - INFO - Scraping finished
-01-07-2024 08:54:36 - main - INFO - Scraping started
-01-07-2024 08:54:37 - main - INFO - Element 1 scraped.
-01-07-2024 08:54:37 - main - INFO - Element 2 scraped.
-01-07-2024 08:54:37 - main - INFO - Element 3 scraped.
-01-07-2024 08:54:38 - main - INFO - Element 4 scraped.
-01-07-2024 08:54:38 - main - INFO - Element 5 scraped.
-01-07-2024 08:54:38 - main - INFO - Element 6 scraped.
-01-07-2024 08:54:38 - main - INFO - Element 7 scraped.
-01-07-2024 08:54:38 - main - INFO - Element 8 scraped.
-01-07-2024 08:54:38 - main - INFO - Element 9 scraped.
-01-07-2024 08:54:38 - main - INFO - Element 10 scraped.
-01-07-2024 08:54:38 - main - INFO - Saving substances to Tim_Jonas_Policija.json
-01-07-2024 08:54:38 - main - INFO - Scraping finished
-01-07-2024 09:07:23 - main - INFO - Scraping started
-01-07-2024 09:07:25 - main - INFO - Element 1 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 2 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 3 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 4 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 5 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 6 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 7 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 8 scraped.
-01-07-2024 09:07:25 - main - INFO - Element 9 scraped.
-01-07-2024 09:07:26 - main - INFO - Element 10 scraped.
-01-07-2024 09:07:26 - main - INFO - Saving substances to Tim_Jonas_Policija.json
-01-07-2024 09:07:26 - main - INFO - Scraping finished
-01-07-2024 09:07:31 - main - INFO - Scraping started
-01-07-2024 09:07:32 - main - INFO - Element 1 scraped.
-01-07-2024 09:07:32 - main - INFO - Element 2 scraped.
-01-07-2024 09:07:32 - main - INFO - Element 3 scraped.
-01-07-2024 09:07:32 - main - INFO - Element 4 scraped.
-01-07-2024 09:07:33 - main - INFO - Element 5 scraped.
-01-07-2024 09:07:33 - main - INFO - Element 6 scraped.
-01-07-2024 09:07:33 - main - INFO - Element 7 scraped.
-01-07-2024 09:07:33 - main - INFO - Element 8 scraped.
-01-07-2024 09:07:33 - main - INFO - Element 9 scraped.
-01-07-2024 09:07:33 - main - INFO - Element 10 scraped.
-01-07-2024 09:07:34 - main - INFO - Saving substances to new_substances.json
-01-07-2024 09:07:34 - main - INFO - Scraping finished
-01-07-2024 09:10:12 - main - INFO - Scraping started
-01-07-2024 09:10:13 - main - INFO - Element 1 scraped.
-01-07-2024 09:10:13 - main - INFO - Element 2 scraped.
-01-07-2024 09:10:14 - main - INFO - Element 3 scraped.
-01-07-2024 09:10:14 - main - INFO - Element 4 scraped.
-01-07-2024 09:10:14 - main - INFO - Element 5 scraped.
-01-07-2024 09:10:14 - main - INFO - Element 6 scraped.
-01-07-2024 09:10:14 - main - INFO - Element 7 scraped.
-01-07-2024 09:10:14 - main - INFO - Element 8 scraped.
-01-07-2024 09:10:14 - main - INFO - Element 9 scraped.
-01-07-2024 09:10:15 - main - INFO - Element 10 scraped.
-01-07-2024 09:10:15 - main - INFO - Saving substances to new_substances.json
-01-07-2024 09:10:15 - main - INFO - Scraping finished
-01-07-2024 09:10:55 - main - INFO - Scraping started
-01-07-2024 09:10:57 - main - INFO - Element 1 scraped.
-01-07-2024 09:10:57 - main - INFO - Element 2 scraped.
-01-07-2024 09:10:57 - main - INFO - Element 3 scraped.
-01-07-2024 09:10:57 - main - INFO - Element 4 scraped.
-01-07-2024 09:10:57 - main - INFO - Element 5 scraped.
-01-07-2024 09:10:57 - main - INFO - Element 6 scraped.
-01-07-2024 09:10:57 - main - INFO - Element 7 scraped.
-01-07-2024 09:10:58 - main - INFO - Element 8 scraped.
-01-07-2024 09:10:58 - main - INFO - Element 9 scraped.
-01-07-2024 09:10:58 - main - INFO - Element 10 scraped.
-01-07-2024 09:10:58 - main - INFO - Saving substances to new_substances.json
-01-07-2024 09:10:58 - main - INFO - Scraping finished
-01-07-2024 09:14:54 - main - INFO - Scraping started
-01-07-2024 09:14:59 - main - INFO - Element 1 scraped.
-01-07-2024 09:14:59 - main - INFO - Element 2 scraped.
-01-07-2024 09:15:00 - main - INFO - Element 3 scraped.
-01-07-2024 09:15:00 - main - INFO - Element 4 scraped.
-01-07-2024 09:15:00 - main - INFO - Element 5 scraped.
-01-07-2024 09:15:00 - main - INFO - Element 6 scraped.
-01-07-2024 09:15:00 - main - INFO - Element 7 scraped.
-01-07-2024 09:15:00 - main - INFO - Element 8 scraped.
-01-07-2024 09:15:00 - main - INFO - Element 9 scraped.
-01-07-2024 09:15:01 - main - INFO - Element 10 scraped.
-01-07-2024 09:15:01 - main - INFO - Saving substances to new_substances.json
-01-07-2024 09:15:01 - main - INFO - Scraping finished
-01-07-2024 09:21:48 - main - INFO - Scraping started
-01-07-2024 09:21:52 - main - INFO - Element 1 scraped.
-01-07-2024 09:21:52 - main - INFO - Element 2 scraped.
-01-07-2024 09:21:54 - main - INFO - Element 3 scraped.
-01-07-2024 09:21:55 - main - INFO - Element 4 scraped.
-01-07-2024 09:21:56 - main - INFO - Element 5 scraped.
-01-07-2024 09:21:57 - main - INFO - Element 6 scraped.
-01-07-2024 09:21:58 - main - INFO - Element 7 scraped.
-01-07-2024 09:21:59 - main - INFO - Element 8 scraped.
-01-07-2024 09:22:01 - main - INFO - Element 9 scraped.
-01-07-2024 09:22:02 - main - INFO - Element 10 scraped.
-01-07-2024 09:22:03 - main - INFO - Saving substances to new_substances.json
-01-07-2024 09:22:03 - main - INFO - Scraping finished
-01-07-2024 09:22:36 - main - INFO - Scraping started
-01-07-2024 09:22:41 - main - INFO - Element 1 scraped.
-01-07-2024 09:22:41 - main - INFO - Element 2 scraped.
-01-07-2024 09:22:42 - main - INFO - Element 3 scraped.
-01-07-2024 09:22:43 - main - INFO - Element 4 scraped.
-01-07-2024 09:22:44 - main - INFO - Element 5 scraped.
-01-07-2024 09:22:45 - main - INFO - Element 6 scraped.
-01-07-2024 09:22:46 - main - INFO - Element 7 scraped.
-01-07-2024 09:22:47 - main - INFO - Element 8 scraped.
-01-07-2024 09:22:48 - main - INFO - Element 9 scraped.
-01-07-2024 09:22:49 - main - INFO - Element 10 scraped.
-01-07-2024 09:22:50 - main - INFO - Saving substances to new_substances.json
-01-07-2024 09:22:50 - main - INFO - Scraping finished
+28-05- 2024 15:55:48 - main - INFO - Scraping started
+28-05- 2024 15:55:51 - main - INFO - Element 1 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 2 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 3 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 4 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 5 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 6 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 7 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 8 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 9 scraped.
+28-05- 2024 15:55:51 - main - INFO - Element 10 scraped.
+28-05- 2024 15:55:52 - main - INFO - Element 11 scraped.
+28-05- 2024 15:55:52 - main - INFO - Element 12 scraped.
+28-05- 2024 15:55:52 - main - INFO - Element 13 scraped.
+28-05- 2024 15:55:52 - main - INFO - Element 14 scraped.
+28-05- 2024 15:55:52 - main - INFO - Element 15 scraped.
+28-05- 2024 15:55:52 - main - INFO - Element 16 scraped.
+28-05- 2024 15:55:52 - main - INFO - Element 17 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 18 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 19 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 20 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 21 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 22 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 23 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 24 scraped.
+28-05- 2024 15:55:53 - main - INFO - Element 25 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 26 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 27 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 28 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 29 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 30 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 31 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 32 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 33 scraped.
+28-05- 2024 15:55:54 - main - INFO - Element 34 scraped.
+28-05- 2024 15:55:55 - main - INFO - Element 35 scraped.
+28-05- 2024 15:55:55 - main - INFO - Element 36 scraped.
+28-05- 2024 15:55:55 - main - INFO - Element 37 scraped.
+28-05- 2024 15:55:55 - main - INFO - Element 38 scraped.
+28-05- 2024 15:55:55 - main - INFO - Element 39 scraped.
+28-05- 2024 15:55:55 - main - INFO - Element 40 scraped.
+28-05- 2024 15:55:55 - main - INFO - Element 41 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 42 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 43 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 44 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 45 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 46 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 47 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 48 scraped.
+28-05- 2024 15:55:56 - main - INFO - Element 49 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 50 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 51 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 52 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 53 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 54 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 55 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 56 scraped.
+28-05- 2024 15:55:57 - main - INFO - Element 57 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 58 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 59 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 60 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 61 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 62 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 63 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 64 scraped.
+28-05- 2024 15:55:58 - main - INFO - Element 65 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 66 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 67 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 68 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 69 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 70 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 71 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 72 scraped.
+28-05- 2024 15:55:59 - main - INFO - Element 73 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 74 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 75 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 76 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 77 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 78 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 79 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 80 scraped.
+28-05- 2024 15:56:00 - main - INFO - Element 81 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 82 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 83 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 84 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 85 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 86 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 87 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 88 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 89 scraped.
+28-05- 2024 15:56:01 - main - INFO - Element 90 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 91 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 92 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 93 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 94 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 95 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 96 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 97 scraped.
+28-05- 2024 15:56:02 - main - INFO - Element 98 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 99 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 100 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 101 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 102 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 103 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 104 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 105 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 106 scraped.
+28-05- 2024 15:56:03 - main - INFO - Element 107 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 108 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 109 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 110 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 111 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 112 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 113 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 114 scraped.
+28-05- 2024 15:56:04 - main - INFO - Element 115 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 116 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 117 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 118 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 119 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 120 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 121 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 122 scraped.
+28-05- 2024 15:56:05 - main - INFO - Element 123 scraped.
+28-05- 2024 15:56:06 - main - INFO - Element 124 scraped.
+28-05- 2024 15:56:06 - main - INFO - Element 125 scraped.
+28-05- 2024 15:56:06 - main - INFO - Element 126 scraped.
+28-05- 2024 15:56:06 - main - INFO - Element 127 scraped.
+28-05- 2024 15:56:06 - main - INFO - Element 128 scraped.
+28-05- 2024 15:56:06 - main - INFO - Element 129 scraped.
+28-05- 2024 15:56:06 - main - INFO - Element 130 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 131 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 132 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 133 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 134 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 135 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 136 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 137 scraped.
+28-05- 2024 15:56:07 - main - INFO - Element 138 scraped.
+28-05- 2024 15:56:08 - main - INFO - Element 139 scraped.
+28-05- 2024 15:56:08 - main - INFO - Element 140 scraped.
+28-05- 2024 15:56:08 - main - INFO - Element 141 scraped.
+28-05- 2024 15:56:08 - main - INFO - Element 142 scraped.
+28-05- 2024 15:56:08 - main - INFO - Element 143 scraped.
+28-05- 2024 15:56:08 - main - INFO - Element 144 scraped.
+28-05- 2024 15:56:08 - main - INFO - Element 145 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 146 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 147 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 148 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 149 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 150 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 151 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 152 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 153 scraped.
+28-05- 2024 15:56:09 - main - INFO - Element 154 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 155 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 156 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 157 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 158 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 159 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 160 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 161 scraped.
+28-05- 2024 15:56:10 - main - INFO - Element 162 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 163 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 164 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 165 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 166 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 167 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 168 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 169 scraped.
+28-05- 2024 15:56:11 - main - INFO - Element 170 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 171 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 172 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 173 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 174 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 175 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 176 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 177 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 178 scraped.
+28-05- 2024 15:56:12 - main - INFO - Element 179 scraped.
+28-05- 2024 15:56:13 - main - INFO - Element 180 scraped.
+28-05- 2024 15:56:13 - main - INFO - Element 181 scraped.
+28-05- 2024 15:56:13 - main - INFO - Element 182 scraped.
+28-05- 2024 15:56:13 - main - INFO - Element 183 scraped.
+28-05- 2024 15:56:13 - main - INFO - Element 184 scraped.
+28-05- 2024 15:56:13 - main - INFO - Element 185 scraped.
+28-05- 2024 15:56:13 - main - INFO - Element 186 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 187 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 188 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 189 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 190 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 191 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 192 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 193 scraped.
+28-05- 2024 15:56:14 - main - INFO - Element 194 scraped.
+28-05- 2024 15:56:15 - main - INFO - Element 195 scraped.
+28-05- 2024 15:56:15 - main - INFO - Element 196 scraped.
+28-05- 2024 15:56:15 - main - INFO - Element 197 scraped.
+28-05- 2024 15:56:15 - main - INFO - Element 198 scraped.
+28-05- 2024 15:56:15 - main - INFO - Element 199 scraped.
+28-05- 2024 15:56:16 - main - INFO - Element 200 scraped.
+28-05- 2024 15:56:16 - main - INFO - Element 201 scraped.
+28-05- 2024 15:56:16 - main - INFO - Element 202 scraped.
+28-05- 2024 15:56:16 - main - INFO - Element 203 scraped.
+28-05- 2024 15:56:16 - main - INFO - Element 204 scraped.
+28-05- 2024 15:56:16 - main - INFO - Element 205 scraped.
+28-05- 2024 15:56:16 - main - INFO - Element 206 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 207 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 208 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 209 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 210 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 211 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 212 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 213 scraped.
+28-05- 2024 15:56:17 - main - INFO - Element 214 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 215 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 216 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 217 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 218 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 219 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 220 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 221 scraped.
+28-05- 2024 15:56:18 - main - INFO - Element 222 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 223 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 224 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 225 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 226 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 227 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 228 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 229 scraped.
+28-05- 2024 15:56:19 - main - INFO - Element 230 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 231 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 232 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 233 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 234 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 235 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 236 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 237 scraped.
+28-05- 2024 15:56:20 - main - INFO - Element 238 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 239 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 240 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 241 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 242 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 243 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 244 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 245 scraped.
+28-05- 2024 15:56:21 - main - INFO - Element 246 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 247 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 248 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 249 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 250 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 251 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 252 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 253 scraped.
+28-05- 2024 15:56:22 - main - INFO - Element 254 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 255 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 256 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 257 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 258 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 259 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 260 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 261 scraped.
+28-05- 2024 15:56:23 - main - INFO - Element 262 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 263 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 264 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 265 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 266 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 267 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 268 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 269 scraped.
+28-05- 2024 15:56:24 - main - INFO - Element 270 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 271 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 272 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 273 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 274 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 275 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 276 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 277 scraped.
+28-05- 2024 15:56:25 - main - INFO - Element 278 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 279 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 280 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 281 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 282 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 283 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 284 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 285 scraped.
+28-05- 2024 15:56:26 - main - INFO - Element 286 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 287 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 288 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 289 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 290 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 291 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 292 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 293 scraped.
+28-05- 2024 15:56:27 - main - INFO - Element 294 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 295 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 296 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 297 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 298 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 299 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 300 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 301 scraped.
+28-05- 2024 15:56:28 - main - INFO - Element 302 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 303 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 304 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 305 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 306 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 307 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 308 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 309 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 310 scraped.
+28-05- 2024 15:56:29 - main - INFO - Element 311 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 312 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 313 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 314 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 315 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 316 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 317 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 318 scraped.
+28-05- 2024 15:56:30 - main - INFO - Element 319 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 320 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 321 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 322 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 323 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 324 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 325 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 326 scraped.
+28-05- 2024 15:56:31 - main - INFO - Element 327 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 328 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 329 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 330 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 331 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 332 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 333 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 334 scraped.
+28-05- 2024 15:56:32 - main - INFO - Element 335 scraped.
+28-05- 2024 15:56:33 - main - INFO - Element 336 scraped.
+28-05- 2024 15:56:33 - main - INFO - Element 337 scraped.
+28-05- 2024 15:56:33 - main - INFO - Element 338 scraped.
+28-05- 2024 15:56:33 - main - INFO - Element 339 scraped.
+28-05- 2024 15:56:33 - main - INFO - Element 340 scraped.
+28-05- 2024 15:56:33 - main - INFO - Element 341 scraped.
+28-05- 2024 15:56:33 - main - INFO - Element 342 scraped.
+28-05- 2024 15:56:34 - main - INFO - Element 343 scraped.
+28-05- 2024 15:56:34 - main - INFO - Element 344 scraped.
+28-05- 2024 15:56:34 - main - INFO - Element 345 scraped.
+28-05- 2024 15:56:34 - main - INFO - Element 346 scraped.
+28-05- 2024 15:56:34 - main - INFO - Element 347 scraped.
+28-05- 2024 15:56:34 - main - INFO - Element 348 scraped.
+28-05- 2024 15:56:34 - main - INFO - Element 349 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 350 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 351 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 352 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 353 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 354 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 355 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 356 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 357 scraped.
+28-05- 2024 15:56:35 - main - INFO - Element 358 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 359 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 360 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 361 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 362 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 363 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 364 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 365 scraped.
+28-05- 2024 15:56:36 - main - INFO - Element 366 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 367 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 368 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 369 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 370 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 371 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 372 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 373 scraped.
+28-05- 2024 15:56:37 - main - INFO - Element 374 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 375 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 376 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 377 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 378 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 379 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 380 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 381 scraped.
+28-05- 2024 15:56:38 - main - INFO - Element 382 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 383 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 384 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 385 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 386 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 387 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 388 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 389 scraped.
+28-05- 2024 15:56:39 - main - INFO - Element 390 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 391 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 392 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 393 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 394 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 395 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 396 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 397 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 398 scraped.
+28-05- 2024 15:56:40 - main - INFO - Element 399 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 400 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 401 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 402 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 403 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 404 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 405 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 406 scraped.
+28-05- 2024 15:56:41 - main - INFO - Element 407 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 408 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 409 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 410 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 411 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 412 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 413 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 414 scraped.
+28-05- 2024 15:56:42 - main - INFO - Element 415 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 416 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 417 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 418 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 419 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 420 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 421 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 422 scraped.
+28-05- 2024 15:56:43 - main - INFO - Element 423 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 424 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 425 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 426 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 427 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 428 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 429 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 430 scraped.
+28-05- 2024 15:56:44 - main - INFO - Element 431 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 432 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 433 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 434 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 435 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 436 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 437 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 438 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 439 scraped.
+28-05- 2024 15:56:45 - main - INFO - Element 440 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 441 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 442 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 443 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 444 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 445 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 446 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 447 scraped.
+28-05- 2024 15:56:46 - main - INFO - Element 448 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 449 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 450 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 451 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 452 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 453 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 454 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 455 scraped.
+28-05- 2024 15:56:47 - main - INFO - Element 456 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 457 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 458 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 459 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 460 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 461 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 462 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 463 scraped.
+28-05- 2024 15:56:48 - main - INFO - Element 464 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 465 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 466 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 467 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 468 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 469 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 470 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 471 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 472 scraped.
+28-05- 2024 15:56:49 - main - INFO - Element 473 scraped.
+28-05- 2024 15:56:50 - main - INFO - Element 474 scraped.
+28-05- 2024 15:56:50 - main - INFO - Element 475 scraped.
+28-05- 2024 15:56:50 - main - INFO - Element 476 scraped.
+28-05- 2024 15:56:50 - main - INFO - Element 477 scraped.
+28-05- 2024 15:56:50 - main - INFO - Element 478 scraped.
+28-05- 2024 15:56:50 - main - INFO - Element 479 scraped.
+28-05- 2024 15:56:50 - main - INFO - Element 480 scraped.
+28-05- 2024 15:56:51 - main - INFO - Element 481 scraped.
+28-05- 2024 15:56:51 - main - INFO - Element 482 scraped.
+28-05- 2024 15:56:51 - main - INFO - Element 483 scraped.
+28-05- 2024 15:56:51 - main - INFO - Element 484 scraped.
+28-05- 2024 15:56:51 - main - INFO - Element 485 scraped.
+28-05- 2024 15:56:51 - main - INFO - Element 486 scraped.
+28-05- 2024 15:56:51 - main - INFO - Element 487 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 488 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 489 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 490 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 491 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 492 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 493 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 494 scraped.
+28-05- 2024 15:56:52 - main - INFO - Element 495 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 496 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 497 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 498 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 499 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 500 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 501 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 502 scraped.
+28-05- 2024 15:56:53 - main - INFO - Element 503 scraped.
+28-05- 2024 15:56:54 - main - INFO - Element 504 scraped.
+28-05- 2024 15:56:54 - main - INFO - Element 505 scraped.
+28-05- 2024 15:56:54 - main - INFO - Element 506 scraped.
+28-05- 2024 15:56:54 - main - INFO - Element 507 scraped.
+28-05- 2024 15:56:54 - main - INFO - Element 508 scraped.
+28-05- 2024 15:56:54 - main - INFO - Element 509 scraped.
+28-05- 2024 15:56:54 - main - INFO - Element 510 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 511 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 512 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 513 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 514 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 515 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 516 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 517 scraped.
+28-05- 2024 15:56:55 - main - INFO - Element 518 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 519 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 520 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 521 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 522 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 523 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 524 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 525 scraped.
+28-05- 2024 15:56:56 - main - INFO - Element 526 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 527 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 528 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 529 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 530 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 531 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 532 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 533 scraped.
+28-05- 2024 15:56:57 - main - INFO - Element 534 scraped.
+28-05- 2024 15:56:58 - main - INFO - Element 535 scraped.
+28-05- 2024 15:56:58 - main - INFO - Element 536 scraped.
+28-05- 2024 15:56:58 - main - INFO - Element 537 scraped.
+28-05- 2024 15:56:58 - main - INFO - Element 538 scraped.
+28-05- 2024 15:56:58 - main - INFO - Element 539 scraped.
+28-05- 2024 15:56:58 - main - INFO - Element 540 scraped.
+28-05- 2024 15:56:58 - main - INFO - Element 541 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 542 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 543 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 544 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 545 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 546 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 547 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 548 scraped.
+28-05- 2024 15:56:59 - main - INFO - Element 549 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 550 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 551 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 552 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 553 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 554 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 555 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 556 scraped.
+28-05- 2024 15:57:00 - main - INFO - Element 557 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 558 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 559 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 560 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 561 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 562 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 563 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 564 scraped.
+28-05- 2024 15:57:01 - main - INFO - Element 565 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 566 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 567 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 568 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 569 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 570 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 571 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 572 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 573 scraped.
+28-05- 2024 15:57:02 - main - INFO - Element 574 scraped.
+28-05- 2024 15:57:03 - main - INFO - Element 575 scraped.
+28-05- 2024 15:57:03 - main - INFO - Element 576 scraped.
+28-05- 2024 15:57:03 - main - INFO - Element 577 scraped.
+28-05- 2024 15:57:03 - main - INFO - Element 578 scraped.
+28-05- 2024 15:57:03 - main - INFO - Element 579 scraped.
+28-05- 2024 15:57:03 - main - INFO - Element 580 scraped.
+28-05- 2024 15:57:03 - main - INFO - Element 581 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 582 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 583 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 584 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 585 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 586 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 587 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 588 scraped.
+28-05- 2024 15:57:04 - main - INFO - Element 589 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 590 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 591 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 592 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 593 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 594 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 595 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 596 scraped.
+28-05- 2024 15:57:05 - main - INFO - Element 597 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 598 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 599 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 600 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 601 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 602 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 603 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 604 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 605 scraped.
+28-05- 2024 15:57:06 - main - INFO - Element 606 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 607 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 608 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 609 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 610 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 611 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 612 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 613 scraped.
+28-05- 2024 15:57:07 - main - INFO - Element 614 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 615 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 616 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 617 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 618 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 619 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 620 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 621 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 622 scraped.
+28-05- 2024 15:57:08 - main - INFO - Element 623 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 624 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 625 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 626 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 627 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 628 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 629 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 630 scraped.
+28-05- 2024 15:57:09 - main - INFO - Element 631 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 632 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 633 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 634 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 635 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 636 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 637 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 638 scraped.
+28-05- 2024 15:57:10 - main - INFO - Element 639 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 640 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 641 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 642 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 643 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 644 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 645 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 646 scraped.
+28-05- 2024 15:57:11 - main - INFO - Element 647 scraped.
+28-05- 2024 15:57:12 - main - INFO - Element 648 scraped.
+28-05- 2024 15:57:12 - main - INFO - Element 649 scraped.
+28-05- 2024 15:57:12 - main - INFO - Element 650 scraped.
+28-05- 2024 15:57:13 - main - INFO - Element 651 scraped.
+28-05- 2024 15:57:13 - main - INFO - Element 652 scraped.
+28-05- 2024 15:57:13 - main - INFO - Element 653 scraped.
+28-05- 2024 15:57:13 - main - INFO - Element 654 scraped.
+28-05- 2024 15:57:13 - main - INFO - Element 655 scraped.
+28-05- 2024 15:57:13 - main - INFO - Element 656 scraped.
+28-05- 2024 15:57:13 - main - INFO - Element 657 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 658 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 659 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 660 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 661 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 662 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 663 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 664 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 665 scraped.
+28-05- 2024 15:57:14 - main - INFO - Element 666 scraped.
+28-05- 2024 15:57:15 - main - INFO - Element 667 scraped.
+28-05- 2024 15:57:15 - main - INFO - Element 668 scraped.
+28-05- 2024 15:57:15 - main - INFO - Element 669 scraped.
+28-05- 2024 15:57:15 - main - INFO - Element 670 scraped.
+28-05- 2024 15:57:15 - main - INFO - Element 671 scraped.
+28-05- 2024 15:57:15 - main - INFO - Element 672 scraped.
+28-05- 2024 15:57:15 - main - INFO - Element 673 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 674 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 675 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 676 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 677 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 678 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 679 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 680 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 681 scraped.
+28-05- 2024 15:57:16 - main - INFO - Element 682 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 683 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 684 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 685 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 686 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 687 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 688 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 689 scraped.
+28-05- 2024 15:57:17 - main - INFO - Element 690 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 691 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 692 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 693 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 694 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 695 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 696 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 697 scraped.
+28-05- 2024 15:57:18 - main - INFO - Element 698 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 699 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 700 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 701 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 702 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 703 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 704 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 705 scraped.
+28-05- 2024 15:57:19 - main - INFO - Element 706 scraped.
+28-05- 2024 15:57:20 - main - INFO - Element 707 scraped.
+28-05- 2024 15:57:20 - main - INFO - Element 708 scraped.
+28-05- 2024 15:57:20 - main - INFO - Element 709 scraped.
+28-05- 2024 15:57:20 - main - INFO - Element 710 scraped.
+28-05- 2024 15:57:20 - main - INFO - Element 711 scraped.
+28-05- 2024 15:57:20 - main - INFO - Element 712 scraped.
+28-05- 2024 15:57:20 - main - INFO - Element 713 scraped.
+28-05- 2024 15:57:21 - main - INFO - Element 714 scraped.
+28-05- 2024 15:57:21 - main - INFO - Element 715 scraped.
+28-05- 2024 15:57:21 - main - INFO - Element 716 scraped.
+28-05- 2024 15:57:21 - main - INFO - Element 717 scraped.
+28-05- 2024 15:57:22 - main - INFO - Element 718 scraped.
+28-05- 2024 15:57:22 - main - INFO - Element 719 scraped.
+28-05- 2024 15:57:22 - main - INFO - Element 720 scraped.
+28-05- 2024 15:57:22 - main - INFO - Element 721 scraped.
+28-05- 2024 15:57:22 - main - INFO - Element 722 scraped.
+28-05- 2024 15:57:22 - main - INFO - Element 723 scraped.
+28-05- 2024 15:57:22 - main - INFO - Element 724 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 725 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 726 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 727 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 728 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 729 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 730 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 731 scraped.
+28-05- 2024 15:57:23 - main - INFO - Element 732 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 733 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 734 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 735 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 736 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 737 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 738 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 739 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 740 scraped.
+28-05- 2024 15:57:24 - main - INFO - Element 741 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 742 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 743 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 744 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 745 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 746 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 747 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 748 scraped.
+28-05- 2024 15:57:25 - main - INFO - Element 749 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 750 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 751 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 752 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 753 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 754 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 755 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 756 scraped.
+28-05- 2024 15:57:26 - main - INFO - Element 757 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 758 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 759 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 760 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 761 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 762 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 763 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 764 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 765 scraped.
+28-05- 2024 15:57:27 - main - INFO - Element 766 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 767 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 768 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 769 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 770 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 771 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 772 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 773 scraped.
+28-05- 2024 15:57:28 - main - INFO - Element 774 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 775 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 776 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 777 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 778 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 779 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 780 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 781 scraped.
+28-05- 2024 15:57:29 - main - INFO - Element 782 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 783 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 784 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 785 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 786 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 787 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 788 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 789 scraped.
+28-05- 2024 15:57:30 - main - INFO - Element 790 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 791 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 792 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 793 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 794 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 795 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 796 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 797 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 798 scraped.
+28-05- 2024 15:57:31 - main - INFO - Element 799 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 800 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 801 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 802 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 803 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 804 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 805 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 806 scraped.
+28-05- 2024 15:57:32 - main - INFO - Element 807 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 808 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 809 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 810 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 811 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 812 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 813 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 814 scraped.
+28-05- 2024 15:57:33 - main - INFO - Element 815 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 816 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 817 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 818 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 819 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 820 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 821 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 822 scraped.
+28-05- 2024 15:57:34 - main - INFO - Element 823 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 824 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 825 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 826 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 827 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 828 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 829 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 830 scraped.
+28-05- 2024 15:57:35 - main - INFO - Element 831 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 832 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 833 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 834 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 835 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 836 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 837 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 838 scraped.
+28-05- 2024 15:57:36 - main - INFO - Element 839 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 840 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 841 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 842 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 843 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 844 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 845 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 846 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 847 scraped.
+28-05- 2024 15:57:37 - main - INFO - Element 848 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 849 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 850 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 851 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 852 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 853 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 854 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 855 scraped.
+28-05- 2024 15:57:38 - main - INFO - Element 856 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 857 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 858 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 859 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 860 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 861 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 862 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 863 scraped.
+28-05- 2024 15:57:39 - main - INFO - Element 864 scraped.
+28-05- 2024 15:57:40 - main - INFO - Element 865 scraped.
+28-05- 2024 15:57:40 - main - INFO - Element 866 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 867 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 868 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 869 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 870 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 871 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 872 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 873 scraped.
+28-05- 2024 15:57:41 - main - INFO - Element 874 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 875 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 876 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 877 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 878 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 879 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 880 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 881 scraped.
+28-05- 2024 15:57:42 - main - INFO - Element 882 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 883 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 884 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 885 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 886 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 887 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 888 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 889 scraped.
+28-05- 2024 15:57:43 - main - INFO - Element 890 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 891 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 892 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 893 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 894 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 895 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 896 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 897 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 898 scraped.
+28-05- 2024 15:57:44 - main - INFO - Element 899 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 900 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 901 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 902 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 903 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 904 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 905 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 906 scraped.
+28-05- 2024 15:57:45 - main - INFO - Element 907 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 908 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 909 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 910 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 911 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 912 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 913 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 914 scraped.
+28-05- 2024 15:57:46 - main - INFO - Element 915 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 916 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 917 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 918 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 919 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 920 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 921 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 922 scraped.
+28-05- 2024 15:57:47 - main - INFO - Element 923 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 924 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 925 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 926 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 927 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 928 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 929 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 930 scraped.
+28-05- 2024 15:57:48 - main - INFO - Element 931 scraped.
+28-05- 2024 15:57:49 - main - INFO - Element 932 scraped.
+28-05- 2024 15:57:49 - main - INFO - Element 933 scraped.
+28-05- 2024 15:57:49 - main - INFO - Element 934 scraped.
+28-05- 2024 15:57:49 - main - INFO - Element 935 scraped.
+28-05- 2024 15:57:49 - main - INFO - Element 936 scraped.
+28-05- 2024 15:57:49 - main - INFO - Element 937 scraped.
+28-05- 2024 15:57:49 - main - INFO - Element 938 scraped.
+28-05- 2024 15:57:50 - main - INFO - Element 939 scraped.
+28-05- 2024 15:57:50 - main - INFO - Element 940 scraped.
+28-05- 2024 15:57:50 - main - INFO - Element 941 scraped.
+28-05- 2024 15:57:50 - main - INFO - Element 942 scraped.
+28-05- 2024 15:57:50 - main - INFO - Element 943 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 944 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 945 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 946 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 947 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 948 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 949 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 950 scraped.
+28-05- 2024 15:57:51 - main - INFO - Element 951 scraped.
+28-05- 2024 15:57:52 - main - INFO - Element 952 scraped.
+28-05- 2024 15:57:52 - main - INFO - Element 953 scraped.
+28-05- 2024 15:57:52 - main - INFO - Element 954 scraped.
+28-05- 2024 15:57:52 - main - INFO - Element 955 scraped.
+28-05- 2024 15:57:52 - main - INFO - Element 956 scraped.
+28-05- 2024 15:57:52 - main - INFO - Element 957 scraped.
+28-05- 2024 15:57:52 - main - INFO - Element 958 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 959 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 960 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 961 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 962 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 963 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 964 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 965 scraped.
+28-05- 2024 15:57:53 - main - INFO - Element 966 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 967 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 968 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 969 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 970 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 971 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 972 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 973 scraped.
+28-05- 2024 15:57:54 - main - INFO - Element 974 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 975 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 976 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 977 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 978 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 979 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 980 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 981 scraped.
+28-05- 2024 15:57:55 - main - INFO - Element 982 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 983 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 984 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 985 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 986 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 987 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 988 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 989 scraped.
+28-05- 2024 15:57:56 - main - INFO - Element 990 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 991 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 992 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 993 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 994 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 995 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 996 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 997 scraped.
+28-05- 2024 15:57:57 - main - INFO - Element 998 scraped.
+28-05- 2024 15:57:58 - main - INFO - Element 999 scraped.
+28-05- 2024 15:57:58 - main - INFO - Element 1000 scraped.
+28-05- 2024 15:57:58 - main - INFO - Element 1001 scraped.
+28-05- 2024 15:57:58 - main - INFO - Element 1002 scraped.
+28-05- 2024 15:57:58 - main - INFO - Element 1003 scraped.
+28-05- 2024 15:57:59 - main - INFO - Saving substances to substancesV4.json
+28-05- 2024 15:57:59 - main - INFO - Scraping finished
+28-05- 2024 16:40:38 - main - INFO - Scraping started
+28-05- 2024 16:40:42 - main - INFO - Element 1 scraped.
+28-05- 2024 16:40:42 - main - INFO - Element 2 scraped.
+28-05- 2024 16:40:42 - main - INFO - Element 3 scraped.
+28-05- 2024 16:40:42 - main - INFO - Element 4 scraped.
+28-05- 2024 16:40:42 - main - INFO - Element 5 scraped.
+28-05- 2024 16:40:42 - main - INFO - Element 6 scraped.
+28-05- 2024 16:40:42 - main - INFO - Element 7 scraped.
+28-05- 2024 16:40:42 - main - INFO - Element 8 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 9 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 10 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 11 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 12 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 13 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 14 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 15 scraped.
+28-05- 2024 16:40:43 - main - INFO - Element 16 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 17 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 18 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 19 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 20 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 21 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 22 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 23 scraped.
+28-05- 2024 16:40:44 - main - INFO - Element 24 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 25 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 26 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 27 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 28 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 29 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 30 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 31 scraped.
+28-05- 2024 16:40:45 - main - INFO - Element 32 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 33 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 34 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 35 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 36 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 37 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 38 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 39 scraped.
+28-05- 2024 16:40:46 - main - INFO - Element 40 scraped.
+28-05- 2024 16:40:47 - main - INFO - Element 41 scraped.
+28-05- 2024 16:40:47 - main - INFO - Element 42 scraped.
+28-05- 2024 16:40:47 - main - INFO - Element 43 scraped.
+28-05- 2024 16:40:47 - main - INFO - Element 44 scraped.
+28-05- 2024 16:40:47 - main - INFO - Element 45 scraped.
+28-05- 2024 16:40:47 - main - INFO - Element 46 scraped.
+28-05- 2024 16:40:47 - main - INFO - Element 47 scraped.
+28-05- 2024 16:40:48 - main - INFO - Element 48 scraped.
+28-05- 2024 16:40:48 - main - INFO - Element 49 scraped.
+28-05- 2024 16:40:48 - main - INFO - Element 50 scraped.
+28-05- 2024 16:40:48 - main - INFO - Element 51 scraped.
+28-05- 2024 16:40:48 - main - INFO - Element 52 scraped.
+28-05- 2024 16:40:48 - main - INFO - Element 53 scraped.
+28-05- 2024 16:40:48 - main - INFO - Element 54 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 55 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 56 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 57 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 58 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 59 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 60 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 61 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 62 scraped.
+28-05- 2024 16:40:49 - main - INFO - Element 63 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 64 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 65 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 66 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 67 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 68 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 69 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 70 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 71 scraped.
+28-05- 2024 16:40:50 - main - INFO - Element 72 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 73 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 74 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 75 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 76 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 77 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 78 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 79 scraped.
+28-05- 2024 16:40:51 - main - INFO - Element 80 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 81 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 82 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 83 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 84 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 85 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 86 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 87 scraped.
+28-05- 2024 16:40:52 - main - INFO - Element 88 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 89 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 90 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 91 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 92 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 93 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 94 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 95 scraped.
+28-05- 2024 16:40:53 - main - INFO - Element 96 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 97 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 98 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 99 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 100 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 101 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 102 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 103 scraped.
+28-05- 2024 16:40:54 - main - INFO - Element 104 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 105 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 106 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 107 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 108 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 109 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 110 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 111 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 112 scraped.
+28-05- 2024 16:40:55 - main - INFO - Element 113 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 114 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 115 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 116 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 117 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 118 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 119 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 120 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 121 scraped.
+28-05- 2024 16:40:56 - main - INFO - Element 122 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 123 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 124 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 125 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 126 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 127 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 128 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 129 scraped.
+28-05- 2024 16:40:57 - main - INFO - Element 130 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 131 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 132 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 133 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 134 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 135 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 136 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 137 scraped.
+28-05- 2024 16:40:58 - main - INFO - Element 138 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 139 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 140 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 141 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 142 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 143 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 144 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 145 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 146 scraped.
+28-05- 2024 16:40:59 - main - INFO - Element 147 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 148 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 149 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 150 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 151 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 152 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 153 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 154 scraped.
+28-05- 2024 16:41:00 - main - INFO - Element 155 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 156 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 157 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 158 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 159 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 160 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 161 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 162 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 163 scraped.
+28-05- 2024 16:41:01 - main - INFO - Element 164 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 165 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 166 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 167 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 168 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 169 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 170 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 171 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 172 scraped.
+28-05- 2024 16:41:02 - main - INFO - Element 173 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 174 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 175 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 176 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 177 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 178 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 179 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 180 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 181 scraped.
+28-05- 2024 16:41:03 - main - INFO - Element 182 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 183 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 184 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 185 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 186 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 187 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 188 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 189 scraped.
+28-05- 2024 16:41:04 - main - INFO - Element 190 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 191 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 192 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 193 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 194 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 195 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 196 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 197 scraped.
+28-05- 2024 16:41:05 - main - INFO - Element 198 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 199 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 200 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 201 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 202 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 203 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 204 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 205 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 206 scraped.
+28-05- 2024 16:41:06 - main - INFO - Element 207 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 208 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 209 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 210 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 211 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 212 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 213 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 214 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 215 scraped.
+28-05- 2024 16:41:07 - main - INFO - Element 216 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 217 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 218 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 219 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 220 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 221 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 222 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 223 scraped.
+28-05- 2024 16:41:08 - main - INFO - Element 224 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 225 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 226 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 227 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 228 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 229 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 230 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 231 scraped.
+28-05- 2024 16:41:09 - main - INFO - Element 232 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 233 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 234 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 235 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 236 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 237 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 238 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 239 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 240 scraped.
+28-05- 2024 16:41:10 - main - INFO - Element 241 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 242 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 243 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 244 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 245 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 246 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 247 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 248 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 249 scraped.
+28-05- 2024 16:41:11 - main - INFO - Element 250 scraped.
+28-05- 2024 16:41:12 - main - INFO - Element 251 scraped.
+28-05- 2024 16:41:12 - main - INFO - Element 252 scraped.
+28-05- 2024 16:41:12 - main - INFO - Element 253 scraped.
+28-05- 2024 16:41:12 - main - INFO - Element 254 scraped.
+28-05- 2024 16:41:12 - main - INFO - Element 255 scraped.
+28-05- 2024 16:41:12 - main - INFO - Element 256 scraped.
+28-05- 2024 16:41:12 - main - INFO - Element 257 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 258 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 259 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 260 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 261 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 262 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 263 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 264 scraped.
+28-05- 2024 16:41:13 - main - INFO - Element 265 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 266 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 267 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 268 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 269 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 270 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 271 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 272 scraped.
+28-05- 2024 16:41:14 - main - INFO - Element 273 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 274 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 275 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 276 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 277 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 278 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 279 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 280 scraped.
+28-05- 2024 16:41:15 - main - INFO - Element 281 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 282 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 283 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 284 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 285 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 286 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 287 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 288 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 289 scraped.
+28-05- 2024 16:41:16 - main - INFO - Element 290 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 291 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 292 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 293 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 294 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 295 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 296 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 297 scraped.
+28-05- 2024 16:41:17 - main - INFO - Element 298 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 299 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 300 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 301 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 302 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 303 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 304 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 305 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 306 scraped.
+28-05- 2024 16:41:18 - main - INFO - Element 307 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 308 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 309 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 310 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 311 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 312 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 313 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 314 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 315 scraped.
+28-05- 2024 16:41:19 - main - INFO - Element 316 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 317 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 318 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 319 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 320 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 321 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 322 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 323 scraped.
+28-05- 2024 16:41:20 - main - INFO - Element 324 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 325 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 326 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 327 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 328 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 329 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 330 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 331 scraped.
+28-05- 2024 16:41:21 - main - INFO - Element 332 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 333 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 334 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 335 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 336 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 337 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 338 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 339 scraped.
+28-05- 2024 16:41:22 - main - INFO - Element 340 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 341 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 342 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 343 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 344 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 345 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 346 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 347 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 348 scraped.
+28-05- 2024 16:41:23 - main - INFO - Element 349 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 350 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 351 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 352 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 353 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 354 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 355 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 356 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 357 scraped.
+28-05- 2024 16:41:24 - main - INFO - Element 358 scraped.
+28-05- 2024 16:41:25 - main - INFO - Element 359 scraped.
+28-05- 2024 16:41:25 - main - INFO - Element 360 scraped.
+28-05- 2024 16:41:25 - main - INFO - Element 361 scraped.
+28-05- 2024 16:41:25 - main - INFO - Element 362 scraped.
+28-05- 2024 16:41:25 - main - INFO - Element 363 scraped.
+28-05- 2024 16:41:25 - main - INFO - Element 364 scraped.
+28-05- 2024 16:41:25 - main - INFO - Element 365 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 366 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 367 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 368 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 369 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 370 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 371 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 372 scraped.
+28-05- 2024 16:41:26 - main - INFO - Element 373 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 374 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 375 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 376 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 377 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 378 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 379 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 380 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 381 scraped.
+28-05- 2024 16:41:27 - main - INFO - Element 382 scraped.
+28-05- 2024 16:41:28 - main - INFO - Element 383 scraped.
+28-05- 2024 16:41:28 - main - INFO - Element 384 scraped.
+28-05- 2024 16:41:28 - main - INFO - Element 385 scraped.
+28-05- 2024 16:41:28 - main - INFO - Element 386 scraped.
+28-05- 2024 16:41:28 - main - INFO - Element 387 scraped.
+28-05- 2024 16:41:28 - main - INFO - Element 388 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 389 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 390 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 391 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 392 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 393 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 394 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 395 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 396 scraped.
+28-05- 2024 16:41:29 - main - INFO - Element 397 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 398 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 399 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 400 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 401 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 402 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 403 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 404 scraped.
+28-05- 2024 16:41:30 - main - INFO - Element 405 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 406 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 407 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 408 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 409 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 410 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 411 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 412 scraped.
+28-05- 2024 16:41:31 - main - INFO - Element 413 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 414 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 415 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 416 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 417 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 418 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 419 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 420 scraped.
+28-05- 2024 16:41:32 - main - INFO - Element 421 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 422 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 423 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 424 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 425 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 426 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 427 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 428 scraped.
+28-05- 2024 16:41:33 - main - INFO - Element 429 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 430 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 431 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 432 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 433 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 434 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 435 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 436 scraped.
+28-05- 2024 16:41:34 - main - INFO - Element 437 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 438 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 439 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 440 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 441 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 442 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 443 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 444 scraped.
+28-05- 2024 16:41:35 - main - INFO - Element 445 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 446 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 447 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 448 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 449 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 450 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 451 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 452 scraped.
+28-05- 2024 16:41:36 - main - INFO - Element 453 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 454 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 455 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 456 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 457 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 458 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 459 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 460 scraped.
+28-05- 2024 16:41:37 - main - INFO - Element 461 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 462 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 463 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 464 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 465 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 466 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 467 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 468 scraped.
+28-05- 2024 16:41:38 - main - INFO - Element 469 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 470 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 471 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 472 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 473 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 474 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 475 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 476 scraped.
+28-05- 2024 16:41:39 - main - INFO - Element 477 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 478 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 479 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 480 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 481 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 482 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 483 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 484 scraped.
+28-05- 2024 16:41:40 - main - INFO - Element 485 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 486 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 487 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 488 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 489 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 490 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 491 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 492 scraped.
+28-05- 2024 16:41:41 - main - INFO - Element 493 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 494 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 495 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 496 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 497 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 498 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 499 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 500 scraped.
+28-05- 2024 16:41:42 - main - INFO - Element 501 scraped.
+28-05- 2024 16:41:43 - main - INFO - Element 502 scraped.
+28-05- 2024 16:41:43 - main - INFO - Element 503 scraped.
+28-05- 2024 16:41:43 - main - INFO - Element 504 scraped.
+28-05- 2024 16:41:43 - main - INFO - Element 505 scraped.
+28-05- 2024 16:41:43 - main - INFO - Element 506 scraped.
+28-05- 2024 16:41:43 - main - INFO - Element 507 scraped.
+28-05- 2024 16:41:43 - main - INFO - Element 508 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 509 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 510 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 511 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 512 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 513 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 514 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 515 scraped.
+28-05- 2024 16:41:44 - main - INFO - Element 516 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 517 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 518 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 519 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 520 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 521 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 522 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 523 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 524 scraped.
+28-05- 2024 16:41:45 - main - INFO - Element 525 scraped.
+28-05- 2024 16:41:46 - main - INFO - Element 526 scraped.
+28-05- 2024 16:41:46 - main - INFO - Element 527 scraped.
+28-05- 2024 16:41:46 - main - INFO - Element 528 scraped.
+28-05- 2024 16:41:46 - main - INFO - Element 529 scraped.
+28-05- 2024 16:41:46 - main - INFO - Element 530 scraped.
+28-05- 2024 16:41:46 - main - INFO - Element 531 scraped.
+28-05- 2024 16:41:46 - main - INFO - Element 532 scraped.
+28-05- 2024 16:41:47 - main - INFO - Element 533 scraped.
+28-05- 2024 16:41:47 - main - INFO - Element 534 scraped.
+28-05- 2024 16:41:47 - main - INFO - Element 535 scraped.
+28-05- 2024 16:41:47 - main - INFO - Element 536 scraped.
+28-05- 2024 16:41:47 - main - INFO - Element 537 scraped.
+28-05- 2024 16:41:47 - main - INFO - Element 538 scraped.
+28-05- 2024 16:41:47 - main - INFO - Element 539 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 540 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 541 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 542 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 543 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 544 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 545 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 546 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 547 scraped.
+28-05- 2024 16:41:48 - main - INFO - Element 548 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 549 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 550 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 551 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 552 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 553 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 554 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 555 scraped.
+28-05- 2024 16:41:49 - main - INFO - Element 556 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 557 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 558 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 559 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 560 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 561 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 562 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 563 scraped.
+28-05- 2024 16:41:50 - main - INFO - Element 564 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 565 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 566 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 567 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 568 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 569 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 570 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 571 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 572 scraped.
+28-05- 2024 16:41:51 - main - INFO - Element 573 scraped.
+28-05- 2024 16:41:52 - main - INFO - Element 574 scraped.
+28-05- 2024 16:41:52 - main - INFO - Element 575 scraped.
+28-05- 2024 16:41:52 - main - INFO - Element 576 scraped.
+28-05- 2024 16:41:53 - main - INFO - Element 577 scraped.
+28-05- 2024 16:41:53 - main - INFO - Element 578 scraped.
+28-05- 2024 16:41:53 - main - INFO - Element 579 scraped.
+28-05- 2024 16:41:53 - main - INFO - Element 580 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 581 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 582 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 583 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 584 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 585 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 586 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 587 scraped.
+28-05- 2024 16:41:54 - main - INFO - Element 588 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 589 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 590 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 591 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 592 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 593 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 594 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 595 scraped.
+28-05- 2024 16:41:55 - main - INFO - Element 596 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 597 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 598 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 599 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 600 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 601 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 602 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 603 scraped.
+28-05- 2024 16:41:56 - main - INFO - Element 604 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 605 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 606 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 607 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 608 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 609 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 610 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 611 scraped.
+28-05- 2024 16:41:57 - main - INFO - Element 612 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 613 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 614 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 615 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 616 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 617 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 618 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 619 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 620 scraped.
+28-05- 2024 16:41:58 - main - INFO - Element 621 scraped.
+28-05- 2024 16:41:59 - main - INFO - Element 622 scraped.
+28-05- 2024 16:41:59 - main - INFO - Element 623 scraped.
+28-05- 2024 16:41:59 - main - INFO - Element 624 scraped.
+28-05- 2024 16:41:59 - main - INFO - Element 625 scraped.
+28-05- 2024 16:41:59 - main - INFO - Element 626 scraped.
+28-05- 2024 16:41:59 - main - INFO - Element 627 scraped.
+28-05- 2024 16:41:59 - main - INFO - Element 628 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 629 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 630 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 631 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 632 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 633 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 634 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 635 scraped.
+28-05- 2024 16:42:00 - main - INFO - Element 636 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 637 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 638 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 639 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 640 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 641 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 642 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 643 scraped.
+28-05- 2024 16:42:01 - main - INFO - Element 644 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 645 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 646 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 647 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 648 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 649 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 650 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 651 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 652 scraped.
+28-05- 2024 16:42:02 - main - INFO - Element 653 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 654 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 655 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 656 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 657 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 658 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 659 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 660 scraped.
+28-05- 2024 16:42:03 - main - INFO - Element 661 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 662 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 663 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 664 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 665 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 666 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 667 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 668 scraped.
+28-05- 2024 16:42:04 - main - INFO - Element 669 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 670 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 671 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 672 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 673 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 674 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 675 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 676 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 677 scraped.
+28-05- 2024 16:42:05 - main - INFO - Element 678 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 679 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 680 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 681 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 682 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 683 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 684 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 685 scraped.
+28-05- 2024 16:42:06 - main - INFO - Element 686 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 687 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 688 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 689 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 690 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 691 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 692 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 693 scraped.
+28-05- 2024 16:42:07 - main - INFO - Element 694 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 695 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 696 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 697 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 698 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 699 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 700 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 701 scraped.
+28-05- 2024 16:42:08 - main - INFO - Element 702 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 703 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 704 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 705 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 706 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 707 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 708 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 709 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 710 scraped.
+28-05- 2024 16:42:09 - main - INFO - Element 711 scraped.
+28-05- 2024 16:42:10 - main - INFO - Element 712 scraped.
+28-05- 2024 16:42:10 - main - INFO - Element 713 scraped.
+28-05- 2024 16:42:10 - main - INFO - Element 714 scraped.
+28-05- 2024 16:42:10 - main - INFO - Element 715 scraped.
+28-05- 2024 16:42:10 - main - INFO - Element 716 scraped.
+28-05- 2024 16:42:10 - main - INFO - Element 717 scraped.
+28-05- 2024 16:42:10 - main - INFO - Element 718 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 719 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 720 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 721 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 722 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 723 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 724 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 725 scraped.
+28-05- 2024 16:42:11 - main - INFO - Element 726 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 727 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 728 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 729 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 730 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 731 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 732 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 733 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 734 scraped.
+28-05- 2024 16:42:12 - main - INFO - Element 735 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 736 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 737 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 738 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 739 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 740 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 741 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 742 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 743 scraped.
+28-05- 2024 16:42:13 - main - INFO - Element 744 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 745 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 746 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 747 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 748 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 749 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 750 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 751 scraped.
+28-05- 2024 16:42:14 - main - INFO - Element 752 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 753 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 754 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 755 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 756 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 757 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 758 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 759 scraped.
+28-05- 2024 16:42:15 - main - INFO - Element 760 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 761 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 762 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 763 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 764 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 765 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 766 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 767 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 768 scraped.
+28-05- 2024 16:42:16 - main - INFO - Element 769 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 770 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 771 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 772 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 773 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 774 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 775 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 776 scraped.
+28-05- 2024 16:42:17 - main - INFO - Element 777 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 778 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 779 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 780 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 781 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 782 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 783 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 784 scraped.
+28-05- 2024 16:42:18 - main - INFO - Element 785 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 786 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 787 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 788 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 789 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 790 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 791 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 792 scraped.
+28-05- 2024 16:42:19 - main - INFO - Element 793 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 794 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 795 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 796 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 797 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 798 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 799 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 800 scraped.
+28-05- 2024 16:42:20 - main - INFO - Element 801 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 802 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 803 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 804 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 805 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 806 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 807 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 808 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 809 scraped.
+28-05- 2024 16:42:21 - main - INFO - Element 810 scraped.
+28-05- 2024 16:42:22 - main - INFO - Element 811 scraped.
+28-05- 2024 16:42:22 - main - INFO - Element 812 scraped.
+28-05- 2024 16:42:22 - main - INFO - Element 813 scraped.
+28-05- 2024 16:42:22 - main - INFO - Element 814 scraped.
+28-05- 2024 16:42:22 - main - INFO - Element 815 scraped.
+28-05- 2024 16:42:22 - main - INFO - Element 816 scraped.
+28-05- 2024 16:42:22 - main - INFO - Element 817 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 818 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 819 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 820 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 821 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 822 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 823 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 824 scraped.
+28-05- 2024 16:42:23 - main - INFO - Element 825 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 826 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 827 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 828 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 829 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 830 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 831 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 832 scraped.
+28-05- 2024 16:42:24 - main - INFO - Element 833 scraped.
+28-05- 2024 16:42:25 - main - INFO - Element 834 scraped.
+28-05- 2024 16:42:25 - main - INFO - Element 835 scraped.
+28-05- 2024 16:42:25 - main - INFO - Element 836 scraped.
+28-05- 2024 16:42:25 - main - INFO - Element 837 scraped.
+28-05- 2024 16:42:25 - main - INFO - Element 838 scraped.
+28-05- 2024 16:42:25 - main - INFO - Element 839 scraped.
+28-05- 2024 16:42:25 - main - INFO - Element 840 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 841 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 842 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 843 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 844 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 845 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 846 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 847 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 848 scraped.
+28-05- 2024 16:42:26 - main - INFO - Element 849 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 850 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 851 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 852 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 853 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 854 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 855 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 856 scraped.
+28-05- 2024 16:42:27 - main - INFO - Element 857 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 858 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 859 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 860 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 861 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 862 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 863 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 864 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 865 scraped.
+28-05- 2024 16:42:28 - main - INFO - Element 866 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 867 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 868 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 869 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 870 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 871 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 872 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 873 scraped.
+28-05- 2024 16:42:29 - main - INFO - Element 874 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 875 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 876 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 877 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 878 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 879 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 880 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 881 scraped.
+28-05- 2024 16:42:30 - main - INFO - Element 882 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 883 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 884 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 885 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 886 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 887 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 888 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 889 scraped.
+28-05- 2024 16:42:31 - main - INFO - Element 890 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 891 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 892 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 893 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 894 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 895 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 896 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 897 scraped.
+28-05- 2024 16:42:32 - main - INFO - Element 898 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 899 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 900 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 901 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 902 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 903 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 904 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 905 scraped.
+28-05- 2024 16:42:33 - main - INFO - Element 906 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 907 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 908 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 909 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 910 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 911 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 912 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 913 scraped.
+28-05- 2024 16:42:34 - main - INFO - Element 914 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 915 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 916 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 917 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 918 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 919 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 920 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 921 scraped.
+28-05- 2024 16:42:35 - main - INFO - Element 922 scraped.
+28-05- 2024 16:42:36 - main - INFO - Element 923 scraped.
+28-05- 2024 16:42:36 - main - INFO - Element 924 scraped.
+28-05- 2024 16:42:36 - main - INFO - Element 925 scraped.
+28-05- 2024 16:42:36 - main - INFO - Element 926 scraped.
+28-05- 2024 16:42:36 - main - INFO - Element 927 scraped.
+28-05- 2024 16:42:36 - main - INFO - Element 928 scraped.
+28-05- 2024 16:42:36 - main - INFO - Element 929 scraped.
+28-05- 2024 16:42:37 - main - INFO - Element 930 scraped.
+28-05- 2024 16:42:37 - main - INFO - Element 931 scraped.
+28-05- 2024 16:42:37 - main - INFO - Element 932 scraped.
+28-05- 2024 16:42:37 - main - INFO - Element 933 scraped.
+28-05- 2024 16:42:37 - main - INFO - Element 934 scraped.
+28-05- 2024 16:42:37 - main - INFO - Element 935 scraped.
+28-05- 2024 16:42:38 - main - INFO - Element 936 scraped.
+28-05- 2024 16:42:38 - main - INFO - Element 937 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 938 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 939 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 940 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 941 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 942 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 943 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 944 scraped.
+28-05- 2024 16:42:39 - main - INFO - Element 945 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 946 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 947 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 948 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 949 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 950 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 951 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 952 scraped.
+28-05- 2024 16:42:40 - main - INFO - Element 953 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 954 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 955 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 956 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 957 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 958 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 959 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 960 scraped.
+28-05- 2024 16:42:41 - main - INFO - Element 961 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 962 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 963 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 964 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 965 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 966 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 967 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 968 scraped.
+28-05- 2024 16:42:42 - main - INFO - Element 969 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 970 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 971 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 972 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 973 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 974 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 975 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 976 scraped.
+28-05- 2024 16:42:43 - main - INFO - Element 977 scraped.
+28-05- 2024 16:42:44 - main - INFO - Element 978 scraped.
+28-05- 2024 16:42:44 - main - INFO - Element 979 scraped.
+28-05- 2024 16:42:44 - main - INFO - Element 980 scraped.
+28-05- 2024 16:42:44 - main - INFO - Element 981 scraped.
+28-05- 2024 16:42:44 - main - INFO - Element 982 scraped.
+28-05- 2024 16:42:44 - main - INFO - Element 983 scraped.
+28-05- 2024 16:42:44 - main - INFO - Element 984 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 985 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 986 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 987 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 988 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 989 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 990 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 991 scraped.
+28-05- 2024 16:42:45 - main - INFO - Element 992 scraped.
+28-05- 2024 16:42:46 - main - INFO - Element 993 scraped.
+28-05- 2024 16:42:46 - main - INFO - Element 994 scraped.
+28-05- 2024 16:42:46 - main - INFO - Element 995 scraped.
+28-05- 2024 16:42:46 - main - INFO - Element 996 scraped.
+28-05- 2024 16:42:46 - main - INFO - Element 997 scraped.
+28-05- 2024 16:42:46 - main - INFO - Element 998 scraped.
+28-05- 2024 16:42:46 - main - INFO - Element 999 scraped.
+28-05- 2024 16:42:47 - main - INFO - Element 1000 scraped.
+28-05- 2024 16:42:47 - main - INFO - Element 1001 scraped.
+28-05- 2024 16:42:47 - main - INFO - Element 1002 scraped.
+28-05- 2024 16:42:47 - main - INFO - Element 1003 scraped.
+28-05- 2024 16:42:48 - main - INFO - Saving substances to substancesV4.json
+28-05- 2024 16:42:48 - main - INFO - Scraping finished
+28-05- 2024 17:53:30 - main - INFO - Scraping started
+28-05- 2024 17:53:33 - main - INFO - Element 1 scraped.
+28-05- 2024 17:53:33 - main - INFO - Element 2 scraped.
+28-05- 2024 17:53:34 - main - INFO - Element 3 scraped.
+28-05- 2024 17:53:34 - main - INFO - Element 4 scraped.
+28-05- 2024 17:53:35 - main - INFO - Element 5 scraped.
+28-05- 2024 17:53:35 - main - INFO - Element 6 scraped.
+28-05- 2024 17:53:35 - main - INFO - Element 7 scraped.
+28-05- 2024 17:53:35 - main - INFO - Element 8 scraped.
+28-05- 2024 17:53:35 - main - INFO - Element 9 scraped.
+28-05- 2024 17:53:35 - main - INFO - Element 10 scraped.
+28-05- 2024 17:53:35 - main - INFO - Element 11 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 12 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 13 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 14 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 15 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 16 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 17 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 18 scraped.
+28-05- 2024 17:53:36 - main - INFO - Element 19 scraped.
+28-05- 2024 17:53:37 - main - INFO - Element 20 scraped.
+28-05- 2024 17:53:37 - main - INFO - Saving substances to substances.json
+28-05- 2024 17:53:37 - main - INFO - Scraping finished
+28-05- 2024 17:54:19 - main - INFO - Scraping started
+28-05- 2024 17:54:22 - main - INFO - Element 1 scraped.
+28-05- 2024 17:54:22 - main - INFO - Element 2 scraped.
+28-05- 2024 17:54:23 - main - INFO - Element 3 scraped.
+28-05- 2024 17:54:24 - main - INFO - Element 4 scraped.
+28-05- 2024 17:54:24 - main - INFO - Element 5 scraped.
+28-05- 2024 17:54:25 - main - INFO - Element 6 scraped.
+28-05- 2024 17:54:25 - main - INFO - Element 7 scraped.
+28-05- 2024 17:54:25 - main - INFO - Element 8 scraped.
+28-05- 2024 17:54:25 - main - INFO - Element 9 scraped.
+28-05- 2024 17:54:25 - main - INFO - Element 10 scraped.
+28-05- 2024 17:54:25 - main - INFO - Element 11 scraped.
+28-05- 2024 17:54:25 - main - INFO - Element 12 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 13 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 14 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 15 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 16 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 17 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 18 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 19 scraped.
+28-05- 2024 17:54:26 - main - INFO - Element 20 scraped.
+28-05- 2024 17:54:26 - main - INFO - Saving substances to substances.json
+28-05- 2024 17:54:26 - main - INFO - Scraping finished
+29-06- 2024 19:38:20 - main - INFO - Scraping started
+29-06- 2024 19:38:22 - main - INFO - Element 1 scraped.
+29-06- 2024 19:38:22 - main - INFO - Element 2 scraped.
+29-06- 2024 19:38:22 - main - INFO - Element 3 scraped.
+29-06- 2024 19:38:22 - main - INFO - Element 4 scraped.
+29-06- 2024 19:38:23 - main - INFO - Element 5 scraped.
+29-06- 2024 19:38:23 - main - INFO - Element 6 scraped.
+29-06- 2024 19:38:23 - main - INFO - Element 7 scraped.
+29-06- 2024 19:38:23 - main - INFO - Element 8 scraped.
+29-06- 2024 19:38:23 - main - INFO - Element 9 scraped.
+29-06- 2024 19:38:23 - main - INFO - Element 10 scraped.
+29-06- 2024 19:38:23 - main - INFO - Element 11 scraped.
+29-06- 2024 19:38:24 - main - INFO - Element 12 scraped.
+29-06- 2024 19:38:24 - main - INFO - Element 13 scraped.
+29-06- 2024 19:38:24 - main - INFO - Element 14 scraped.
+29-06- 2024 19:38:24 - main - INFO - Element 15 scraped.
+29-06- 2024 19:38:24 - main - INFO - Element 16 scraped.
+29-06- 2024 19:38:24 - main - INFO - Element 17 scraped.
+29-06- 2024 19:38:24 - main - INFO - Element 18 scraped.
+29-06- 2024 19:38:25 - main - INFO - Element 19 scraped.
+29-06- 2024 19:38:25 - main - INFO - Element 20 scraped.
+29-06- 2024 19:38:25 - main - INFO - Saving substances to substances.json
+29-06- 2024 19:38:25 - main - INFO - Scraping finished
+29-06- 2024 19:39:17 - main - INFO - Scraping started
+29-06- 2024 19:39:19 - main - INFO - Element 1 scraped.
+29-06- 2024 19:39:19 - main - INFO - Element 2 scraped.
+29-06- 2024 19:39:19 - main - INFO - Element 3 scraped.
+29-06- 2024 19:39:19 - main - INFO - Element 4 scraped.
+29-06- 2024 19:39:20 - main - INFO - Element 5 scraped.
+29-06- 2024 19:39:20 - main - INFO - Element 6 scraped.
+29-06- 2024 19:39:20 - main - INFO - Element 7 scraped.
+29-06- 2024 19:39:20 - main - INFO - Element 8 scraped.
+29-06- 2024 19:39:20 - main - INFO - Element 9 scraped.
+29-06- 2024 19:39:20 - main - INFO - Element 10 scraped.
+29-06- 2024 19:39:20 - main - INFO - Element 11 scraped.
+29-06- 2024 19:39:21 - main - INFO - Element 12 scraped.
+29-06- 2024 19:39:21 - main - INFO - Element 13 scraped.
+29-06- 2024 19:39:21 - main - INFO - Element 14 scraped.
+29-06- 2024 19:39:21 - main - INFO - Element 15 scraped.
+29-06- 2024 19:39:21 - main - INFO - Element 16 scraped.
+29-06- 2024 19:39:21 - main - INFO - Element 17 scraped.
+29-06- 2024 19:39:21 - main - INFO - Element 18 scraped.
+29-06- 2024 19:39:22 - main - INFO - Element 19 scraped.
+29-06- 2024 19:39:22 - main - INFO - Element 20 scraped.
+29-06- 2024 19:39:22 - main - INFO - Saving substances to substances.json
+29-06- 2024 19:39:22 - main - INFO - Scraping finished
+30-06- 2024 14:24:19 - main - INFO - Scraping started
+30-06- 2024 14:24:20 - main - INFO - Element 1 scraped.
+30-06- 2024 14:24:20 - main - INFO - Element 2 scraped.
+30-06- 2024 14:24:21 - main - INFO - Element 3 scraped.
+30-06- 2024 14:24:21 - main - INFO - Element 4 scraped.
+30-06- 2024 14:24:21 - main - INFO - Element 5 scraped.
+30-06- 2024 14:24:21 - main - INFO - Element 6 scraped.
+30-06- 2024 14:24:21 - main - INFO - Element 7 scraped.
+30-06- 2024 14:24:21 - main - INFO - Element 8 scraped.
+30-06- 2024 14:24:22 - main - INFO - Element 9 scraped.
+30-06- 2024 14:24:22 - main - INFO - Element 10 scraped.
+30-06- 2024 14:24:22 - main - INFO - Element 11 scraped.
+30-06- 2024 14:24:23 - main - INFO - Element 12 scraped.
+30-06- 2024 14:24:23 - main - INFO - Element 13 scraped.
+30-06- 2024 14:24:23 - main - INFO - Element 14 scraped.
+30-06- 2024 14:24:23 - main - INFO - Element 15 scraped.
+30-06- 2024 14:24:23 - main - INFO - Element 16 scraped.
+30-06- 2024 14:24:23 - main - INFO - Element 17 scraped.
+30-06- 2024 14:24:23 - main - INFO - Element 18 scraped.
+30-06- 2024 14:24:24 - main - INFO - Element 19 scraped.
+30-06- 2024 14:24:24 - main - INFO - Element 20 scraped.
+30-06- 2024 14:24:24 - main - INFO - Saving substances to substances.json
+30-06- 2024 14:24:24 - main - INFO - Scraping finished
+30-06- 2024 14:24:33 - main - INFO - Scraping started
+30-06- 2024 14:24:34 - main - INFO - Element 1 scraped.
+30-06- 2024 14:24:34 - main - INFO - Element 2 scraped.
+30-06- 2024 14:24:34 - main - INFO - Element 3 scraped.
+30-06- 2024 14:24:35 - main - INFO - Element 4 scraped.
+30-06- 2024 14:24:35 - main - INFO - Element 5 scraped.
+30-06- 2024 14:24:35 - main - INFO - Element 6 scraped.
+30-06- 2024 14:24:35 - main - INFO - Element 7 scraped.
+30-06- 2024 14:24:35 - main - INFO - Element 8 scraped.
+30-06- 2024 14:24:35 - main - INFO - Element 9 scraped.
+30-06- 2024 14:24:36 - main - INFO - Element 10 scraped.
+30-06- 2024 14:24:36 - main - INFO - Element 11 scraped.
+30-06- 2024 14:24:36 - main - INFO - Element 12 scraped.
+30-06- 2024 14:24:36 - main - INFO - Element 13 scraped.
+30-06- 2024 14:24:36 - main - INFO - Element 14 scraped.
+30-06- 2024 14:24:36 - main - INFO - Element 15 scraped.
+30-06- 2024 14:24:36 - main - INFO - Element 16 scraped.
+30-06- 2024 14:24:38 - main - INFO - Element 17 scraped.
+30-06- 2024 14:24:38 - main - INFO - Element 18 scraped.
+30-06- 2024 14:24:38 - main - INFO - Element 19 scraped.
+30-06- 2024 14:24:38 - main - INFO - Element 20 scraped.
+30-06- 2024 14:24:38 - main - INFO - Saving substances to substances.json
+30-06- 2024 14:24:38 - main - INFO - Scraping finished
+30-06- 2024 14:48:12 - main - INFO - Scraping started
+30-06- 2024 14:48:13 - main - INFO - Element 1 scraped.
+30-06- 2024 14:48:13 - main - INFO - Element 2 scraped.
+30-06- 2024 14:48:13 - main - INFO - Element 3 scraped.
+30-06- 2024 14:48:13 - main - INFO - Element 4 scraped.
+30-06- 2024 14:48:14 - main - INFO - Element 5 scraped.
+30-06- 2024 14:48:14 - main - INFO - Element 6 scraped.
+30-06- 2024 14:48:14 - main - INFO - Element 7 scraped.
+30-06- 2024 14:48:14 - main - INFO - Element 8 scraped.
+30-06- 2024 14:48:14 - main - INFO - Element 9 scraped.
+30-06- 2024 14:48:14 - main - INFO - Element 10 scraped.
+30-06- 2024 14:48:15 - main - INFO - Element 11 scraped.
+30-06- 2024 14:48:15 - main - INFO - Element 12 scraped.
+30-06- 2024 14:48:15 - main - INFO - Element 13 scraped.
+30-06- 2024 14:48:15 - main - INFO - Element 14 scraped.
+30-06- 2024 14:48:16 - main - INFO - Element 15 scraped.
+30-06- 2024 14:48:16 - main - INFO - Element 16 scraped.
+30-06- 2024 14:48:16 - main - INFO - Element 17 scraped.
+30-06- 2024 14:48:16 - main - INFO - Element 18 scraped.
+30-06- 2024 14:48:16 - main - INFO - Element 19 scraped.
+30-06- 2024 14:48:16 - main - INFO - Element 20 scraped.
+30-06- 2024 14:48:16 - main - INFO - Saving substances to substances.json
+30-06- 2024 14:48:16 - main - INFO - Scraping finished
+30-06- 2024 14:49:42 - main - INFO - Scraping started
+30-06- 2024 14:49:44 - main - INFO - Element 1 scraped.
+30-06- 2024 14:49:44 - main - INFO - Element 2 scraped.
+30-06- 2024 14:49:44 - main - INFO - Element 3 scraped.
+30-06- 2024 14:49:44 - main - INFO - Element 4 scraped.
+30-06- 2024 14:49:44 - main - INFO - Element 5 scraped.
+30-06- 2024 14:49:45 - main - INFO - Element 6 scraped.
+30-06- 2024 14:49:45 - main - INFO - Element 7 scraped.
+30-06- 2024 14:49:45 - main - INFO - Element 8 scraped.
+30-06- 2024 14:49:45 - main - INFO - Element 9 scraped.
+30-06- 2024 14:49:45 - main - INFO - Element 10 scraped.
+30-06- 2024 14:49:45 - main - INFO - Element 11 scraped.
+30-06- 2024 14:49:45 - main - INFO - Element 12 scraped.
+30-06- 2024 14:49:46 - main - INFO - Element 13 scraped.
+30-06- 2024 14:49:46 - main - INFO - Element 14 scraped.
+30-06- 2024 14:49:46 - main - INFO - Element 15 scraped.
+30-06- 2024 14:49:46 - main - INFO - Element 16 scraped.
+30-06- 2024 14:49:46 - main - INFO - Element 17 scraped.
+30-06- 2024 14:49:46 - main - INFO - Element 18 scraped.
+30-06- 2024 14:49:47 - main - INFO - Element 19 scraped.
+30-06- 2024 14:49:47 - main - INFO - Element 20 scraped.
+30-06- 2024 14:49:47 - main - INFO - Saving substances to substances.json
+30-06- 2024 14:49:47 - main - INFO - Scraping finished
+30-06- 2024 14:58:14 - main - INFO - Scraping started
+30-06- 2024 14:58:15 - main - INFO - Element 1 scraped.
+30-06- 2024 14:58:15 - main - INFO - Element 2 scraped.
+30-06- 2024 14:58:15 - main - INFO - Element 3 scraped.
+30-06- 2024 14:58:16 - main - INFO - Element 4 scraped.
+30-06- 2024 14:58:16 - main - INFO - Element 5 scraped.
+30-06- 2024 14:58:17 - main - INFO - Element 6 scraped.
+30-06- 2024 14:58:17 - main - INFO - Element 7 scraped.
+30-06- 2024 14:58:17 - main - INFO - Element 8 scraped.
+30-06- 2024 14:58:17 - main - INFO - Element 9 scraped.
+30-06- 2024 14:58:18 - main - INFO - Element 10 scraped.
+30-06- 2024 14:58:18 - main - INFO - Element 11 scraped.
+30-06- 2024 14:58:18 - main - INFO - Element 12 scraped.
+30-06- 2024 14:58:18 - main - INFO - Element 13 scraped.
+30-06- 2024 14:58:18 - main - INFO - Element 14 scraped.
+30-06- 2024 14:58:18 - main - INFO - Element 15 scraped.
+30-06- 2024 14:58:19 - main - INFO - Element 16 scraped.
+30-06- 2024 14:58:19 - main - INFO - Element 17 scraped.
+30-06- 2024 14:58:19 - main - INFO - Element 18 scraped.
+30-06- 2024 14:58:19 - main - INFO - Element 19 scraped.
+30-06- 2024 14:58:19 - main - INFO - Element 20 scraped.
+30-06- 2024 14:58:19 - main - INFO - Saving substances to substances.json
+30-06- 2024 14:58:19 - main - INFO - Scraping finished
+30-06- 2024 14:59:57 - main - INFO - Scraping started
+30-06- 2024 14:59:59 - main - INFO - Element 1 scraped.
+30-06- 2024 14:59:59 - main - INFO - Element 2 scraped.
+30-06- 2024 14:59:59 - main - INFO - Element 3 scraped.
+30-06- 2024 14:59:59 - main - INFO - Element 4 scraped.
+30-06- 2024 14:59:59 - main - INFO - Element 5 scraped.
+30-06- 2024 14:59:59 - main - INFO - Element 6 scraped.
+30-06- 2024 14:59:59 - main - INFO - Element 7 scraped.
+30-06- 2024 15:00:00 - main - INFO - Element 8 scraped.
+30-06- 2024 15:00:00 - main - INFO - Element 9 scraped.
+30-06- 2024 15:00:00 - main - INFO - Element 10 scraped.
+30-06- 2024 15:00:00 - main - INFO - Element 11 scraped.
+30-06- 2024 15:00:00 - main - INFO - Element 12 scraped.
+30-06- 2024 15:00:00 - main - INFO - Element 13 scraped.
+30-06- 2024 15:00:01 - main - INFO - Element 14 scraped.
+30-06- 2024 15:00:01 - main - INFO - Element 15 scraped.
+30-06- 2024 15:00:01 - main - INFO - Element 16 scraped.
+30-06- 2024 15:00:01 - main - INFO - Element 17 scraped.
+30-06- 2024 15:00:01 - main - INFO - Element 18 scraped.
+30-06- 2024 15:00:01 - main - INFO - Element 19 scraped.
+30-06- 2024 15:00:02 - main - INFO - Element 20 scraped.
+30-06- 2024 15:00:02 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:00:02 - main - INFO - Scraping finished
+30-06- 2024 15:00:15 - main - INFO - Scraping started
+30-06- 2024 15:00:17 - main - INFO - Element 1 scraped.
+30-06- 2024 15:00:17 - main - INFO - Element 2 scraped.
+30-06- 2024 15:00:17 - main - INFO - Element 3 scraped.
+30-06- 2024 15:00:17 - main - INFO - Element 4 scraped.
+30-06- 2024 15:00:17 - main - INFO - Element 5 scraped.
+30-06- 2024 15:00:17 - main - INFO - Element 6 scraped.
+30-06- 2024 15:00:17 - main - INFO - Element 7 scraped.
+30-06- 2024 15:00:17 - main - INFO - Element 8 scraped.
+30-06- 2024 15:00:18 - main - INFO - Element 9 scraped.
+30-06- 2024 15:00:18 - main - INFO - Element 10 scraped.
+30-06- 2024 15:00:18 - main - INFO - Element 11 scraped.
+30-06- 2024 15:00:18 - main - INFO - Element 12 scraped.
+30-06- 2024 15:00:18 - main - INFO - Element 13 scraped.
+30-06- 2024 15:00:18 - main - INFO - Element 14 scraped.
+30-06- 2024 15:00:18 - main - INFO - Element 15 scraped.
+30-06- 2024 15:00:19 - main - INFO - Element 16 scraped.
+30-06- 2024 15:00:19 - main - INFO - Element 17 scraped.
+30-06- 2024 15:00:19 - main - INFO - Element 18 scraped.
+30-06- 2024 15:00:19 - main - INFO - Element 19 scraped.
+30-06- 2024 15:00:19 - main - INFO - Element 20 scraped.
+30-06- 2024 15:00:19 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:00:19 - main - INFO - Scraping finished
+30-06- 2024 15:01:40 - main - INFO - Scraping started
+30-06- 2024 15:01:42 - main - INFO - Element 1 scraped.
+30-06- 2024 15:01:42 - main - INFO - Element 2 scraped.
+30-06- 2024 15:01:42 - main - INFO - Element 3 scraped.
+30-06- 2024 15:01:42 - main - INFO - Element 4 scraped.
+30-06- 2024 15:01:42 - main - INFO - Element 5 scraped.
+30-06- 2024 15:01:42 - main - INFO - Element 6 scraped.
+30-06- 2024 15:01:43 - main - INFO - Element 7 scraped.
+30-06- 2024 15:01:43 - main - INFO - Element 8 scraped.
+30-06- 2024 15:01:43 - main - INFO - Element 9 scraped.
+30-06- 2024 15:01:43 - main - INFO - Element 10 scraped.
+30-06- 2024 15:01:43 - main - INFO - Element 11 scraped.
+30-06- 2024 15:01:43 - main - INFO - Element 12 scraped.
+30-06- 2024 15:01:44 - main - INFO - Element 13 scraped.
+30-06- 2024 15:01:44 - main - INFO - Element 14 scraped.
+30-06- 2024 15:01:44 - main - INFO - Element 15 scraped.
+30-06- 2024 15:01:44 - main - INFO - Element 16 scraped.
+30-06- 2024 15:01:44 - main - INFO - Element 17 scraped.
+30-06- 2024 15:01:44 - main - INFO - Element 18 scraped.
+30-06- 2024 15:01:44 - main - INFO - Element 19 scraped.
+30-06- 2024 15:01:45 - main - INFO - Element 20 scraped.
+30-06- 2024 15:01:45 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:01:45 - main - INFO - Scraping finished
+30-06- 2024 15:02:26 - main - INFO - Scraping started
+30-06- 2024 15:02:27 - main - INFO - Element 1 scraped.
+30-06- 2024 15:02:27 - main - INFO - Element 2 scraped.
+30-06- 2024 15:02:27 - main - INFO - Element 3 scraped.
+30-06- 2024 15:02:28 - main - INFO - Element 4 scraped.
+30-06- 2024 15:02:28 - main - INFO - Element 5 scraped.
+30-06- 2024 15:02:28 - main - INFO - Element 6 scraped.
+30-06- 2024 15:02:28 - main - INFO - Element 7 scraped.
+30-06- 2024 15:02:28 - main - INFO - Element 8 scraped.
+30-06- 2024 15:02:28 - main - INFO - Element 9 scraped.
+30-06- 2024 15:02:28 - main - INFO - Element 10 scraped.
+30-06- 2024 15:02:29 - main - INFO - Element 11 scraped.
+30-06- 2024 15:02:29 - main - INFO - Element 12 scraped.
+30-06- 2024 15:02:29 - main - INFO - Element 13 scraped.
+30-06- 2024 15:02:29 - main - INFO - Element 14 scraped.
+30-06- 2024 15:02:29 - main - INFO - Element 15 scraped.
+30-06- 2024 15:02:29 - main - INFO - Element 16 scraped.
+30-06- 2024 15:02:29 - main - INFO - Element 17 scraped.
+30-06- 2024 15:02:30 - main - INFO - Element 18 scraped.
+30-06- 2024 15:02:30 - main - INFO - Element 19 scraped.
+30-06- 2024 15:02:30 - main - INFO - Element 20 scraped.
+30-06- 2024 15:02:30 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:02:30 - main - INFO - Scraping finished
+30-06- 2024 15:02:56 - main - INFO - Scraping started
+30-06- 2024 15:02:58 - main - INFO - Element 1 scraped.
+30-06- 2024 15:02:58 - main - INFO - Element 2 scraped.
+30-06- 2024 15:02:58 - main - INFO - Element 3 scraped.
+30-06- 2024 15:02:58 - main - INFO - Element 4 scraped.
+30-06- 2024 15:02:59 - main - INFO - Element 5 scraped.
+30-06- 2024 15:02:59 - main - INFO - Element 6 scraped.
+30-06- 2024 15:02:59 - main - INFO - Element 7 scraped.
+30-06- 2024 15:02:59 - main - INFO - Element 8 scraped.
+30-06- 2024 15:02:59 - main - INFO - Element 9 scraped.
+30-06- 2024 15:02:59 - main - INFO - Element 10 scraped.
+30-06- 2024 15:02:59 - main - INFO - Element 11 scraped.
+30-06- 2024 15:03:00 - main - INFO - Element 12 scraped.
+30-06- 2024 15:03:00 - main - INFO - Element 13 scraped.
+30-06- 2024 15:03:00 - main - INFO - Element 14 scraped.
+30-06- 2024 15:03:00 - main - INFO - Element 15 scraped.
+30-06- 2024 15:03:00 - main - INFO - Element 16 scraped.
+30-06- 2024 15:03:00 - main - INFO - Element 17 scraped.
+30-06- 2024 15:03:00 - main - INFO - Element 18 scraped.
+30-06- 2024 15:03:01 - main - INFO - Element 19 scraped.
+30-06- 2024 15:03:01 - main - INFO - Element 20 scraped.
+30-06- 2024 15:03:01 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:03:01 - main - INFO - Scraping finished
+30-06- 2024 15:04:06 - main - INFO - Scraping started
+30-06- 2024 15:04:07 - main - INFO - Element 1 scraped.
+30-06- 2024 15:04:07 - main - INFO - Element 2 scraped.
+30-06- 2024 15:04:07 - main - INFO - Element 3 scraped.
+30-06- 2024 15:04:08 - main - INFO - Element 4 scraped.
+30-06- 2024 15:04:08 - main - INFO - Element 5 scraped.
+30-06- 2024 15:04:08 - main - INFO - Element 6 scraped.
+30-06- 2024 15:04:08 - main - INFO - Element 7 scraped.
+30-06- 2024 15:04:08 - main - INFO - Element 8 scraped.
+30-06- 2024 15:04:08 - main - INFO - Element 9 scraped.
+30-06- 2024 15:04:08 - main - INFO - Element 10 scraped.
+30-06- 2024 15:04:09 - main - INFO - Element 11 scraped.
+30-06- 2024 15:04:09 - main - INFO - Element 12 scraped.
+30-06- 2024 15:04:09 - main - INFO - Element 13 scraped.
+30-06- 2024 15:04:09 - main - INFO - Element 14 scraped.
+30-06- 2024 15:04:09 - main - INFO - Element 15 scraped.
+30-06- 2024 15:04:09 - main - INFO - Element 16 scraped.
+30-06- 2024 15:04:09 - main - INFO - Element 17 scraped.
+30-06- 2024 15:04:10 - main - INFO - Element 18 scraped.
+30-06- 2024 15:04:10 - main - INFO - Element 19 scraped.
+30-06- 2024 15:04:10 - main - INFO - Element 20 scraped.
+30-06- 2024 15:04:10 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:04:10 - main - INFO - Scraping finished
+30-06- 2024 15:04:46 - main - INFO - Scraping started
+30-06- 2024 15:04:48 - main - INFO - Element 1 scraped.
+30-06- 2024 15:04:48 - main - INFO - Element 2 scraped.
+30-06- 2024 15:04:48 - main - INFO - Element 3 scraped.
+30-06- 2024 15:04:48 - main - INFO - Element 4 scraped.
+30-06- 2024 15:04:49 - main - INFO - Element 5 scraped.
+30-06- 2024 15:04:49 - main - INFO - Element 6 scraped.
+30-06- 2024 15:04:49 - main - INFO - Element 7 scraped.
+30-06- 2024 15:04:49 - main - INFO - Element 8 scraped.
+30-06- 2024 15:04:49 - main - INFO - Element 9 scraped.
+30-06- 2024 15:04:49 - main - INFO - Element 10 scraped.
+30-06- 2024 15:04:49 - main - INFO - Element 11 scraped.
+30-06- 2024 15:04:50 - main - INFO - Element 12 scraped.
+30-06- 2024 15:04:50 - main - INFO - Element 13 scraped.
+30-06- 2024 15:04:50 - main - INFO - Element 14 scraped.
+30-06- 2024 15:04:50 - main - INFO - Element 15 scraped.
+30-06- 2024 15:04:50 - main - INFO - Element 16 scraped.
+30-06- 2024 15:04:50 - main - INFO - Element 17 scraped.
+30-06- 2024 15:04:50 - main - INFO - Element 18 scraped.
+30-06- 2024 15:04:51 - main - INFO - Element 19 scraped.
+30-06- 2024 15:04:51 - main - INFO - Element 20 scraped.
+30-06- 2024 15:04:51 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:04:51 - main - INFO - Scraping finished
+30-06- 2024 15:08:55 - main - INFO - Scraping started
+30-06- 2024 15:08:57 - main - INFO - Element 1 scraped.
+30-06- 2024 15:08:57 - main - INFO - Element 2 scraped.
+30-06- 2024 15:08:57 - main - INFO - Element 3 scraped.
+30-06- 2024 15:08:57 - main - INFO - Element 4 scraped.
+30-06- 2024 15:08:57 - main - INFO - Element 5 scraped.
+30-06- 2024 15:08:57 - main - INFO - Element 6 scraped.
+30-06- 2024 15:08:58 - main - INFO - Element 7 scraped.
+30-06- 2024 15:08:58 - main - INFO - Element 8 scraped.
+30-06- 2024 15:08:58 - main - INFO - Element 9 scraped.
+30-06- 2024 15:08:58 - main - INFO - Element 10 scraped.
+30-06- 2024 15:08:58 - main - INFO - Element 11 scraped.
+30-06- 2024 15:08:58 - main - INFO - Element 12 scraped.
+30-06- 2024 15:08:59 - main - INFO - Element 13 scraped.
+30-06- 2024 15:08:59 - main - INFO - Element 14 scraped.
+30-06- 2024 15:08:59 - main - INFO - Element 15 scraped.
+30-06- 2024 15:08:59 - main - INFO - Element 16 scraped.
+30-06- 2024 15:08:59 - main - INFO - Element 17 scraped.
+30-06- 2024 15:08:59 - main - INFO - Element 18 scraped.
+30-06- 2024 15:08:59 - main - INFO - Element 19 scraped.
+30-06- 2024 15:09:00 - main - INFO - Element 20 scraped.
+30-06- 2024 15:09:00 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:09:00 - main - INFO - Scraping finished
+30-06- 2024 15:10:42 - main - INFO - Scraping started
+30-06- 2024 15:10:44 - main - INFO - Element 1 scraped.
+30-06- 2024 15:10:44 - main - INFO - Element 2 scraped.
+30-06- 2024 15:10:44 - main - INFO - Element 3 scraped.
+30-06- 2024 15:10:44 - main - INFO - Element 4 scraped.
+30-06- 2024 15:10:44 - main - INFO - Element 5 scraped.
+30-06- 2024 15:10:44 - main - INFO - Element 6 scraped.
+30-06- 2024 15:10:44 - main - INFO - Element 7 scraped.
+30-06- 2024 15:10:44 - main - INFO - Element 8 scraped.
+30-06- 2024 15:10:45 - main - INFO - Element 9 scraped.
+30-06- 2024 15:10:45 - main - INFO - Element 10 scraped.
+30-06- 2024 15:10:45 - main - INFO - Element 11 scraped.
+30-06- 2024 15:10:45 - main - INFO - Element 12 scraped.
+30-06- 2024 15:10:45 - main - INFO - Element 13 scraped.
+30-06- 2024 15:10:45 - main - INFO - Element 14 scraped.
+30-06- 2024 15:10:46 - main - INFO - Element 15 scraped.
+30-06- 2024 15:10:46 - main - INFO - Element 16 scraped.
+30-06- 2024 15:10:46 - main - INFO - Element 17 scraped.
+30-06- 2024 15:10:46 - main - INFO - Element 18 scraped.
+30-06- 2024 15:10:46 - main - INFO - Element 19 scraped.
+30-06- 2024 15:10:46 - main - INFO - Element 20 scraped.
+30-06- 2024 15:10:46 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:10:46 - main - INFO - Scraping finished
+30-06- 2024 15:14:14 - main - INFO - Scraping started
+30-06- 2024 15:14:16 - main - INFO - Element 1 scraped.
+30-06- 2024 15:14:16 - main - INFO - Element 2 scraped.
+30-06- 2024 15:14:16 - main - INFO - Element 3 scraped.
+30-06- 2024 15:14:16 - main - INFO - Element 4 scraped.
+30-06- 2024 15:14:16 - main - INFO - Element 5 scraped.
+30-06- 2024 15:14:17 - main - INFO - Element 6 scraped.
+30-06- 2024 15:14:17 - main - INFO - Element 7 scraped.
+30-06- 2024 15:14:17 - main - INFO - Element 8 scraped.
+30-06- 2024 15:14:17 - main - INFO - Element 9 scraped.
+30-06- 2024 15:14:17 - main - INFO - Element 10 scraped.
+30-06- 2024 15:14:17 - main - INFO - Element 11 scraped.
+30-06- 2024 15:14:18 - main - INFO - Element 12 scraped.
+30-06- 2024 15:14:18 - main - INFO - Element 13 scraped.
+30-06- 2024 15:14:18 - main - INFO - Element 14 scraped.
+30-06- 2024 15:14:18 - main - INFO - Element 15 scraped.
+30-06- 2024 15:14:18 - main - INFO - Element 16 scraped.
+30-06- 2024 15:14:18 - main - INFO - Element 17 scraped.
+30-06- 2024 15:14:19 - main - INFO - Element 18 scraped.
+30-06- 2024 15:14:19 - main - INFO - Element 19 scraped.
+30-06- 2024 15:14:19 - main - INFO - Element 20 scraped.
+30-06- 2024 15:14:19 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:14:19 - main - INFO - Scraping finished
+30-06- 2024 15:14:54 - main - INFO - Scraping started
+30-06- 2024 15:14:56 - main - INFO - Element 1 scraped.
+30-06- 2024 15:14:56 - main - INFO - Element 2 scraped.
+30-06- 2024 15:14:56 - main - INFO - Element 3 scraped.
+30-06- 2024 15:14:56 - main - INFO - Element 4 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 5 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 6 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 7 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 8 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 9 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 10 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 11 scraped.
+30-06- 2024 15:14:57 - main - INFO - Element 12 scraped.
+30-06- 2024 15:14:58 - main - INFO - Element 13 scraped.
+30-06- 2024 15:14:58 - main - INFO - Element 14 scraped.
+30-06- 2024 15:14:58 - main - INFO - Element 15 scraped.
+30-06- 2024 15:14:58 - main - INFO - Element 16 scraped.
+30-06- 2024 15:14:58 - main - INFO - Element 17 scraped.
+30-06- 2024 15:14:58 - main - INFO - Element 18 scraped.
+30-06- 2024 15:14:59 - main - INFO - Element 19 scraped.
+30-06- 2024 15:14:59 - main - INFO - Element 20 scraped.
+30-06- 2024 15:14:59 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:14:59 - main - INFO - Scraping finished
+30-06- 2024 15:16:01 - main - INFO - Scraping started
+30-06- 2024 15:16:03 - main - INFO - Element 1 scraped.
+30-06- 2024 15:16:03 - main - INFO - Element 2 scraped.
+30-06- 2024 15:16:03 - main - INFO - Element 3 scraped.
+30-06- 2024 15:16:03 - main - INFO - Element 4 scraped.
+30-06- 2024 15:16:03 - main - INFO - Element 5 scraped.
+30-06- 2024 15:16:03 - main - INFO - Element 6 scraped.
+30-06- 2024 15:16:03 - main - INFO - Element 7 scraped.
+30-06- 2024 15:16:04 - main - INFO - Element 8 scraped.
+30-06- 2024 15:16:04 - main - INFO - Element 9 scraped.
+30-06- 2024 15:16:04 - main - INFO - Element 10 scraped.
+30-06- 2024 15:16:04 - main - INFO - Element 11 scraped.
+30-06- 2024 15:16:04 - main - INFO - Element 12 scraped.
+30-06- 2024 15:16:04 - main - INFO - Element 13 scraped.
+30-06- 2024 15:16:04 - main - INFO - Element 14 scraped.
+30-06- 2024 15:16:05 - main - INFO - Element 15 scraped.
+30-06- 2024 15:16:05 - main - INFO - Element 16 scraped.
+30-06- 2024 15:16:05 - main - INFO - Element 17 scraped.
+30-06- 2024 15:16:05 - main - INFO - Element 18 scraped.
+30-06- 2024 15:16:05 - main - INFO - Element 19 scraped.
+30-06- 2024 15:16:05 - main - INFO - Element 20 scraped.
+30-06- 2024 15:16:05 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:16:05 - main - INFO - Scraping finished
+30-06- 2024 15:16:28 - main - INFO - Scraping started
+30-06- 2024 15:16:30 - main - INFO - Element 1 scraped.
+30-06- 2024 15:16:30 - main - INFO - Element 2 scraped.
+30-06- 2024 15:16:30 - main - INFO - Element 3 scraped.
+30-06- 2024 15:16:30 - main - INFO - Element 4 scraped.
+30-06- 2024 15:16:30 - main - INFO - Element 5 scraped.
+30-06- 2024 15:16:31 - main - INFO - Element 6 scraped.
+30-06- 2024 15:16:31 - main - INFO - Element 7 scraped.
+30-06- 2024 15:16:31 - main - INFO - Element 8 scraped.
+30-06- 2024 15:16:31 - main - INFO - Element 9 scraped.
+30-06- 2024 15:16:32 - main - INFO - Element 10 scraped.
+30-06- 2024 15:16:32 - main - INFO - Element 11 scraped.
+30-06- 2024 15:16:32 - main - INFO - Element 12 scraped.
+30-06- 2024 15:16:33 - main - INFO - Element 13 scraped.
+30-06- 2024 15:16:33 - main - INFO - Element 14 scraped.
+30-06- 2024 15:16:33 - main - INFO - Element 15 scraped.
+30-06- 2024 15:16:33 - main - INFO - Element 16 scraped.
+30-06- 2024 15:16:33 - main - INFO - Element 17 scraped.
+30-06- 2024 15:16:33 - main - INFO - Element 18 scraped.
+30-06- 2024 15:16:33 - main - INFO - Element 19 scraped.
+30-06- 2024 15:16:34 - main - INFO - Element 20 scraped.
+30-06- 2024 15:16:34 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:16:34 - main - INFO - Scraping finished
+30-06- 2024 15:20:47 - main - INFO - Scraping started
+30-06- 2024 15:20:48 - main - INFO - Element 1 scraped.
+30-06- 2024 15:20:48 - main - INFO - Element 2 scraped.
+30-06- 2024 15:20:49 - main - INFO - Element 3 scraped.
+30-06- 2024 15:20:49 - main - INFO - Element 4 scraped.
+30-06- 2024 15:20:49 - main - INFO - Element 5 scraped.
+30-06- 2024 15:20:49 - main - INFO - Element 6 scraped.
+30-06- 2024 15:20:49 - main - INFO - Element 7 scraped.
+30-06- 2024 15:20:49 - main - INFO - Element 8 scraped.
+30-06- 2024 15:20:49 - main - INFO - Element 9 scraped.
+30-06- 2024 15:20:50 - main - INFO - Element 10 scraped.
+30-06- 2024 15:20:50 - main - INFO - Element 11 scraped.
+30-06- 2024 15:20:50 - main - INFO - Element 12 scraped.
+30-06- 2024 15:20:50 - main - INFO - Element 13 scraped.
+30-06- 2024 15:20:50 - main - INFO - Element 14 scraped.
+30-06- 2024 15:20:50 - main - INFO - Element 15 scraped.
+30-06- 2024 15:20:50 - main - INFO - Element 16 scraped.
+30-06- 2024 15:20:51 - main - INFO - Element 17 scraped.
+30-06- 2024 15:20:51 - main - INFO - Element 18 scraped.
+30-06- 2024 15:20:51 - main - INFO - Element 19 scraped.
+30-06- 2024 15:20:51 - main - INFO - Element 20 scraped.
+30-06- 2024 15:20:51 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:20:51 - main - INFO - Scraping finished
+30-06- 2024 15:21:31 - main - INFO - Scraping started
+30-06- 2024 15:21:33 - main - INFO - Element 1 scraped.
+30-06- 2024 15:21:33 - main - INFO - Element 2 scraped.
+30-06- 2024 15:21:33 - main - INFO - Element 3 scraped.
+30-06- 2024 15:21:33 - main - INFO - Element 4 scraped.
+30-06- 2024 15:21:33 - main - INFO - Element 5 scraped.
+30-06- 2024 15:21:34 - main - INFO - Element 6 scraped.
+30-06- 2024 15:21:34 - main - INFO - Element 7 scraped.
+30-06- 2024 15:21:34 - main - INFO - Element 8 scraped.
+30-06- 2024 15:21:34 - main - INFO - Element 9 scraped.
+30-06- 2024 15:21:34 - main - INFO - Element 10 scraped.
+30-06- 2024 15:21:34 - main - INFO - Element 11 scraped.
+30-06- 2024 15:21:34 - main - INFO - Element 12 scraped.
+30-06- 2024 15:21:35 - main - INFO - Element 13 scraped.
+30-06- 2024 15:21:35 - main - INFO - Element 14 scraped.
+30-06- 2024 15:21:35 - main - INFO - Element 15 scraped.
+30-06- 2024 15:21:35 - main - INFO - Element 16 scraped.
+30-06- 2024 15:21:35 - main - INFO - Element 17 scraped.
+30-06- 2024 15:21:35 - main - INFO - Element 18 scraped.
+30-06- 2024 15:21:35 - main - INFO - Element 19 scraped.
+30-06- 2024 15:21:36 - main - INFO - Element 20 scraped.
+30-06- 2024 15:21:36 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:21:36 - main - INFO - Scraping finished
+30-06- 2024 15:35:31 - main - INFO - Scraping started
+30-06- 2024 15:35:33 - main - INFO - Element 1 scraped.
+30-06- 2024 15:35:33 - main - INFO - Element 2 scraped.
+30-06- 2024 15:35:33 - main - INFO - Element 3 scraped.
+30-06- 2024 15:35:33 - main - INFO - Element 4 scraped.
+30-06- 2024 15:35:33 - main - INFO - Element 5 scraped.
+30-06- 2024 15:35:34 - main - INFO - Element 6 scraped.
+30-06- 2024 15:35:34 - main - INFO - Element 7 scraped.
+30-06- 2024 15:35:34 - main - INFO - Element 8 scraped.
+30-06- 2024 15:35:34 - main - INFO - Element 9 scraped.
+30-06- 2024 15:35:35 - main - INFO - Element 10 scraped.
+30-06- 2024 15:35:35 - main - INFO - Element 11 scraped.
+30-06- 2024 15:35:35 - main - INFO - Element 12 scraped.
+30-06- 2024 15:35:35 - main - INFO - Element 13 scraped.
+30-06- 2024 15:35:35 - main - INFO - Element 14 scraped.
+30-06- 2024 15:35:35 - main - INFO - Element 15 scraped.
+30-06- 2024 15:35:35 - main - INFO - Element 16 scraped.
+30-06- 2024 15:35:36 - main - INFO - Element 17 scraped.
+30-06- 2024 15:35:36 - main - INFO - Element 18 scraped.
+30-06- 2024 15:35:36 - main - INFO - Element 19 scraped.
+30-06- 2024 15:35:36 - main - INFO - Element 20 scraped.
+30-06- 2024 15:35:36 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:35:36 - main - INFO - Scraping finished
+30-06- 2024 15:36:43 - main - INFO - Scraping started
+30-06- 2024 15:36:44 - main - INFO - Element 1 scraped.
+30-06- 2024 15:36:44 - main - INFO - Element 2 scraped.
+30-06- 2024 15:36:44 - main - INFO - Element 3 scraped.
+30-06- 2024 15:36:45 - main - INFO - Element 4 scraped.
+30-06- 2024 15:36:45 - main - INFO - Element 5 scraped.
+30-06- 2024 15:36:45 - main - INFO - Element 6 scraped.
+30-06- 2024 15:36:45 - main - INFO - Element 7 scraped.
+30-06- 2024 15:36:45 - main - INFO - Element 8 scraped.
+30-06- 2024 15:36:45 - main - INFO - Element 9 scraped.
+30-06- 2024 15:36:45 - main - INFO - Element 10 scraped.
+30-06- 2024 15:36:46 - main - INFO - Element 11 scraped.
+30-06- 2024 15:36:46 - main - INFO - Element 12 scraped.
+30-06- 2024 15:36:46 - main - INFO - Element 13 scraped.
+30-06- 2024 15:36:46 - main - INFO - Element 14 scraped.
+30-06- 2024 15:36:46 - main - INFO - Element 15 scraped.
+30-06- 2024 15:36:46 - main - INFO - Element 16 scraped.
+30-06- 2024 15:36:46 - main - INFO - Element 17 scraped.
+30-06- 2024 15:36:47 - main - INFO - Element 18 scraped.
+30-06- 2024 15:36:47 - main - INFO - Element 19 scraped.
+30-06- 2024 15:36:47 - main - INFO - Element 20 scraped.
+30-06- 2024 15:36:47 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:36:47 - main - INFO - Scraping finished
+30-06- 2024 15:39:21 - main - INFO - Scraping started
+30-06- 2024 15:39:23 - main - INFO - Element 1 scraped.
+30-06- 2024 15:39:23 - main - INFO - Element 2 scraped.
+30-06- 2024 15:39:23 - main - INFO - Element 3 scraped.
+30-06- 2024 15:39:23 - main - INFO - Element 4 scraped.
+30-06- 2024 15:39:23 - main - INFO - Element 5 scraped.
+30-06- 2024 15:39:23 - main - INFO - Element 6 scraped.
+30-06- 2024 15:39:24 - main - INFO - Element 7 scraped.
+30-06- 2024 15:39:24 - main - INFO - Element 8 scraped.
+30-06- 2024 15:39:24 - main - INFO - Element 9 scraped.
+30-06- 2024 15:39:24 - main - INFO - Element 10 scraped.
+30-06- 2024 15:39:24 - main - INFO - Element 11 scraped.
+30-06- 2024 15:39:24 - main - INFO - Element 12 scraped.
+30-06- 2024 15:39:24 - main - INFO - Element 13 scraped.
+30-06- 2024 15:39:25 - main - INFO - Element 14 scraped.
+30-06- 2024 15:39:25 - main - INFO - Element 15 scraped.
+30-06- 2024 15:39:25 - main - INFO - Element 16 scraped.
+30-06- 2024 15:39:25 - main - INFO - Element 17 scraped.
+30-06- 2024 15:39:25 - main - INFO - Element 18 scraped.
+30-06- 2024 15:39:25 - main - INFO - Element 19 scraped.
+30-06- 2024 15:39:25 - main - INFO - Element 20 scraped.
+30-06- 2024 15:39:25 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:39:25 - main - INFO - Scraping finished
+30-06- 2024 15:48:19 - main - INFO - Scraping started
+30-06- 2024 15:48:21 - main - INFO - Element 1 scraped.
+30-06- 2024 15:48:21 - main - INFO - Element 2 scraped.
+30-06- 2024 15:48:21 - main - INFO - Element 3 scraped.
+30-06- 2024 15:48:21 - main - INFO - Element 4 scraped.
+30-06- 2024 15:48:21 - main - INFO - Element 5 scraped.
+30-06- 2024 15:48:21 - main - INFO - Element 6 scraped.
+30-06- 2024 15:48:21 - main - INFO - Element 7 scraped.
+30-06- 2024 15:48:21 - main - INFO - Element 8 scraped.
+30-06- 2024 15:48:22 - main - INFO - Element 9 scraped.
+30-06- 2024 15:48:22 - main - INFO - Element 10 scraped.
+30-06- 2024 15:48:22 - main - INFO - Element 11 scraped.
+30-06- 2024 15:48:22 - main - INFO - Element 12 scraped.
+30-06- 2024 15:48:22 - main - INFO - Element 13 scraped.
+30-06- 2024 15:48:22 - main - INFO - Element 14 scraped.
+30-06- 2024 15:48:22 - main - INFO - Element 15 scraped.
+30-06- 2024 15:48:23 - main - INFO - Element 16 scraped.
+30-06- 2024 15:48:23 - main - INFO - Element 17 scraped.
+30-06- 2024 15:48:23 - main - INFO - Element 18 scraped.
+30-06- 2024 15:48:23 - main - INFO - Element 19 scraped.
+30-06- 2024 15:48:23 - main - INFO - Element 20 scraped.
+30-06- 2024 15:48:23 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:48:23 - main - INFO - Scraping finished
+30-06- 2024 15:55:47 - main - INFO - Scraping started
+30-06- 2024 15:55:49 - main - INFO - Element 1 scraped.
+30-06- 2024 15:55:49 - main - INFO - Element 2 scraped.
+30-06- 2024 15:55:49 - main - INFO - Element 3 scraped.
+30-06- 2024 15:55:49 - main - INFO - Element 4 scraped.
+30-06- 2024 15:55:49 - main - INFO - Element 5 scraped.
+30-06- 2024 15:55:50 - main - INFO - Element 6 scraped.
+30-06- 2024 15:55:50 - main - INFO - Element 7 scraped.
+30-06- 2024 15:55:50 - main - INFO - Element 8 scraped.
+30-06- 2024 15:55:50 - main - INFO - Element 9 scraped.
+30-06- 2024 15:55:50 - main - INFO - Element 10 scraped.
+30-06- 2024 15:55:50 - main - INFO - Element 11 scraped.
+30-06- 2024 15:55:50 - main - INFO - Element 12 scraped.
+30-06- 2024 15:55:51 - main - INFO - Element 13 scraped.
+30-06- 2024 15:55:51 - main - INFO - Element 14 scraped.
+30-06- 2024 15:55:51 - main - INFO - Element 15 scraped.
+30-06- 2024 15:55:51 - main - INFO - Element 16 scraped.
+30-06- 2024 15:55:51 - main - INFO - Element 17 scraped.
+30-06- 2024 15:55:51 - main - INFO - Element 18 scraped.
+30-06- 2024 15:55:51 - main - INFO - Element 19 scraped.
+30-06- 2024 15:55:52 - main - INFO - Element 20 scraped.
+30-06- 2024 15:55:52 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:55:52 - main - INFO - Scraping finished
+30-06- 2024 15:56:50 - main - INFO - Scraping started
+30-06- 2024 15:56:51 - main - INFO - Element 1 scraped.
+30-06- 2024 15:56:51 - main - INFO - Element 2 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 3 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 4 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 5 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 6 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 7 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 8 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 9 scraped.
+30-06- 2024 15:56:52 - main - INFO - Element 10 scraped.
+30-06- 2024 15:56:53 - main - INFO - Element 11 scraped.
+30-06- 2024 15:56:53 - main - INFO - Element 12 scraped.
+30-06- 2024 15:56:53 - main - INFO - Element 13 scraped.
+30-06- 2024 15:56:53 - main - INFO - Element 14 scraped.
+30-06- 2024 15:56:53 - main - INFO - Element 15 scraped.
+30-06- 2024 15:56:53 - main - INFO - Element 16 scraped.
+30-06- 2024 15:56:54 - main - INFO - Element 17 scraped.
+30-06- 2024 15:56:54 - main - INFO - Element 18 scraped.
+30-06- 2024 15:56:54 - main - INFO - Element 19 scraped.
+30-06- 2024 15:56:54 - main - INFO - Element 20 scraped.
+30-06- 2024 15:56:54 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:56:54 - main - INFO - Scraping finished
+30-06- 2024 15:58:37 - main - INFO - Scraping started
+30-06- 2024 15:58:39 - main - INFO - Element 1 scraped.
+30-06- 2024 15:58:39 - main - INFO - Element 2 scraped.
+30-06- 2024 15:58:39 - main - INFO - Element 3 scraped.
+30-06- 2024 15:58:39 - main - INFO - Element 4 scraped.
+30-06- 2024 15:58:39 - main - INFO - Element 5 scraped.
+30-06- 2024 15:58:40 - main - INFO - Element 6 scraped.
+30-06- 2024 15:58:40 - main - INFO - Element 7 scraped.
+30-06- 2024 15:58:40 - main - INFO - Element 8 scraped.
+30-06- 2024 15:58:40 - main - INFO - Element 9 scraped.
+30-06- 2024 15:58:40 - main - INFO - Element 10 scraped.
+30-06- 2024 15:58:40 - main - INFO - Element 11 scraped.
+30-06- 2024 15:58:40 - main - INFO - Element 12 scraped.
+30-06- 2024 15:58:41 - main - INFO - Element 13 scraped.
+30-06- 2024 15:58:41 - main - INFO - Element 14 scraped.
+30-06- 2024 15:58:41 - main - INFO - Element 15 scraped.
+30-06- 2024 15:58:41 - main - INFO - Element 16 scraped.
+30-06- 2024 15:58:41 - main - INFO - Element 17 scraped.
+30-06- 2024 15:58:41 - main - INFO - Element 18 scraped.
+30-06- 2024 15:58:42 - main - INFO - Element 19 scraped.
+30-06- 2024 15:58:42 - main - INFO - Element 20 scraped.
+30-06- 2024 15:58:42 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:58:42 - main - INFO - Scraping finished
+30-06- 2024 15:59:45 - main - INFO - Scraping started
+30-06- 2024 15:59:46 - main - INFO - Element 1 scraped.
+30-06- 2024 15:59:46 - main - INFO - Element 2 scraped.
+30-06- 2024 15:59:46 - main - INFO - Element 3 scraped.
+30-06- 2024 15:59:47 - main - INFO - Element 4 scraped.
+30-06- 2024 15:59:47 - main - INFO - Element 5 scraped.
+30-06- 2024 15:59:47 - main - INFO - Element 6 scraped.
+30-06- 2024 15:59:47 - main - INFO - Element 7 scraped.
+30-06- 2024 15:59:47 - main - INFO - Element 8 scraped.
+30-06- 2024 15:59:47 - main - INFO - Element 9 scraped.
+30-06- 2024 15:59:47 - main - INFO - Element 10 scraped.
+30-06- 2024 15:59:48 - main - INFO - Element 11 scraped.
+30-06- 2024 15:59:48 - main - INFO - Element 12 scraped.
+30-06- 2024 15:59:48 - main - INFO - Element 13 scraped.
+30-06- 2024 15:59:48 - main - INFO - Element 14 scraped.
+30-06- 2024 15:59:48 - main - INFO - Element 15 scraped.
+30-06- 2024 15:59:48 - main - INFO - Element 16 scraped.
+30-06- 2024 15:59:48 - main - INFO - Element 17 scraped.
+30-06- 2024 15:59:49 - main - INFO - Element 18 scraped.
+30-06- 2024 15:59:49 - main - INFO - Element 19 scraped.
+30-06- 2024 15:59:49 - main - INFO - Element 20 scraped.
+30-06- 2024 15:59:49 - main - INFO - Saving substances to substances.json
+30-06- 2024 15:59:49 - main - INFO - Scraping finished
+30-06- 2024 16:00:13 - main - INFO - Scraping started
+30-06- 2024 16:00:15 - main - INFO - Element 1 scraped.
+30-06- 2024 16:00:15 - main - INFO - Element 2 scraped.
+30-06- 2024 16:00:15 - main - INFO - Element 3 scraped.
+30-06- 2024 16:00:15 - main - INFO - Element 4 scraped.
+30-06- 2024 16:00:15 - main - INFO - Element 5 scraped.
+30-06- 2024 16:00:15 - main - INFO - Element 6 scraped.
+30-06- 2024 16:00:15 - main - INFO - Element 7 scraped.
+30-06- 2024 16:00:15 - main - INFO - Element 8 scraped.
+30-06- 2024 16:00:16 - main - INFO - Element 9 scraped.
+30-06- 2024 16:00:16 - main - INFO - Element 10 scraped.
+30-06- 2024 16:00:16 - main - INFO - Element 11 scraped.
+30-06- 2024 16:00:16 - main - INFO - Element 12 scraped.
+30-06- 2024 16:00:16 - main - INFO - Element 13 scraped.
+30-06- 2024 16:00:16 - main - INFO - Element 14 scraped.
+30-06- 2024 16:00:16 - main - INFO - Element 15 scraped.
+30-06- 2024 16:00:17 - main - INFO - Element 16 scraped.
+30-06- 2024 16:00:17 - main - INFO - Element 17 scraped.
+30-06- 2024 16:00:17 - main - INFO - Element 18 scraped.
+30-06- 2024 16:00:17 - main - INFO - Element 19 scraped.
+30-06- 2024 16:00:17 - main - INFO - Element 20 scraped.
+30-06- 2024 16:00:17 - main - INFO - Saving substances to substances.json
+30-06- 2024 16:00:17 - main - INFO - Scraping finished
+30-06- 2024 16:00:59 - main - INFO - Scraping started
+30-06- 2024 16:01:00 - main - INFO - Element 1 scraped.
+30-06- 2024 16:01:00 - main - INFO - Element 2 scraped.
+30-06- 2024 16:01:00 - main - INFO - Element 3 scraped.
+30-06- 2024 16:01:01 - main - INFO - Element 4 scraped.
+30-06- 2024 16:01:01 - main - INFO - Element 5 scraped.
+30-06- 2024 16:01:01 - main - INFO - Element 6 scraped.
+30-06- 2024 16:01:01 - main - INFO - Element 7 scraped.
+30-06- 2024 16:01:01 - main - INFO - Element 8 scraped.
+30-06- 2024 16:01:01 - main - INFO - Element 9 scraped.
+30-06- 2024 16:01:02 - main - INFO - Element 10 scraped.
+30-06- 2024 16:01:02 - main - INFO - Element 11 scraped.
+30-06- 2024 16:01:02 - main - INFO - Element 12 scraped.
+30-06- 2024 16:01:02 - main - INFO - Element 13 scraped.
+30-06- 2024 16:01:02 - main - INFO - Element 14 scraped.
+30-06- 2024 16:01:02 - main - INFO - Element 15 scraped.
+30-06- 2024 16:01:02 - main - INFO - Element 16 scraped.
+30-06- 2024 16:01:03 - main - INFO - Element 17 scraped.
+30-06- 2024 16:01:03 - main - INFO - Element 18 scraped.
+30-06- 2024 16:01:03 - main - INFO - Element 19 scraped.
+30-06- 2024 16:01:03 - main - INFO - Element 20 scraped.
+30-06- 2024 16:01:03 - main - INFO - Saving substances to substances.json
+30-06- 2024 16:01:03 - main - INFO - Scraping finished
+30-06- 2024 16:02:29 - main - INFO - Scraping started
+30-06- 2024 16:02:31 - main - INFO - Element 1 scraped.
+30-06- 2024 16:02:31 - main - INFO - Element 2 scraped.
+30-06- 2024 16:02:31 - main - INFO - Element 3 scraped.
+30-06- 2024 16:02:31 - main - INFO - Element 4 scraped.
+30-06- 2024 16:02:31 - main - INFO - Element 5 scraped.
+30-06- 2024 16:02:31 - main - INFO - Element 6 scraped.
+30-06- 2024 16:02:31 - main - INFO - Element 7 scraped.
+30-06- 2024 16:02:32 - main - INFO - Element 8 scraped.
+30-06- 2024 16:02:32 - main - INFO - Element 9 scraped.
+30-06- 2024 16:02:32 - main - INFO - Element 10 scraped.
+30-06- 2024 16:02:32 - main - INFO - Element 11 scraped.
+30-06- 2024 16:02:32 - main - INFO - Element 12 scraped.
+30-06- 2024 16:02:32 - main - INFO - Element 13 scraped.
+30-06- 2024 16:02:32 - main - INFO - Element 14 scraped.
+30-06- 2024 16:02:33 - main - INFO - Element 15 scraped.
+30-06- 2024 16:02:33 - main - INFO - Element 16 scraped.
+30-06- 2024 16:02:33 - main - INFO - Element 17 scraped.
+30-06- 2024 16:02:33 - main - INFO - Element 18 scraped.
+30-06- 2024 16:02:33 - main - INFO - Element 19 scraped.
+30-06- 2024 16:02:33 - main - INFO - Element 20 scraped.
+30-06- 2024 16:02:33 - main - INFO - Saving substances to substances.json
+30-06- 2024 16:02:33 - main - INFO - Scraping finished
+30-06- 2024 16:09:28 - main - INFO - Scraping started
+30-06- 2024 16:09:29 - main - INFO - Element 1 scraped.
+30-06- 2024 16:09:29 - main - INFO - Element 2 scraped.
+30-06- 2024 16:09:29 - main - INFO - Element 3 scraped.
+30-06- 2024 16:09:29 - main - INFO - Element 4 scraped.
+30-06- 2024 16:09:30 - main - INFO - Element 5 scraped.
+30-06- 2024 16:09:30 - main - INFO - Element 6 scraped.
+30-06- 2024 16:09:30 - main - INFO - Element 7 scraped.
+30-06- 2024 16:09:30 - main - INFO - Element 8 scraped.
+30-06- 2024 16:09:30 - main - INFO - Element 9 scraped.
+30-06- 2024 16:09:30 - main - INFO - Element 10 scraped.
+30-06- 2024 16:09:30 - main - INFO - Element 11 scraped.
+30-06- 2024 16:09:31 - main - INFO - Element 12 scraped.
+30-06- 2024 16:09:31 - main - INFO - Element 13 scraped.
+30-06- 2024 16:09:31 - main - INFO - Element 14 scraped.
+30-06- 2024 16:09:31 - main - INFO - Element 15 scraped.
+30-06- 2024 16:09:31 - main - INFO - Element 16 scraped.
+30-06- 2024 16:09:31 - main - INFO - Element 17 scraped.
+30-06- 2024 16:09:31 - main - INFO - Element 18 scraped.
+30-06- 2024 16:09:32 - main - INFO - Element 19 scraped.
+30-06- 2024 16:09:32 - main - INFO - Element 20 scraped.
+30-06- 2024 16:09:32 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:09:32 - main - INFO - Scraping finished
+30-06- 2024 16:10:25 - main - INFO - Scraping started
+30-06- 2024 16:10:27 - main - INFO - Element 1 scraped.
+30-06- 2024 16:10:27 - main - INFO - Element 2 scraped.
+30-06- 2024 16:10:27 - main - INFO - Element 3 scraped.
+30-06- 2024 16:10:27 - main - INFO - Element 4 scraped.
+30-06- 2024 16:10:27 - main - INFO - Element 5 scraped.
+30-06- 2024 16:10:27 - main - INFO - Element 6 scraped.
+30-06- 2024 16:10:27 - main - INFO - Element 7 scraped.
+30-06- 2024 16:10:28 - main - INFO - Element 8 scraped.
+30-06- 2024 16:10:28 - main - INFO - Element 9 scraped.
+30-06- 2024 16:10:28 - main - INFO - Element 10 scraped.
+30-06- 2024 16:10:28 - main - INFO - Element 11 scraped.
+30-06- 2024 16:10:28 - main - INFO - Element 12 scraped.
+30-06- 2024 16:10:28 - main - INFO - Element 13 scraped.
+30-06- 2024 16:10:28 - main - INFO - Element 14 scraped.
+30-06- 2024 16:10:29 - main - INFO - Element 15 scraped.
+30-06- 2024 16:10:29 - main - INFO - Element 16 scraped.
+30-06- 2024 16:10:29 - main - INFO - Element 17 scraped.
+30-06- 2024 16:10:29 - main - INFO - Element 18 scraped.
+30-06- 2024 16:10:29 - main - INFO - Element 19 scraped.
+30-06- 2024 16:10:29 - main - INFO - Element 20 scraped.
+30-06- 2024 16:10:29 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:10:29 - main - INFO - Scraping finished
+30-06- 2024 16:20:17 - main - INFO - Scraping started
+30-06- 2024 16:20:19 - main - INFO - Element 1 scraped.
+30-06- 2024 16:20:19 - main - INFO - Element 2 scraped.
+30-06- 2024 16:20:19 - main - INFO - Element 3 scraped.
+30-06- 2024 16:20:19 - main - INFO - Element 4 scraped.
+30-06- 2024 16:20:19 - main - INFO - Element 5 scraped.
+30-06- 2024 16:20:19 - main - INFO - Element 6 scraped.
+30-06- 2024 16:20:20 - main - INFO - Element 7 scraped.
+30-06- 2024 16:20:20 - main - INFO - Element 8 scraped.
+30-06- 2024 16:20:20 - main - INFO - Element 9 scraped.
+30-06- 2024 16:20:20 - main - INFO - Element 10 scraped.
+30-06- 2024 16:20:20 - main - INFO - Element 11 scraped.
+30-06- 2024 16:20:20 - main - INFO - Element 12 scraped.
+30-06- 2024 16:20:20 - main - INFO - Element 13 scraped.
+30-06- 2024 16:20:21 - main - INFO - Element 14 scraped.
+30-06- 2024 16:20:21 - main - INFO - Element 15 scraped.
+30-06- 2024 16:20:21 - main - INFO - Element 16 scraped.
+30-06- 2024 16:20:21 - main - INFO - Element 17 scraped.
+30-06- 2024 16:20:21 - main - INFO - Element 18 scraped.
+30-06- 2024 16:20:21 - main - INFO - Element 19 scraped.
+30-06- 2024 16:20:21 - main - INFO - Element 20 scraped.
+30-06- 2024 16:20:21 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:20:21 - main - INFO - Scraping finished
+30-06- 2024 16:24:16 - main - INFO - Scraping started
+30-06- 2024 16:24:18 - main - INFO - Element 1 scraped.
+30-06- 2024 16:24:18 - main - INFO - Element 2 scraped.
+30-06- 2024 16:24:18 - main - INFO - Element 3 scraped.
+30-06- 2024 16:24:18 - main - INFO - Element 4 scraped.
+30-06- 2024 16:24:18 - main - INFO - Element 5 scraped.
+30-06- 2024 16:24:18 - main - INFO - Element 6 scraped.
+30-06- 2024 16:24:18 - main - INFO - Element 7 scraped.
+30-06- 2024 16:24:18 - main - INFO - Element 8 scraped.
+30-06- 2024 16:24:19 - main - INFO - Element 9 scraped.
+30-06- 2024 16:24:19 - main - INFO - Element 10 scraped.
+30-06- 2024 16:24:19 - main - INFO - Saving substances to substances.json
+30-06- 2024 16:24:19 - main - INFO - Scraping finished
+30-06- 2024 16:24:27 - main - INFO - Scraping started
+30-06- 2024 16:24:29 - main - INFO - Element 1 scraped.
+30-06- 2024 16:24:29 - main - INFO - Element 2 scraped.
+30-06- 2024 16:24:29 - main - INFO - Element 3 scraped.
+30-06- 2024 16:24:29 - main - INFO - Element 4 scraped.
+30-06- 2024 16:24:29 - main - INFO - Element 5 scraped.
+30-06- 2024 16:24:29 - main - INFO - Element 6 scraped.
+30-06- 2024 16:24:29 - main - INFO - Element 7 scraped.
+30-06- 2024 16:24:30 - main - INFO - Element 8 scraped.
+30-06- 2024 16:24:30 - main - INFO - Element 9 scraped.
+30-06- 2024 16:24:30 - main - INFO - Element 10 scraped.
+30-06- 2024 16:24:30 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:24:30 - main - INFO - Scraping finished
+30-06- 2024 16:25:34 - main - INFO - Scraping started
+30-06- 2024 16:25:36 - main - INFO - Element 1 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 2 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 3 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 4 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 5 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 6 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 7 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 8 scraped.
+30-06- 2024 16:25:36 - main - INFO - Element 9 scraped.
+30-06- 2024 16:25:37 - main - INFO - Element 10 scraped.
+30-06- 2024 16:25:37 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:25:37 - main - INFO - Scraping finished
+30-06- 2024 16:26:38 - main - INFO - Scraping started
+30-06- 2024 16:26:40 - main - INFO - Element 1 scraped.
+30-06- 2024 16:26:40 - main - INFO - Element 2 scraped.
+30-06- 2024 16:26:40 - main - INFO - Element 3 scraped.
+30-06- 2024 16:26:40 - main - INFO - Element 4 scraped.
+30-06- 2024 16:26:40 - main - INFO - Element 5 scraped.
+30-06- 2024 16:26:40 - main - INFO - Element 6 scraped.
+30-06- 2024 16:26:40 - main - INFO - Element 7 scraped.
+30-06- 2024 16:26:41 - main - INFO - Element 8 scraped.
+30-06- 2024 16:26:41 - main - INFO - Element 9 scraped.
+30-06- 2024 16:26:41 - main - INFO - Element 10 scraped.
+30-06- 2024 16:26:41 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:26:41 - main - INFO - Scraping finished
+30-06- 2024 16:26:53 - main - INFO - Scraping started
+30-06- 2024 16:26:55 - main - INFO - Element 1 scraped.
+30-06- 2024 16:26:55 - main - INFO - Element 2 scraped.
+30-06- 2024 16:26:55 - main - INFO - Element 3 scraped.
+30-06- 2024 16:26:55 - main - INFO - Element 4 scraped.
+30-06- 2024 16:26:55 - main - INFO - Element 5 scraped.
+30-06- 2024 16:26:55 - main - INFO - Element 6 scraped.
+30-06- 2024 16:26:56 - main - INFO - Element 7 scraped.
+30-06- 2024 16:26:56 - main - INFO - Element 8 scraped.
+30-06- 2024 16:26:56 - main - INFO - Element 9 scraped.
+30-06- 2024 16:26:56 - main - INFO - Element 10 scraped.
+30-06- 2024 16:26:56 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:26:56 - main - INFO - Scraping finished
+30-06- 2024 16:27:01 - main - INFO - Scraping started
+30-06- 2024 16:27:02 - main - INFO - Element 1 scraped.
+30-06- 2024 16:27:02 - main - INFO - Element 2 scraped.
+30-06- 2024 16:27:02 - main - INFO - Element 3 scraped.
+30-06- 2024 16:27:03 - main - INFO - Element 4 scraped.
+30-06- 2024 16:27:03 - main - INFO - Element 5 scraped.
+30-06- 2024 16:27:03 - main - INFO - Element 6 scraped.
+30-06- 2024 16:27:03 - main - INFO - Element 7 scraped.
+30-06- 2024 16:27:03 - main - INFO - Element 8 scraped.
+30-06- 2024 16:27:03 - main - INFO - Element 9 scraped.
+30-06- 2024 16:27:03 - main - INFO - Element 10 scraped.
+30-06- 2024 16:27:03 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:27:03 - main - INFO - Scraping finished
+30-06- 2024 16:28:10 - main - INFO - Scraping started
+30-06- 2024 16:28:11 - main - INFO - Element 1 scraped.
+30-06- 2024 16:28:11 - main - INFO - Element 2 scraped.
+30-06- 2024 16:28:11 - main - INFO - Element 3 scraped.
+30-06- 2024 16:28:12 - main - INFO - Element 4 scraped.
+30-06- 2024 16:28:12 - main - INFO - Element 5 scraped.
+30-06- 2024 16:28:12 - main - INFO - Element 6 scraped.
+30-06- 2024 16:28:12 - main - INFO - Element 7 scraped.
+30-06- 2024 16:28:12 - main - INFO - Element 8 scraped.
+30-06- 2024 16:28:12 - main - INFO - Element 9 scraped.
+30-06- 2024 16:28:13 - main - INFO - Element 10 scraped.
+30-06- 2024 16:28:13 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:28:13 - main - INFO - Scraping finished
+30-06- 2024 16:29:01 - main - INFO - Scraping started
+30-06- 2024 16:29:03 - main - INFO - Element 1 scraped.
+30-06- 2024 16:29:03 - main - INFO - Element 2 scraped.
+30-06- 2024 16:29:03 - main - INFO - Element 3 scraped.
+30-06- 2024 16:29:03 - main - INFO - Element 4 scraped.
+30-06- 2024 16:29:03 - main - INFO - Element 5 scraped.
+30-06- 2024 16:29:03 - main - INFO - Element 6 scraped.
+30-06- 2024 16:29:03 - main - INFO - Element 7 scraped.
+30-06- 2024 16:29:04 - main - INFO - Element 8 scraped.
+30-06- 2024 16:29:04 - main - INFO - Element 9 scraped.
+30-06- 2024 16:29:04 - main - INFO - Element 10 scraped.
+30-06- 2024 16:29:04 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:29:04 - main - INFO - Scraping finished
+30-06- 2024 16:29:13 - main - INFO - Scraping started
+30-06- 2024 16:29:15 - main - INFO - Element 1 scraped.
+30-06- 2024 16:29:15 - main - INFO - Element 2 scraped.
+30-06- 2024 16:29:15 - main - INFO - Element 3 scraped.
+30-06- 2024 16:29:15 - main - INFO - Element 4 scraped.
+30-06- 2024 16:29:15 - main - INFO - Element 5 scraped.
+30-06- 2024 16:29:15 - main - INFO - Element 6 scraped.
+30-06- 2024 16:29:15 - main - INFO - Element 7 scraped.
+30-06- 2024 16:29:15 - main - INFO - Element 8 scraped.
+30-06- 2024 16:29:16 - main - INFO - Element 9 scraped.
+30-06- 2024 16:29:16 - main - INFO - Element 10 scraped.
+30-06- 2024 16:29:16 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:29:16 - main - INFO - Scraping finished
+30-06- 2024 16:30:22 - main - INFO - Scraping started
+30-06- 2024 16:30:24 - main - INFO - Element 1 scraped.
+30-06- 2024 16:30:24 - main - INFO - Element 2 scraped.
+30-06- 2024 16:30:24 - main - INFO - Element 3 scraped.
+30-06- 2024 16:30:24 - main - INFO - Element 4 scraped.
+30-06- 2024 16:30:24 - main - INFO - Element 5 scraped.
+30-06- 2024 16:30:25 - main - INFO - Element 6 scraped.
+30-06- 2024 16:30:25 - main - INFO - Element 7 scraped.
+30-06- 2024 16:30:25 - main - INFO - Element 8 scraped.
+30-06- 2024 16:30:25 - main - INFO - Element 9 scraped.
+30-06- 2024 16:30:25 - main - INFO - Element 10 scraped.
+30-06- 2024 16:30:25 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:30:25 - main - INFO - Scraping finished
+30-06- 2024 16:31:43 - main - INFO - Scraping started
+30-06- 2024 16:31:44 - main - INFO - Element 1 scraped.
+30-06- 2024 16:31:44 - main - INFO - Element 2 scraped.
+30-06- 2024 16:31:44 - main - INFO - Element 3 scraped.
+30-06- 2024 16:31:44 - main - INFO - Element 4 scraped.
+30-06- 2024 16:31:45 - main - INFO - Element 5 scraped.
+30-06- 2024 16:31:45 - main - INFO - Element 6 scraped.
+30-06- 2024 16:31:45 - main - INFO - Element 7 scraped.
+30-06- 2024 16:31:45 - main - INFO - Element 8 scraped.
+30-06- 2024 16:31:45 - main - INFO - Element 9 scraped.
+30-06- 2024 16:31:45 - main - INFO - Element 10 scraped.
+30-06- 2024 16:31:45 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:31:45 - main - INFO - Scraping finished
+30-06- 2024 16:32:43 - main - INFO - Scraping started
+30-06- 2024 16:32:44 - main - INFO - Element 1 scraped.
+30-06- 2024 16:32:44 - main - INFO - Element 2 scraped.
+30-06- 2024 16:32:45 - main - INFO - Element 3 scraped.
+30-06- 2024 16:32:45 - main - INFO - Element 4 scraped.
+30-06- 2024 16:32:45 - main - INFO - Element 5 scraped.
+30-06- 2024 16:32:45 - main - INFO - Element 6 scraped.
+30-06- 2024 16:32:45 - main - INFO - Element 7 scraped.
+30-06- 2024 16:32:45 - main - INFO - Element 8 scraped.
+30-06- 2024 16:32:45 - main - INFO - Element 9 scraped.
+30-06- 2024 16:32:46 - main - INFO - Element 10 scraped.
+30-06- 2024 16:32:46 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:32:46 - main - INFO - Scraping finished
+30-06- 2024 16:36:43 - main - INFO - Scraping started
+30-06- 2024 16:36:45 - main - INFO - Element 1 scraped.
+30-06- 2024 16:36:45 - main - INFO - Element 2 scraped.
+30-06- 2024 16:36:46 - main - INFO - Element 3 scraped.
+30-06- 2024 16:36:46 - main - INFO - Element 4 scraped.
+30-06- 2024 16:36:46 - main - INFO - Element 5 scraped.
+30-06- 2024 16:36:46 - main - INFO - Element 6 scraped.
+30-06- 2024 16:36:46 - main - INFO - Element 7 scraped.
+30-06- 2024 16:36:46 - main - INFO - Element 8 scraped.
+30-06- 2024 16:36:46 - main - INFO - Element 9 scraped.
+30-06- 2024 16:36:47 - main - INFO - Element 10 scraped.
+30-06- 2024 16:36:47 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:36:47 - main - INFO - Scraping finished
+30-06- 2024 16:37:24 - main - INFO - Scraping started
+30-06- 2024 16:37:26 - main - INFO - Element 1 scraped.
+30-06- 2024 16:37:26 - main - INFO - Element 2 scraped.
+30-06- 2024 16:37:26 - main - INFO - Element 3 scraped.
+30-06- 2024 16:37:26 - main - INFO - Element 4 scraped.
+30-06- 2024 16:37:26 - main - INFO - Element 5 scraped.
+30-06- 2024 16:37:26 - main - INFO - Element 6 scraped.
+30-06- 2024 16:37:26 - main - INFO - Element 7 scraped.
+30-06- 2024 16:37:26 - main - INFO - Element 8 scraped.
+30-06- 2024 16:37:27 - main - INFO - Element 9 scraped.
+30-06- 2024 16:37:27 - main - INFO - Element 10 scraped.
+30-06- 2024 16:37:27 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:37:27 - main - INFO - Scraping finished
+30-06- 2024 16:39:10 - main - INFO - Scraping started
+30-06- 2024 16:39:12 - main - INFO - Element 1 scraped.
+30-06- 2024 16:39:12 - main - INFO - Element 2 scraped.
+30-06- 2024 16:39:12 - main - INFO - Element 3 scraped.
+30-06- 2024 16:39:12 - main - INFO - Element 4 scraped.
+30-06- 2024 16:39:12 - main - INFO - Element 5 scraped.
+30-06- 2024 16:39:12 - main - INFO - Element 6 scraped.
+30-06- 2024 16:39:12 - main - INFO - Element 7 scraped.
+30-06- 2024 16:39:12 - main - INFO - Element 8 scraped.
+30-06- 2024 16:39:13 - main - INFO - Element 9 scraped.
+30-06- 2024 16:39:13 - main - INFO - Element 10 scraped.
+30-06- 2024 16:39:13 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:39:13 - main - INFO - Scraping finished
+30-06- 2024 16:39:58 - main - INFO - Scraping started
+30-06- 2024 16:40:00 - main - INFO - Element 1 scraped.
+30-06- 2024 16:40:00 - main - INFO - Element 2 scraped.
+30-06- 2024 16:40:00 - main - INFO - Element 3 scraped.
+30-06- 2024 16:40:00 - main - INFO - Element 4 scraped.
+30-06- 2024 16:40:00 - main - INFO - Element 5 scraped.
+30-06- 2024 16:40:01 - main - INFO - Element 6 scraped.
+30-06- 2024 16:40:01 - main - INFO - Element 7 scraped.
+30-06- 2024 16:40:01 - main - INFO - Element 8 scraped.
+30-06- 2024 16:40:01 - main - INFO - Element 9 scraped.
+30-06- 2024 16:40:01 - main - INFO - Element 10 scraped.
+30-06- 2024 16:40:01 - main - INFO - Saving substances to new_substances.json
+30-06- 2024 16:40:01 - main - INFO - Scraping finished
