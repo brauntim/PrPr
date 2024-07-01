@@ -25,6 +25,7 @@ console_logger.setFormatter(formatter)
 logger.addHandler(file_logger)
 logger.addHandler(console_logger)
 
+
 class SubstanceExtractor:
     def __init__(self, url):
         self.url = url
@@ -56,7 +57,7 @@ class SubstanceExtractor:
         else:
             return "", ""
 
-#   Parse HTML-Code und extrahiere Substanzdaten
+    #   Parse HTML-Code und extrahiere Substanzdaten
     def parse_row(self, row):
         columns = row.find_all('td')
         if len(columns) < 17:
@@ -106,6 +107,8 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
+            if index > 50:
+                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -144,7 +147,8 @@ class SubstanceExtractor:
                     calculated_molecular_mass = Descriptors.MolWt(molecule)
                     calculated_formula = Chem.rdMolDescriptors.CalcMolFormula(molecule)
                     try:
-                        molecular_mass_valid = abs(float(substance["molecular_mass"]) - calculated_molecular_mass) < 0.05
+                        molecular_mass_valid = abs(
+                            float(substance["molecular_mass"]) - calculated_molecular_mass) < 0.05
                     except ValueError:
                         molecular_mass_valid = False
 
@@ -163,17 +167,19 @@ class SubstanceExtractor:
         logger.info(f"Saving substances to {filename}")
         logger.info("Scraping finished")
 
-    def run(self):
+    def run(self, filename):
         html = self.fetch_data()
         self.parse_html(html)
         self.validate_data()
-        self.save_to_json('Tim_Jonas_Policija.json')
+        self.save_to_json(filename)
 
-def start_scraping():
+
+def start_scraping(filename):
     url = "https://www.policija.si/apps/nfl_response_web/seznam.php"
     extractor = SubstanceExtractor(url)
-    extractor.run()
-    print("Datenextraktion abgeschlossen. Die Ergebnisse sind in Tim_Jonas_Policija.json gespeichert.")
+    extractor.run(filename)
+    print(f"Datenextraktion abgeschlossen. Die Ergebnisse sind in {filename} gespeichert.")
+
 
 if __name__ == "__main__":
-    start_scraping()
+    start_scraping("Tim_Jonas_Policija.json")
