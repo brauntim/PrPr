@@ -67,7 +67,7 @@ This script provides search engine related functionalities for the project.
 - **searchengine.py**: Python script related to the search engine functionality.
 - **Programmierprojekt_SS2024_Schildgen.pdf**: Project documentation in PDF format.
 - **tempCodeRunnerFile.py**: Temporary code runner file.
-- - **__pycache__/**: Directory containing cached bytecode files.
+- **__pycache__/**: Directory containing cached bytecode files.
 - **.idea/**: Directory containing project-specific configuration files for IntelliJ IDEA/PyCharm.
 
 ## File Usage Order
