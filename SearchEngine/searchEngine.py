@@ -24,40 +24,41 @@ def load_substances():
     input_load_option = int(input("Eingabe: "))
 
     if input_load_option == 1:
-        main.start_scraping("substances.json")
+
+        # alle Substanzen werden neu von der Website geholt
+        main.start_scraping(filename)
         print("Substanzen neu geladen.")
 
     elif input_load_option == 2:
 
-        current_substances = json.load(open("substances.json"))
-        print("Current: ", current_substances)
+        current_substances = json.load(open(filename))
 
+        # neue Daten zum Vergleichen werden von der Website gescraped
         new_substances = load_new_substances()
-        print("New: ", new_substances)
 
+        # alte Substanzen werden mit den neuen Substanzen verglichen
         added, _ = compare_data(current_substances, new_substances)
 
         current_substances.extend(added)
         save_status(current_substances)
-        #print(f"Neue Substanzen: {formatted_print(added)}")
+
         print("Neue Substanzen: ")
         formatted_print(added)
         logger.debug("inputLoading")
 
     elif input_load_option == 3:
 
-        current_substances = json.load(open("substances.json"))
-        #print("Current: ", current_substances)
+        current_substances = json.load(open(filename))
 
         new_substances = load_new_substances()
-        #print("New: ", new_substances)
 
         added, modified = compare_data(current_substances, new_substances)
 
-
-
+        # hängt neue Substanzen an die json-List
         for item in added:
             current_substances.append(item)
+
+        # für alle Modifizierten Elemente wird wenn die Smiles übereinstimmt die alte Substanz überschrieben
         for item in modified:
             for i, old_item in enumerate(current_substances):
                 if old_item['smiles'] == item['smiles']:
@@ -69,7 +70,6 @@ def load_substances():
         formatted_print(added)
         print(f"Geänderte Substanzen: ")
         formatted_print(modified)
-
 
 
 def compare_data(current, new):
@@ -103,23 +103,27 @@ def load_new_substances():
         print(f"Fehler beim Abrufen der Webseite: Status Code {new_substances.status_code}")
         return None
 
-def save_status(substances):
 
-    with open("substances.json", 'w') as f:
+def save_status(substances):
+    with open(filename, 'w') as f:
         json.dump(substances, f, indent=4)
+
 
 def formatted_print(substance_data):
     formatted = json.dumps(substance_data, indent=4)
     print(formatted)
 
+
 def filter_smiles():
     input_smiles = input("Smiles eingeben: ")
+    if not isinstance(input_smiles, str):
+        input_smiles = input("Smiles eingeben: ")
     contains = False
 
     for substance in data:
         if substance["smiles"] == input_smiles:
             print("\nEintrag mit dieser Smiles gefunden:")
-            print(substance)
+            formatted_print(substance)
             contains = True
     print("\n")
 
@@ -129,12 +133,14 @@ def filter_smiles():
 
 def filter_formular():
     input_formular = input("Summenformel eingeben: ")
+    if not isinstance(input_formular, str):
+        input_formular = input("Summenformel eingeben: ")
     contains = False
 
     for substance in data:
-        if substance["formular"] == input_formular:
+        if substance["formula"] == input_formular:
             print("\nEintrag mit dieser Summenformel gefunden")
-            print(substance)
+            formatted_print(substance)
             contains = True
     print("\n")
 
@@ -143,15 +149,28 @@ def filter_formular():
 
 
 def filter_mass():
-    input_mass_min = float(input("minimale Masse eingeben: "))
-    input_mass_max = float(input("maximale Masse eingeben: "))
+    while True:
+        try:
+            input_mass_min = float(input("minimale Masse eingeben: "))
+            break  # Wenn die Konvertierung erfolgreich ist, die Schleife beenden
+        except ValueError:
+            print("Ungültige Eingabe. Bitte eine Zahl eingeben.")
+
+    while True:
+        try:
+            input_mass_max = float(input("maximale Masse eingeben: "))
+            print(type(input_mass_max))
+            break  # Wenn die Konvertierung erfolgreich ist, die Schleife beenden
+        except ValueError:
+            print("Ungültige Eingabe. Bitte eine Zahl eingeben.")
 
     logger.debug("nach Masse filtern")
 
     for substance in data:
-        if input_mass_max >= substance["molecular_mass"] >= input_mass_min:
+        # checkt für jede Substanz ob sie in dem jeweiligen Massebereich liegt
+        if input_mass_max >= float(substance["molecular_mass"]) >= input_mass_min:
             print("Eintrag mit dieser Masse:")
-            print(substance)
+            formatted_print(substance)
             print("\n")
 
 
@@ -161,7 +180,12 @@ def search_start():
             "(1) Inkrementelles Laden \n(2) Nach Smiles filtern \n(3) Nach Summenformel filtern \n(4) Nach Masse filtern \n"
             "(5) Beenden\n")
 
-        operation = int(input("Eingabe: "))
+        while True:
+            try:
+                operation = int(input("Eingabe: "))
+                break  # Wenn die Konvertierung erfolgreich ist, die Schleife beenden
+            except ValueError:
+                print("Ungültige Eingabe. Bitte eine ganze Zahl eingeben.")
 
         if operation == 1:
             load_substances()
@@ -185,9 +209,6 @@ def search_start():
 
         elif operation == 5:
 
-            with open("test.json", "w") as testfile:
-                json.dump(data, testfile, indent=4)
-
             return operation
         else:
             operation = input("Bitte eingabe wiederholen: ")
@@ -195,12 +216,14 @@ def search_start():
 
 
 if __name__ == "__main__":
+    filename = "Tim_Jonas_Policija.json"
     try:
-        with open("substances.json") as file:
+        with open(filename) as file:
+            logger.info("Neu geladen")
             data = json.load(file)
     except FileNotFoundError:
-        main.start_scraping("substances.json")
-        with open("substances.json") as file:
+        main.start_scraping(filename)
+        with open(filename) as file:
             data = json.load(file)
 
     print("Willkommen zu dieser Suchmaschine für Designerdrogen")
