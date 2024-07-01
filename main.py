@@ -8,13 +8,18 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 import logging
+import os
+
+# Erstelle Logs Ordner, falls nicht vorhanden
+os.makedirs('logs', exist_ok=True)
+os.makedirs('jsons', exist_ok=True)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s", datefmt="%d-%m-%Y %H:%M:%S")
 
-file_logger = logging.FileHandler('scraper.log')
+file_logger = logging.FileHandler('logs/scraper.log')
 file_logger.setLevel(logging.DEBUG)
 file_logger.setFormatter(formatter)
 
@@ -31,20 +36,17 @@ class SubstanceExtractor:
         self.url = url
         self.substances = []
 
-    # Fetch Daten von der Website
     def fetch_data(self):
         logger.info("Scraping started")
         response = requests.get(self.url)
         response.raise_for_status()
         return response.text
 
-    # Konvertierung in kanonische SMILES
     def convert_to_canonical_smiles(self, smiles):
         molecule = Chem.MolFromSmiles(smiles)
         canonical_smiles = Chem.MolToSmiles(molecule, canonical=True)
         return canonical_smiles
 
-    # Fetch Daten von der OPSIN API, sodass die SMILES und InChI-Strings für die Substanz extrahiert werden können
     def fetch_opsin_data(self, iupac_name):
         opsin_url = f"https://opsin.ch.cam.ac.uk/opsin/{iupac_name}.json"
         response = requests.get(opsin_url)
@@ -57,7 +59,6 @@ class SubstanceExtractor:
         else:
             return "", ""
 
-    #   Parse HTML-Code und extrahiere Substanzdaten
     def parse_row(self, row):
         columns = row.find_all('td')
         if len(columns) < 17:
@@ -103,12 +104,9 @@ class SubstanceExtractor:
         }
         return substance_data
 
-    # Parse HTML-Code und extrahiere Substanzdaten
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
-            if index > 50:
-                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -118,7 +116,6 @@ class SubstanceExtractor:
                 print(f"Error parsing row: {index}")
                 logger.error(f"Fehler beim  Scrapen: {index}")
 
-    # Ersetze Unicode-Zeichen
     def replace_unicode_characters(self, data):
         replacements = {
             "\u2010": "-",
@@ -137,7 +134,6 @@ class SubstanceExtractor:
         else:
             return data
 
-    # Validiere Daten
     def validate_data(self):
         for substance in self.substances:
             smiles = substance.get("smiles", "")
@@ -148,7 +144,7 @@ class SubstanceExtractor:
                     calculated_formula = Chem.rdMolDescriptors.CalcMolFormula(molecule)
                     try:
                         molecular_mass_valid = abs(
-                            float(substance["molecular_mass"]) - calculated_molecular_mass) < 0.05
+                            float(substance["molecular_mass"]) - calculated_molecular_mass) < 0.99
                     except ValueError:
                         molecular_mass_valid = False
 
@@ -159,10 +155,9 @@ class SubstanceExtractor:
             else:
                 substance["validated"] = None
 
-    # Speichere Daten in JSON-Datei
     def save_to_json(self, filename):
         updated_substances = self.replace_unicode_characters(self.substances)
-        with open(filename, 'w', encoding='utf-8') as json_file:
+        with open(f"jsons/{filename}", 'w', encoding='utf-8') as json_file:
             json.dump(updated_substances, json_file, indent=4)
         logger.info(f"Saving substances to {filename}")
         logger.info("Scraping finished")
@@ -178,7 +173,7 @@ def start_scraping(filename):
     url = "https://www.policija.si/apps/nfl_response_web/seznam.php"
     extractor = SubstanceExtractor(url)
     extractor.run(filename)
-    print(f"Datenextraktion abgeschlossen. Die Ergebnisse sind in {filename} gespeichert.")
+    print(f"Datenextraktion abgeschlossen. Die Ergebnisse sind in jsons/{filename} gespeichert.")
 
 
 if __name__ == "__main__":

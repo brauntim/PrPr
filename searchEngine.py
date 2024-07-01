@@ -1,23 +1,51 @@
 import json
 import logging
-
+import os
 import main
 
-# from main import SubstanceExtractor
+# Erstelle Logs und JSONS Ordner, falls nicht vorhanden
+os.makedirs('logs', exist_ok=True)
+os.makedirs('jsons', exist_ok=True)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s", datefmt="%d-%m- %Y %H:%M:%S")
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s", datefmt="%d-%m-%Y %H:%M:%S")
 
-file_logger = logging.FileHandler('searchEngine.log')
+file_logger = logging.FileHandler('logs/searchEngine.log')
 file_logger.setLevel(logging.DEBUG)
 file_logger.setFormatter(formatter)
 
 logger.addHandler(file_logger)
 
 
-def load_substances():
+def list_json_files():
+    json_files = [f for f in os.listdir('jsons') if f.endswith('.json')]
+    if not json_files:
+        logger.warning("Keine JSON-Dateien im JSONS-Ordner gefunden.")
+        return []
+    return json_files
+
+def get_filename_from_user():
+    while True:
+        json_files = list_json_files()
+        if not json_files:
+            return None
+        print("Verfügbare JSON-Dateien:")
+        for idx, file in enumerate(json_files, start=1):
+            print(f"{idx}: {file}")
+
+        try:
+            file_index = int(input("Bitte geben Sie die Nummer der zu durchsuchenden JSON-Datei an: ")) - 1
+            if 0 <= file_index < len(json_files):
+                return json_files[file_index]
+            else:
+                print("Ungültige Nummer. Bitte erneut versuchen.")
+        except ValueError:
+            print("Ungültige Eingabe. Bitte eine Nummer eingeben.")
+
+
+def load_substances(filename):
     print("\n(1) Neu Laden \n(2) Neu hizugefügte Substanzen laden \n"
           "(3) Neu hizugefügte substanzen laden, Änderungen anpassen \n")
 
@@ -31,17 +59,17 @@ def load_substances():
 
     elif input_load_option == 2:
         logger.info("Neu hinzugefuegte Substanzen laden")
-        current_substances = json.load(open(filename))
+        current_substances = json.load(open(f'jsons/{filename}'))
 
-        # neue Daten zum Vergleichen werden von der Website gescraped
+        # Neue Daten zum Vergleichen werden von der Website gescraped
         new_substances = load_new_substances()
 
-        # alte Substanzen werden mit den neuen Substanzen verglichen
+        # Alte Substanzen werden mit den neuen Substanzen verglichen
         added, _ = compare_data(current_substances, new_substances)
 
-        # nur neue Substanzen werden an die Datei angehängt
+        # Nur neue Substanzen werden an die Datei angehängt
         current_substances.extend(added)
-        save_status(current_substances)
+        save_status(current_substances, filename)
 
         print("Neue Substanzen: ")
         formatted_print(added)
@@ -50,7 +78,7 @@ def load_substances():
     elif input_load_option == 3:
 
         logger.info("Neu hinzugefuegte und geaenderte Substanzen laden")
-        current_substances = json.load(open(filename))
+        current_substances = json.load(open(f'jsons/{filename}'))
 
         new_substances = load_new_substances()
 
@@ -67,7 +95,7 @@ def load_substances():
                 if old_item['smiles'] == item['smiles']:
                     current_substances[i] = item
 
-        save_status(current_substances)
+        save_status(current_substances, filename)
 
         print("Neue Substanzen: ")
         formatted_print(added)
@@ -77,7 +105,12 @@ def load_substances():
         formatted_print(modified)
         print("\n")
 
+    # Lösche new_substances.json nach dem Vergleich
+    if os.path.exists("jsons/new_substances.json"):
+        os.remove("jsons/new_substances.json")
+        logger.info("new_substances.json gelöscht")
 
+        
 def compare_data(current, new):
     added = []
     modified = []
@@ -102,7 +135,7 @@ def compare_data(current, new):
 def load_new_substances():
     # zum Vergleichen werden alle Substanzen von der Website geholt
     main.start_scraping("new_substances.json")
-    with open("new_substances.json") as new_file:
+    with open(f"jsons/new_substances.json") as new_file:
         new_substances = json.load(new_file)
 
     if new_substances:
@@ -112,10 +145,10 @@ def load_new_substances():
         return None
 
 
-def save_status(substances):
+def save_status(substances, filename):
     # aktuellen Stand der Substanzen speichern
     logger.info("Datei gespeichert")
-    with open(filename, 'w') as f:
+    with open(f'jsons/{filename}', 'w') as f:
         json.dump(substances, f, indent=4)
 
 
@@ -124,74 +157,78 @@ def formatted_print(substance_data):
     print(formatted)
 
 
-def filter_smiles():
+def filter_smiles(data):
     logger.info("Nach Smiles filtern")
     input_smiles = input("Smiles eingeben: ")
     if not isinstance(input_smiles, str):
         input_smiles = input("Smiles eingeben: ")
     contains = False
+    count = 1
 
     for substance in data:
-        # geht durch alle Substanzen und checkt, wo die Smiles übereinstimmt
         if substance["smiles"] == input_smiles:
-            print("\nEintrag mit dieser Smiles gefunden:")
+            print(f"\n{count}. Eintrag mit diesem Smiles: ")
             formatted_print(substance)
             contains = True
+            count += 1
     print("\n")
 
     if not contains:
-        print("Smiles \"" + input_smiles + "\" nicht in Datei enthalten.")
+        print(f"Smiles \"{input_smiles}\" nicht in Datei enthalten.")
 
 
-def filter_formular():
+def filter_formular(data):
     logger.info("Nach Formel filtern")
     input_formular = input("Summenformel eingeben: ")
     if not isinstance(input_formular, str):
         input_formular = input("Summenformel eingeben: ")
     contains = False
+    count = 1
 
     for substance in data:
-        # geht durch alle Substanzen und checkt, wo die Formel übereinstimmt
         if substance["formula"] == input_formular:
-            print("\nEintrag mit dieser Summenformel gefunden")
+            print(f"\n{count}. Eintrag mit dieser Summenformel: ")
             formatted_print(substance)
             contains = True
+            count += 1
     print("\n")
 
     if not contains:
-        print("Formel \"" + input_formular + "\" nicht in Datei enthalten.")
+        print(f"Formel \"{input_formular}\" nicht in Datei enthalten.")
 
 
-def filter_mass():
-    logger.info("nach Masse filtern")
+def filter_mass(data):
+    logger.info("Nach Masse filtern")
     contains = False
+    count = 1
+
     while True:
         try:
-            input_mass_min = float(input("minimale Masse eingeben: "))
-            break  # Wenn die Konvertierung erfolgreich ist, die Schleife beenden
+            input_mass_min = float(input("Minimale Masse eingeben: "))
+            break
         except ValueError:
             print("Ungültige Eingabe. Bitte eine Zahl eingeben.")
 
     while True:
         try:
-            input_mass_max = float(input("maximale Masse eingeben: "))
-            break  # Wenn die Konvertierung erfolgreich ist, die Schleife beenden
+            input_mass_max = float(input("Maximale Masse eingeben: "))
+            break
         except ValueError:
             print("Ungültige Eingabe. Bitte eine Zahl eingeben.")
 
     for substance in data:
-        # checkt für jede Substanz ob sie in dem jeweiligen Massebereich liegt
         if input_mass_max >= float(substance["molecular_mass"]) >= input_mass_min:
             contains = True
-            print("Eintrag mit dieser Masse:")
+            print(f"\n{count}. Eintrag mit dieser Masse: ")
             formatted_print(substance)
+            count += 1
             print("\n")
 
     if not contains:
         print(f"\nKeine Substanz zwischen {input_mass_min} und {input_mass_max}\n")
 
 
-def search_start():
+def search_start(data, filename):
     while True:
         print(
             "(1) Inkrementelles Laden \n(2) Nach Smiles filtern \n(3) Nach Summenformel filtern \n(4) Nach Masse filtern \n"
@@ -200,55 +237,48 @@ def search_start():
         while True:
             try:
                 operation = int(input("Eingabe: "))
-                break  # Wenn die Konvertierung erfolgreich ist, die Schleife beenden
+                break
             except ValueError:
                 print("Ungültige Eingabe. Bitte eine ganze Zahl eingeben.")
 
         if operation == 1:
-            load_substances()
-
-            return operation
+            load_substances(filename)
+            with open(f'jsons/{filename}') as file:
+                data = json.load(file)  # Refresh data after loading substances
 
         elif operation == 2:
-            filter_smiles()
-
-            return operation
+            filter_smiles(data)
 
         elif operation == 3:
-            filter_formular()
-
-            return operation
+            filter_formular(data)
 
         elif operation == 4:
-            filter_mass()
-
-            return operation
+            filter_mass(data)
 
         elif operation == 5:
-
             return operation
         else:
-            operation = input("Bitte eingabe wiederholen: ")
-            return operation
+            print("Ungültige Eingabe. Bitte erneut versuchen.")
 
 
 if __name__ == "__main__":
-    filename = "Tim_Jonas_Policija.json"
-    try:
-        with open(filename) as file:
-            data = json.load(file)
-    except FileNotFoundError:
-        main.start_scraping(filename)
-        with open(filename) as file:
-            data = json.load(file)
-        logger.info("Neu gescraped")
+    filename = get_filename_from_user()
+    if filename:
+        try:
+            with open(f'jsons/{filename}') as file:
+                data = json.load(file)
+        except FileNotFoundError:
+            print("Datei nicht gefunden, bitte inkrementelles Laden wählen.")
+            data = []
 
-    print("Willkommen zu dieser Suchmaschine für Designerdrogen")
-    print("______________________________________________________")
+        print("Willkommen zu dieser Suchmaschine für Designerdrogen")
+        print("______________________________________________________")
 
-    end = 0
+        end = 0
 
-    while end != 5:
-        end = search_start()
+        while end != 5:
+            end = search_start(data, filename)
 
-    print("Suchmaschine beendet")
+        print("Suchmaschine beendet")
+    else:
+        print("Keine JSON-Dateien gefunden. Beenden.")
