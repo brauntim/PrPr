@@ -118,8 +118,6 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
-            if index > 10:
-                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -195,7 +193,7 @@ def load_options(filename):
     if input_load_option == 1:
         logger.info("Alle Substanzen neu laden")
         # alle Substanzen werden neu von der Website geholt
-        main.start_scraping(filename)
+        start_scraping(filename)
         print("Substanzen neu geladen.")
 
     elif input_load_option == 2:
