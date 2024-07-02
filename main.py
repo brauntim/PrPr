@@ -118,6 +118,8 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
+            if index > 10:
+                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -148,25 +150,44 @@ class SubstanceExtractor:
 
     # Daten validieren
     def validate_data(self):
+        # Iteriere über jede Substanz in der Liste der Substanzen
         for substance in self.substances:
+            # Hole den SMILES-String der Substanz, falls vorhanden, ansonsten leere Zeichenkette
             smiles = substance.get("smiles", "")
+            
+            # Wenn ein SMILES-String vorhanden ist
             if smiles:
+                # Erstelle ein Molekülobjekt aus dem SMILES-String
                 molecule = Chem.MolFromSmiles(smiles)
+                
+                # Wenn das Molekül erfolgreich erstellt wurde
                 if molecule:
+                    # Berechne die molekulare Masse des Moleküls
                     calculated_molecular_mass = Descriptors.MolWt(molecule)
+                    # Berechne die chemische Formel des Moleküls
                     calculated_formula = Chem.rdMolDescriptors.CalcMolFormula(molecule)
+                    
                     try:
+                        # Überprüfe, ob die angegebene molekulare Masse mit der berechneten übereinstimmt
                         molecular_mass_valid = abs(
                             float(substance["molecular_mass"]) - calculated_molecular_mass) < 0.99
                     except ValueError:
+                        # Wenn die angegebene molekulare Masse ungültig ist (z.B. kein gültiger Float-Wert), setze die Validität auf False
                         molecular_mass_valid = False
-
+                    
+                    # Überprüfe, ob die angegebene Formel mit der berechneten übereinstimmt
                     formula_valid = substance["formula"] == calculated_formula
+                    
+                    # Setze das Validierungsfeld auf True, wenn sowohl die Masse als auch die Formel gültig sind, ansonsten auf False
                     substance["validated"] = molecular_mass_valid and formula_valid
                 else:
+                    # Wenn das Molekül nicht erstellt werden konnte, setze die Validität auf None
                     substance["validated"] = None
             else:
+                # Wenn kein SMILES-String vorhanden ist, setze die Validität auf None
                 substance["validated"] = None
+
+
 
     # Daten in eine JSON-Datei speichern
     def save_to_json(self, filename):
@@ -183,6 +204,119 @@ class SubstanceExtractor:
         self.validate_data()
         self.save_to_json(filename)
 
+
+def load_options(filename):
+    print("\n(1) Neu Laden \n(2) Neu hizugefügte Substanzen laden \n"
+          "(3) Neu hizugefügte substanzen laden, Änderungen anpassen \n")
+
+    input_load_option = int(input("Eingabe: "))
+
+    if input_load_option == 1:
+        logger.info("Alle Substanzen neu laden")
+        # alle Substanzen werden neu von der Website geholt
+        start_scraping(filename)
+        print("Substanzen neu geladen.")
+
+    elif input_load_option == 2:
+        logger.info("Neu hinzugefuegte Substanzen laden")
+        current_substances = json.load(open(f'jsons/{filename}'))
+
+        # Neue Daten zum Vergleichen werden von der Website gescraped
+        new_substances = load_new_substances()
+
+        # Alte Substanzen werden mit den neuen Substanzen verglichen
+        added, _ = compare_data(current_substances, new_substances)
+
+        # Nur neue Substanzen werden an die Datei angehängt
+        current_substances.extend(added)
+        save_status(current_substances, filename)
+
+        print("Neue Substanzen: ")
+        formatted_print(added)
+        print("\n")
+
+    elif input_load_option == 3:
+
+        logger.info("Neu hinzugefuegte und geaenderte Substanzen laden")
+        current_substances = json.load(open(f'jsons/{filename}'))
+
+        new_substances = load_new_substances()
+
+        added, modified = compare_data(current_substances, new_substances)
+
+        # hängt neue Substanzen an die alte Json-Datei
+        for item in added:
+            current_substances.append(item)
+
+        # für alle Modifizierten Elemente wird, wenn die Smiles übereinstimmt, die alte Substanz überschrieben
+        for item in modified:
+            for i, old_item in enumerate(current_substances):
+                # wenn die Smiles der Modifizierten Substanz übereinstimmt wird diese überschreiben
+                if old_item['smiles'] == item['smiles']:
+                    current_substances[i] = item
+
+        save_status(current_substances, filename)
+
+        print("Neue Substanzen: ")
+        formatted_print(added)
+        print("\n")
+
+        print(f"Geänderte Substanzen: ")
+        formatted_print(modified)
+        print("\n")
+
+    # Lösche new_substances.json nach dem Vergleich
+    if os.path.exists("jsons/new_substances.json"):
+        os.remove("jsons/new_substances.json")
+        logger.info("new_substances.json gelöscht")
+
+
+def compare_data(current, new):
+    added = []
+    modified = []
+
+    # Smiles wird in in der neuen und alten Json als Primary-Key genutzt
+    current_smiles = {details['smiles']: details for details in current}
+    new_smiles = {details['smiles']: details for details in new}
+
+    for smiles, new_details in new_smiles.items():
+        if smiles not in current_smiles:
+            added.append(new_details)
+
+        else:
+            old_details = current_smiles[smiles]
+
+            if old_details != new_details:
+                modified.append(new_details)
+
+    return added, modified
+
+
+def load_new_substances():
+    # zum Vergleichen werden alle Substanzen von der Website geholt
+    start_scraping("new_substances.json")
+    with open(f"jsons/new_substances.json") as new_file:
+        new_substances = json.load(new_file)
+
+    if new_substances:
+        return new_substances
+    else:
+        print("Fehler beim Abrufen der Webseite")
+        return None
+
+
+def save_status(substances, filename):
+    # aktuellen Stand der Substanzen speichern
+    logger.info(f"Datei {filename} gespeichert")
+    with open(f'jsons/{filename}', 'w') as f:
+        json.dump(substances, f, indent=4)
+
+
+def formatted_print(substance_data):
+    formatted = json.dumps(substance_data, indent=4)
+    print(formatted)
+
+
 # Scraper starten
 def start_scraping(filename):
     url = "https://www.policija.si/apps/nfl_response_web/seznam.php"
@@ -190,5 +324,15 @@ def start_scraping(filename):
     extractor.run(filename)
     print(f"Datenextraktion abgeschlossen. Die Ergebnisse sind in jsons/{filename} gespeichert.")
 
+
 if __name__ == "__main__":
-    start_scraping("Tim_Jonas_Policija.json")
+    filename = input("Bitte geben Sie den Dateinamen ein (mit .json Endung): ")
+    try:
+        with open("jsons/"+filename) as file:
+            data = json.load(file)
+            logger.info("Ladeoptionen aufrufen")
+        load_options(filename)
+
+    except FileNotFoundError:
+        logger.info("Website wird neu gescraped")
+        start_scraping("jsons/"+filename)
