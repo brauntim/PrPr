@@ -120,6 +120,8 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
+            if index > 100:
+                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -157,9 +159,8 @@ class SubstanceExtractor:
             if smiles:
                 # Erstelle ein Molekülobjekt aus dem SMILES-String
                 molecule = Chem.MolFromSmiles(smiles)
-                # Wenn das Molekül erfolgreich erstellt wurde
                 if molecule:
-                    # Berechne die molekulare Masse des Moleküls
+                    # Berechne die molekulardes Moleküls
                     calculated_molecular_mass = Descriptors.MolWt(molecule)
                     # Berechne die chemische Formel des Moleküls
                     calculated_formula = Chem.rdMolDescriptors.CalcMolFormula(molecule)
@@ -169,11 +170,9 @@ class SubstanceExtractor:
                         molecular_mass_valid = abs(
                             float(substance["molecular_mass"]) - calculated_molecular_mass) < 0.99
                     except ValueError:
-                        # Wenn die angegebene molekulare Masse ungültig ist (z.B. kein gültiger Float-Wert), setze die Validität auf False
                         molecular_mass_valid = False
                     # Überprüfe, ob die angegebene Formel mit der berechneten übereinstimmt
                     formula_valid = substance["formula"] == calculated_formula
-                    # Setze das Validierungsfeld auf True, wenn sowohl die Masse als auch die Formel gültig sind, ansonsten auf False
                     substance["validated"] = molecular_mass_valid and formula_valid
                 else:
                     # Wenn das Molekül nicht erstellt werden konnte, setze die Validität auf None
@@ -320,7 +319,7 @@ def start_scraping(filename):
 
 
 if __name__ == "__main__":
-    filename = 'Tim_Jonas_Policija.json'
+    filename = 'ProjektPolicija.json'
     try:
         with open("jsons/"+filename) as file:
             data = json.load(file)
