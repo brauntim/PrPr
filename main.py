@@ -120,6 +120,8 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
+            if index > 100:
+                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -164,7 +166,6 @@ class SubstanceExtractor:
                     calculated_formula = Chem.rdMolDescriptors.CalcMolFormula(molecule)
 
                     try:
-                        # Überprüfe, ob die angegebene molekulare Masse mit der berechneten übereinstimmt
                         molecular_mass_valid = abs(
                             float(substance["molecular_mass"]) - calculated_molecular_mass) < 0.99
                     except ValueError:
@@ -317,7 +318,7 @@ def start_scraping(filename):
 
 
 if __name__ == "__main__":
-    filename = 'ProjektPolicija.json'
+    filename = 'ProjektPolic    ija.json'
     try:
         with open("jsons/"+filename) as file:
             data = json.load(file)
