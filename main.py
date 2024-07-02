@@ -118,6 +118,8 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
+            if index > 10:
+                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -286,7 +288,7 @@ def load_new_substances():
 
 def save_status(substances, filename):
     # aktuellen Stand der Substanzen speichern
-    logger.info("Datei gespeichert")
+    logger.info(f"Datei {filename} gespeichert")
     with open(f'jsons/{filename}', 'w') as f:
         json.dump(substances, f, indent=4)
 
