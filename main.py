@@ -74,6 +74,8 @@ class SubstanceExtractor:
         # Extrahiere Daten aus den Tabellenzellen
         category = columns[0].text.strip()
         name = columns[1].text.strip()
+        pdf_link = columns[1].find('a')['href'] if columns[1].find('a') else self.url
+        pdf_link = requests.compat.urljoin(self.url, pdf_link)
         iupac_name = columns[3].text.strip()
         formula = columns[5].text.strip()
         molecular_mass = columns[6].text.strip()
@@ -105,7 +107,7 @@ class SubstanceExtractor:
             "categories": [category],
             "source": {
                 "name": "Policija",
-                "url": self.url
+                "url": pdf_link
             },
             "validated": None,
             "deleted": deleted,
@@ -118,8 +120,6 @@ class SubstanceExtractor:
     def parse_html(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         for index, row in enumerate(soup.select('table tr'), start=1):
-            if index > 10:
-                break
             logger.info("Element " + str(index) + " scraped.")
             try:
                 substance_data = self.parse_row(row)
@@ -150,23 +150,20 @@ class SubstanceExtractor:
 
     # Daten validieren
     def validate_data(self):
-        # Iteriere über jede Substanz in der Liste der Substanzen
         for substance in self.substances:
             # Hole den SMILES-String der Substanz, falls vorhanden, ansonsten leere Zeichenkette
             smiles = substance.get("smiles", "")
-            
             # Wenn ein SMILES-String vorhanden ist
             if smiles:
                 # Erstelle ein Molekülobjekt aus dem SMILES-String
                 molecule = Chem.MolFromSmiles(smiles)
-                
                 # Wenn das Molekül erfolgreich erstellt wurde
                 if molecule:
                     # Berechne die molekulare Masse des Moleküls
                     calculated_molecular_mass = Descriptors.MolWt(molecule)
                     # Berechne die chemische Formel des Moleküls
                     calculated_formula = Chem.rdMolDescriptors.CalcMolFormula(molecule)
-                    
+
                     try:
                         # Überprüfe, ob die angegebene molekulare Masse mit der berechneten übereinstimmt
                         molecular_mass_valid = abs(
@@ -174,10 +171,8 @@ class SubstanceExtractor:
                     except ValueError:
                         # Wenn die angegebene molekulare Masse ungültig ist (z.B. kein gültiger Float-Wert), setze die Validität auf False
                         molecular_mass_valid = False
-                    
                     # Überprüfe, ob die angegebene Formel mit der berechneten übereinstimmt
                     formula_valid = substance["formula"] == calculated_formula
-                    
                     # Setze das Validierungsfeld auf True, wenn sowohl die Masse als auch die Formel gültig sind, ansonsten auf False
                     substance["validated"] = molecular_mass_valid and formula_valid
                 else:
@@ -186,7 +181,6 @@ class SubstanceExtractor:
             else:
                 # Wenn kein SMILES-String vorhanden ist, setze die Validität auf None
                 substance["validated"] = None
-
 
 
     # Daten in eine JSON-Datei speichern
@@ -326,7 +320,7 @@ def start_scraping(filename):
 
 
 if __name__ == "__main__":
-    filename = input("Bitte geben Sie den Dateinamen ein (mit .json Endung): ")
+    filename = 'Tim_Jonas_Policija.json'
     try:
         with open("jsons/"+filename) as file:
             data = json.load(file)
