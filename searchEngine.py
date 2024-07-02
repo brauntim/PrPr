@@ -26,6 +26,7 @@ def list_json_files():
         return []
     return json_files
 
+
 def get_filename_from_user():
     while True:
         json_files = list_json_files()
@@ -43,113 +44,6 @@ def get_filename_from_user():
                 print("Ungültige Nummer. Bitte erneut versuchen.")
         except ValueError:
             print("Ungültige Eingabe. Bitte eine Nummer eingeben.")
-
-
-def load_substances(filename):
-    print("\n(1) Neu Laden \n(2) Neu hizugefügte Substanzen laden \n"
-          "(3) Neu hizugefügte substanzen laden, Änderungen anpassen \n")
-
-    input_load_option = int(input("Eingabe: "))
-
-    if input_load_option == 1:
-        logger.info("Alle Substanzen neu laden")
-        # alle Substanzen werden neu von der Website geholt
-        main.start_scraping(filename)
-        print("Substanzen neu geladen.")
-
-    elif input_load_option == 2:
-        logger.info("Neu hinzugefuegte Substanzen laden")
-        current_substances = json.load(open(f'jsons/{filename}'))
-
-        # Neue Daten zum Vergleichen werden von der Website gescraped
-        new_substances = load_new_substances()
-
-        # Alte Substanzen werden mit den neuen Substanzen verglichen
-        added, _ = compare_data(current_substances, new_substances)
-
-        # Nur neue Substanzen werden an die Datei angehängt
-        current_substances.extend(added)
-        save_status(current_substances, filename)
-
-        print("Neue Substanzen: ")
-        formatted_print(added)
-        print("\n")
-
-    elif input_load_option == 3:
-
-        logger.info("Neu hinzugefuegte und geaenderte Substanzen laden")
-        current_substances = json.load(open(f'jsons/{filename}'))
-
-        new_substances = load_new_substances()
-
-        added, modified = compare_data(current_substances, new_substances)
-
-        # hängt neue Substanzen an die alte Json-Datei
-        for item in added:
-            current_substances.append(item)
-
-        # für alle Modifizierten Elemente wird, wenn die Smiles übereinstimmt, die alte Substanz überschrieben
-        for item in modified:
-            for i, old_item in enumerate(current_substances):
-                # wenn die Smiles der Modifizierten Substanz übereinstimmt wird diese überschreiben
-                if old_item['smiles'] == item['smiles']:
-                    current_substances[i] = item
-
-        save_status(current_substances, filename)
-
-        print("Neue Substanzen: ")
-        formatted_print(added)
-        print("\n")
-
-        print(f"Geänderte Substanzen: ")
-        formatted_print(modified)
-        print("\n")
-
-    # Lösche new_substances.json nach dem Vergleich
-    if os.path.exists("jsons/new_substances.json"):
-        os.remove("jsons/new_substances.json")
-        logger.info("new_substances.json gelöscht")
-
-        
-def compare_data(current, new):
-    added = []
-    modified = []
-
-    # Smiles wird in in der neuen und alten Json als Primary-Key genutzt
-    current_smiles = {details['smiles']: details for details in current}
-    new_smiles = {details['smiles']: details for details in new}
-
-    for smiles, new_details in new_smiles.items():
-        if smiles not in current_smiles:
-            added.append(new_details)
-
-        else:
-            old_details = current_smiles[smiles]
-
-            if old_details != new_details:
-                modified.append(new_details)
-
-    return added, modified
-
-
-def load_new_substances():
-    # zum Vergleichen werden alle Substanzen von der Website geholt
-    main.start_scraping("new_substances.json")
-    with open(f"jsons/new_substances.json") as new_file:
-        new_substances = json.load(new_file)
-
-    if new_substances:
-        return new_substances
-    else:
-        print("Fehler beim Abrufen der Webseite")
-        return None
-
-
-def save_status(substances, filename):
-    # aktuellen Stand der Substanzen speichern
-    logger.info("Datei gespeichert")
-    with open(f'jsons/{filename}', 'w') as f:
-        json.dump(substances, f, indent=4)
 
 
 def formatted_print(substance_data):
@@ -228,11 +122,11 @@ def filter_mass(data):
         print(f"\nKeine Substanz zwischen {input_mass_min} und {input_mass_max}\n")
 
 
-def search_start(data, filename):
+def search_start(data):
     while True:
         print(
-            "(1) Inkrementelles Laden \n(2) Nach Smiles filtern \n(3) Nach Summenformel filtern \n(4) Nach Masse filtern \n"
-            "(5) Beenden\n")
+            "(1) Nach Smiles filtern \n(2) Nach Summenformel filtern \n(3) Nach Masse filtern \n"
+            "(4) Datei auswählen \n(5) Beenden\n")
 
         while True:
             try:
@@ -242,21 +136,24 @@ def search_start(data, filename):
                 print("Ungültige Eingabe. Bitte eine ganze Zahl eingeben.")
 
         if operation == 1:
-            load_substances(filename)
-            with open(f'jsons/{filename}') as file:
-                data = json.load(file)  # Refresh data after loading substances
-
-        elif operation == 2:
             filter_smiles(data)
 
-        elif operation == 3:
+        elif operation == 2:
             filter_formular(data)
 
-        elif operation == 4:
+        elif operation == 3:
             filter_mass(data)
+
+        elif operation == 4:
+            global filename
+            filename = get_filename_from_user()
+            with open(f'jsons/{filename}') as file:
+                info = json.load(file)
+            search_start(info)
 
         elif operation == 5:
             return operation
+
         else:
             print("Ungültige Eingabe. Bitte erneut versuchen.")
 
@@ -272,12 +169,12 @@ if __name__ == "__main__":
             data = []
 
         print("Willkommen zu dieser Suchmaschine für Designerdrogen")
-        print("______________________________________________________")
+        print("______________________________________________________\n")
 
         end = 0
 
         while end != 5:
-            end = search_start(data, filename)
+            end = search_start(data)
 
         print("Suchmaschine beendet")
     else:
