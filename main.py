@@ -64,6 +64,20 @@ class SubstanceExtractor:
             return smiles_str, inchi_str
         else:
             return "", ""
+        
+    
+    # Den gesamten HTML-Inhalt parsen
+    def parse_html(self, html):
+        soup = BeautifulSoup(html, 'html.parser')
+        for index, row in enumerate(soup.select('table tr'), start=1):
+            logger.info("Element " + str(index) + " scraped.")
+            try:
+                substance_data = self.parse_row(row)
+                if substance_data:
+                    self.substances.append(substance_data)
+            except Exception as e:
+                print(f"Error parsing row: {index}")
+                logger.error(f"Fehler beim  Scrapen: {index}")
 
     # Eine einzelne Zeile der HTML-Tabelle parsen
     def parse_row(self, row):
@@ -116,18 +130,6 @@ class SubstanceExtractor:
         }
         return substance_data
 
-    # Den gesamten HTML-Inhalt parsen
-    def parse_html(self, html):
-        soup = BeautifulSoup(html, 'html.parser')
-        for index, row in enumerate(soup.select('table tr'), start=1):
-            logger.info("Element " + str(index) + " scraped.")
-            try:
-                substance_data = self.parse_row(row)
-                if substance_data:
-                    self.substances.append(substance_data)
-            except Exception as e:
-                print(f"Error parsing row: {index}")
-                logger.error(f"Fehler beim  Scrapen: {index}")
 
     # Unicode-Zeichen ersetzen
     def replace_unicode_characters(self, data):
@@ -193,6 +195,8 @@ class SubstanceExtractor:
         self.parse_html(html)
         self.validate_data()
         self.save_to_json(filename)
+
+
 
 
 def load_options(filename):
