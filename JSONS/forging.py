@@ -46,6 +46,10 @@ def get_filename_from_user(prompt):
         except ValueError:
             print("Ungültige Eingabe. Bitte eine Nummer eingeben.")
 
+# Erstellung des Logs-Ordners, falls nicht vorhanden
+if not os.path.exists('logs'):
+    os.makedirs('logs')
+
 # Auswahl der JSON-Dateien für Datei A und Datei B
 file_a = get_filename_from_user("Bitte wählen Sie die JSON-Datei für Datei A aus:")
 if not file_a:
@@ -53,7 +57,13 @@ if not file_a:
 file_b = get_filename_from_user("Bitte wählen Sie die JSON-Datei für Datei B aus:")
 if not file_b:
     exit("Keine Datei für Datei B ausgewählt. Beenden.")
-log_file = 'log.txt'
+log_file = 'logs/forging_log.log'
+
+# Log-Datei vorbereiten und Header schreiben
+with open(log_file, 'a', encoding='utf-8') as log:
+    log.write(f"\nVergleich der InChI-Keys zwischen Datei A ({file_a}) und Datei B ({file_b}):\n")
+    log.write(f"Datei A: {file_a}\n")
+    log.write(f"Datei B: {file_b}\n\n")
 
 # Daten aus den Dateien lesen
 try:
@@ -62,10 +72,6 @@ try:
 except FileNotFoundError:
     print("Eine der angegebenen Dateien wurde nicht gefunden. Stellen Sie sicher, dass die Dateinamen korrekt sind.")
     exit()
-
-# Log-Datei vorbereiten
-with open(log_file, 'w', encoding='utf-8') as log:
-    log.write("Vergleich der InChI-Keys zwischen Datei A und Datei B:\n\n")
 
 # Durch die Daten in Datei A iterieren und InChI-Keys vergleichen
 for entry_a in data_a:
@@ -100,5 +106,5 @@ for entry_b in data_b:
 write_json(f'jsons/{file_a}', data_a)
 
 # Ausgabe für den Benutzer
-print(f"Vergleich abgeschlossen. Aktualisierte Daten wurden in 'jsons/{file_a}' geschrieben.")
+print(f"Vergleich abgeschlossen mit jsons/{file_b}. Aktualisierte Daten wurden in 'jsons/{file_a}' geschrieben.")
 print(f"Das Log der Vergleiche und Ergänzungen wurde in '{log_file}' gespeichert.")
